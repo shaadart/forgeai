@@ -1,0 +1,27 @@
+# Builder and examiner must be different model families (self-preference defense).
+# Any OpenAI-compatible endpoint works. This file uses free tiers; forge.openrouter.toml is the faster paid
+# setup (--config forge.openrouter.toml). Measured on 2026-11-25:
+#   Mistral free tier allows 2 requests a minute.
+#   Gemma 4 on Google AI Studio: 16,000 input tokens a minute, frequent HTTP 503 "high demand", always "thinks".
+# Expect hours, not minutes, per run. Free tiers may train on what you send: public or synthetic documents only.
+
+[builder]
+base_url = "https://api.mistral.ai/v1"
+model = "ministral-8b-2512"
+api_key_env = "MISTRAL_API_KEY"
+rpm = 2
+
+[examiner]
+base_url = "https://generativelanguage.googleapis.com/v1beta/openai"
+model = "gemma-4-26b-a4b-it"
+api_key_env = "GEMINI_API_KEY"
+tpm = 15000  # free tier: 16,000 input tokens a minute
+max_output_tokens = 8000  # reasoning tokens come out of this allowance
+
+[embeddings]
+model = "sentence-transformers/all-MiniLM-L6-v2"
+
+[limits]
+budget_tokens = 8000000  # hidden reasoning counts too; these tiers cost no money
+workers = 8  # the examiner is slow, so many calls wait at once; the builder is paced by rpm
+max_output_tokens = 3000

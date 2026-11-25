@@ -1,0 +1,26 @@
+# Python & environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+*.db
+*.db-*
+
+# Secrets & OS
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# Local artifacts & media assets
+colab/*.zip
+runs_old/
+ui.pid
+judge_calibration/judge_verdicts.json
+video_assets/

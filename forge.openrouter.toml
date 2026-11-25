@@ -1,0 +1,24 @@
+# Builder and examiner must be different model families (self-preference defense).
+# Any OpenAI-compatible endpoint works: change base_url, model and api_key_env.
+# Checked 2026-11-25: Groq has retired Llama 3.1 8B on its free tier, and
+# OpenRouter lists no Qwen 2.5 7B, so the examiner is the 8B Qwen it does list.
+
+[builder]
+base_url = "https://openrouter.ai/api/v1"
+model = "meta-llama/llama-3.1-8b-instruct"
+api_key_env = "OPENROUTER_API_KEY"
+
+[examiner]
+base_url = "https://openrouter.ai/api/v1"
+model = "qwen/qwen3-vl-8b-instruct"
+api_key_env = "OPENROUTER_API_KEY"
+
+[embeddings]
+model = "sentence-transformers/all-MiniLM-L6-v2"
+
+[limits]
+# A full run with 3 refits is estimated at about 2 million tokens (about 11k per case per eval pass:
+# one agent call plus two judge passes). Replace this estimate with the figure in a real scorecard.
+budget_tokens = 3000000
+workers = 3  # higher trips the examiner provider's rate limit on a free OpenRouter account
+max_output_tokens = 3000

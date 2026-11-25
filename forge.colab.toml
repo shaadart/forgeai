@@ -1,0 +1,19 @@
+# Local models served by Ollama on a Colab GPU (see colab/forge_colab.ipynb). No rate limits, no cost per call.
+
+[builder]
+base_url = "http://127.0.0.1:11434/v1"
+model = "llama3.1:8b"
+api_key_env = "OLLAMA_API_KEY"  # any non-empty value
+
+[examiner]
+base_url = "http://127.0.0.1:11434/v1"
+model = "qwen2.5:7b"
+api_key_env = "OLLAMA_API_KEY"
+
+[embeddings]
+model = "sentence-transformers/all-MiniLM-L6-v2"
+
+[limits]
+budget_tokens = 8000000
+workers = 8
+max_output_tokens = 3000
