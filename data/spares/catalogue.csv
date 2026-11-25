@@ -1,0 +1,301 @@
+part_no,description,equipment,supplier,unit_price,currency,lead_time_days,moq,in_stock
+N-BP200-010-OE,"Mechanical seal, 45 mm, carbon/ceramic, OEM",ballast pump BP-200,Nordsee Marine Spares,396.09,EUR,9,1,yes
+N-BP200-010-AM,"Mechanical seal, 45 mm, carbon/ceramic, aftermarket",ballast pump BP-200,Nordsee Marine Spares,277.52,EUR,7,1,no
+G-BP200-010-OE,"Mechanical seal, 45 mm, carbon/ceramic, OEM",ballast pump BP-200,Gulfstream Pumpworks,390.08,USD,13,1,yes
+G-BP200-010-AM,"Mechanical seal, 45 mm, carbon/ceramic, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,239.24,USD,9,1,yes
+N-BP200-011-OE,"Mechanical seal, 45 mm, silicon carbide, OEM",ballast pump BP-200,Nordsee Marine Spares,500.00,EUR,12,1,no
+N-BP200-011-AM,"Mechanical seal, 45 mm, silicon carbide, aftermarket",ballast pump BP-200,Nordsee Marine Spares,428.85,EUR,12,1,yes
+G-BP200-011-OE,"Mechanical seal, 45 mm, silicon carbide, OEM",ballast pump BP-200,Gulfstream Pumpworks,507.59,USD,14,1,no
+G-BP200-011-AM,"Mechanical seal, 45 mm, silicon carbide, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,382.42,USD,4,1,no
+N-BP200-020-OE,"Impeller, bronze, 230 mm, OEM",ballast pump BP-200,Nordsee Marine Spares,646.88,EUR,14,1,yes
+N-BP200-020-AM,"Impeller, bronze, 230 mm, aftermarket",ballast pump BP-200,Nordsee Marine Spares,426.16,EUR,5,1,no
+G-BP200-020-OE,"Impeller, bronze, 230 mm, OEM",ballast pump BP-200,Gulfstream Pumpworks,565.24,USD,18,1,yes
+G-BP200-020-AM,"Impeller, bronze, 230 mm, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,443.59,USD,5,1,no
+N-BP200-021-OE,"Impeller, stainless steel, 230 mm, OEM",ballast pump BP-200,Nordsee Marine Spares,719.00,EUR,11,1,yes
+N-BP200-021-AM,"Impeller, stainless steel, 230 mm, aftermarket",ballast pump BP-200,Nordsee Marine Spares,610.67,EUR,6,1,yes
+G-BP200-021-OE,"Impeller, stainless steel, 230 mm, OEM",ballast pump BP-200,Gulfstream Pumpworks,799.26,USD,16,1,no
+G-BP200-021-AM,"Impeller, stainless steel, 230 mm, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,567.48,USD,10,1,yes
+N-BP200-030-OE,"Wear ring, OEM",ballast pump BP-200,Nordsee Marine Spares,76.18,EUR,13,1,yes
+N-BP200-030-AM,"Wear ring, aftermarket",ballast pump BP-200,Nordsee Marine Spares,44.05,EUR,9,1,yes
+G-BP200-030-OE,"Wear ring, OEM",ballast pump BP-200,Gulfstream Pumpworks,69.99,USD,16,1,yes
+G-BP200-030-AM,"Wear ring, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,48.65,USD,12,1,yes
+N-BP200-040-OE,"Shaft sleeve, OEM",ballast pump BP-200,Nordsee Marine Spares,947.82,EUR,10,1,yes
+N-BP200-040-AM,"Shaft sleeve, aftermarket",ballast pump BP-200,Nordsee Marine Spares,572.99,EUR,5,1,no
+G-BP200-040-OE,"Shaft sleeve, OEM",ballast pump BP-200,Gulfstream Pumpworks,815.46,USD,11,1,yes
+G-BP200-040-AM,"Shaft sleeve, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,569.51,USD,12,1,no
+N-BP200-050-OE,"Ball bearing, OEM",ballast pump BP-200,Nordsee Marine Spares,736.97,EUR,14,4,yes
+N-BP200-050-AM,"Ball bearing, aftermarket",ballast pump BP-200,Nordsee Marine Spares,495.84,EUR,10,4,yes
+G-BP200-050-OE,"Ball bearing, OEM",ballast pump BP-200,Gulfstream Pumpworks,718.92,USD,15,4,yes
+G-BP200-050-AM,"Ball bearing, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,513.29,USD,4,4,yes
+N-BP200-060-OE,"Casing gasket set, OEM",ballast pump BP-200,Nordsee Marine Spares,425.12,EUR,18,1,no
+N-BP200-060-AM,"Casing gasket set, aftermarket",ballast pump BP-200,Nordsee Marine Spares,304.86,EUR,12,1,yes
+G-BP200-060-OE,"Casing gasket set, OEM",ballast pump BP-200,Gulfstream Pumpworks,407.69,USD,17,1,yes
+G-BP200-060-AM,"Casing gasket set, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,293.27,USD,7,1,no
+N-BP200-070-OE,"O-ring kit, OEM",ballast pump BP-200,Nordsee Marine Spares,651.86,EUR,11,10,no
+N-BP200-070-AM,"O-ring kit, aftermarket",ballast pump BP-200,Nordsee Marine Spares,556.37,EUR,7,10,yes
+G-BP200-070-OE,"O-ring kit, OEM",ballast pump BP-200,Gulfstream Pumpworks,654.74,USD,15,10,no
+G-BP200-070-AM,"O-ring kit, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,568.98,USD,5,10,no
+N-BP200-080-OE,"Coupling element, OEM",ballast pump BP-200,Nordsee Marine Spares,331.20,EUR,10,1,no
+N-BP200-080-AM,"Coupling element, aftermarket",ballast pump BP-200,Nordsee Marine Spares,221.02,EUR,12,1,yes
+G-BP200-080-OE,"Coupling element, OEM",ballast pump BP-200,Gulfstream Pumpworks,368.16,USD,11,1,yes
+G-BP200-080-AM,"Coupling element, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,219.94,USD,3,1,yes
+N-BP200-090-OE,"Pump shaft, OEM",ballast pump BP-200,Nordsee Marine Spares,663.78,EUR,12,1,yes
+N-BP200-090-AM,"Pump shaft, aftermarket",ballast pump BP-200,Nordsee Marine Spares,416.05,EUR,4,1,no
+G-BP200-090-OE,"Pump shaft, OEM",ballast pump BP-200,Gulfstream Pumpworks,586.93,USD,18,1,yes
+G-BP200-090-AM,"Pump shaft, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,497.51,USD,8,1,yes
+N-BP200-100-OE,"Gland packing set, OEM",ballast pump BP-200,Nordsee Marine Spares,221.12,EUR,11,4,yes
+N-BP200-100-AM,"Gland packing set, aftermarket",ballast pump BP-200,Nordsee Marine Spares,188.85,EUR,3,4,no
+G-BP200-100-OE,"Gland packing set, OEM",ballast pump BP-200,Gulfstream Pumpworks,273.33,USD,10,4,no
+G-BP200-100-AM,"Gland packing set, aftermarket",ballast pump BP-200,Gulfstream Pumpworks,177.97,USD,5,4,yes
+N-CW150-010-OE,"Mechanical seal, 45 mm, carbon/ceramic, OEM",cooling water pump CW-150,Nordsee Marine Spares,1003.38,EUR,12,1,yes
+N-CW150-010-AM,"Mechanical seal, 45 mm, carbon/ceramic, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,625.82,EUR,11,1,yes
+G-CW150-010-OE,"Mechanical seal, 45 mm, carbon/ceramic, OEM",cooling water pump CW-150,Gulfstream Pumpworks,864.00,USD,11,1,yes
+G-CW150-010-AM,"Mechanical seal, 45 mm, carbon/ceramic, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,620.59,USD,6,1,yes
+N-CW150-011-OE,"Mechanical seal, 45 mm, silicon carbide, OEM",cooling water pump CW-150,Nordsee Marine Spares,673.94,EUR,18,1,yes
+N-CW150-011-AM,"Mechanical seal, 45 mm, silicon carbide, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,427.66,EUR,5,1,yes
+G-CW150-011-OE,"Mechanical seal, 45 mm, silicon carbide, OEM",cooling water pump CW-150,Gulfstream Pumpworks,638.89,USD,14,1,yes
+G-CW150-011-AM,"Mechanical seal, 45 mm, silicon carbide, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,467.28,USD,3,1,yes
+N-CW150-020-OE,"Impeller, bronze, 230 mm, OEM",cooling water pump CW-150,Nordsee Marine Spares,880.19,EUR,10,1,yes
+N-CW150-020-AM,"Impeller, bronze, 230 mm, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,600.16,EUR,12,1,yes
+G-CW150-020-OE,"Impeller, bronze, 230 mm, OEM",cooling water pump CW-150,Gulfstream Pumpworks,821.15,USD,16,1,yes
+G-CW150-020-AM,"Impeller, bronze, 230 mm, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,591.81,USD,4,1,yes
+N-CW150-021-OE,"Impeller, stainless steel, 230 mm, OEM",cooling water pump CW-150,Nordsee Marine Spares,178.72,EUR,11,1,yes
+N-CW150-021-AM,"Impeller, stainless steel, 230 mm, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,149.50,EUR,7,1,no
+G-CW150-021-OE,"Impeller, stainless steel, 230 mm, OEM",cooling water pump CW-150,Gulfstream Pumpworks,208.45,USD,15,1,no
+G-CW150-021-AM,"Impeller, stainless steel, 230 mm, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,135.36,USD,4,1,yes
+N-CW150-030-OE,"Wear ring, OEM",cooling water pump CW-150,Nordsee Marine Spares,866.45,EUR,17,1,no
+N-CW150-030-AM,"Wear ring, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,685.61,EUR,6,1,yes
+N-CW150-040-OE,"Shaft sleeve, OEM",cooling water pump CW-150,Nordsee Marine Spares,383.04,EUR,10,1,no
+N-CW150-040-AM,"Shaft sleeve, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,263.16,EUR,6,1,yes
+G-CW150-040-OE,"Shaft sleeve, OEM",cooling water pump CW-150,Gulfstream Pumpworks,388.32,USD,11,1,no
+G-CW150-040-AM,"Shaft sleeve, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,235.08,USD,10,1,yes
+N-CW150-050-OE,"Ball bearing, OEM",cooling water pump CW-150,Nordsee Marine Spares,597.74,EUR,16,4,yes
+N-CW150-050-AM,"Ball bearing, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,411.49,EUR,6,4,yes
+G-CW150-050-OE,"Ball bearing, OEM",cooling water pump CW-150,Gulfstream Pumpworks,593.91,USD,15,4,yes
+G-CW150-050-AM,"Ball bearing, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,431.90,USD,6,4,no
+N-CW150-060-OE,"Casing gasket set, OEM",cooling water pump CW-150,Nordsee Marine Spares,195.54,EUR,18,1,yes
+N-CW150-060-AM,"Casing gasket set, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,139.98,EUR,6,1,yes
+G-CW150-060-OE,"Casing gasket set, OEM",cooling water pump CW-150,Gulfstream Pumpworks,218.65,USD,17,1,yes
+G-CW150-060-AM,"Casing gasket set, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,151.52,USD,4,1,no
+N-CW150-070-OE,"O-ring kit, OEM",cooling water pump CW-150,Nordsee Marine Spares,399.34,EUR,18,10,yes
+N-CW150-070-AM,"O-ring kit, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,285.73,EUR,3,10,yes
+G-CW150-070-OE,"O-ring kit, OEM",cooling water pump CW-150,Gulfstream Pumpworks,365.03,USD,14,10,yes
+G-CW150-070-AM,"O-ring kit, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,232.72,USD,9,10,yes
+N-CW150-080-OE,"Coupling element, OEM",cooling water pump CW-150,Nordsee Marine Spares,388.58,EUR,13,1,yes
+N-CW150-080-AM,"Coupling element, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,335.35,EUR,9,1,yes
+N-CW150-090-OE,"Pump shaft, OEM",cooling water pump CW-150,Nordsee Marine Spares,191.81,EUR,9,1,yes
+N-CW150-090-AM,"Pump shaft, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,133.70,EUR,3,1,no
+G-CW150-090-OE,"Pump shaft, OEM",cooling water pump CW-150,Gulfstream Pumpworks,234.85,USD,17,1,yes
+G-CW150-090-AM,"Pump shaft, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,168.26,USD,11,1,yes
+N-CW150-100-OE,"Gland packing set, OEM",cooling water pump CW-150,Nordsee Marine Spares,450.36,EUR,11,4,no
+N-CW150-100-AM,"Gland packing set, aftermarket",cooling water pump CW-150,Nordsee Marine Spares,326.58,EUR,5,4,no
+G-CW150-100-OE,"Gland packing set, OEM",cooling water pump CW-150,Gulfstream Pumpworks,405.87,USD,9,4,yes
+G-CW150-100-AM,"Gland packing set, aftermarket",cooling water pump CW-150,Gulfstream Pumpworks,356.09,USD,3,4,no
+N-FT80-010-OE,"Mechanical seal, 45 mm, carbon/ceramic, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,374.98,EUR,11,1,yes
+N-FT80-010-AM,"Mechanical seal, 45 mm, carbon/ceramic, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,245.20,EUR,7,1,yes
+N-FT80-011-OE,"Mechanical seal, 45 mm, silicon carbide, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,533.84,EUR,17,1,yes
+N-FT80-011-AM,"Mechanical seal, 45 mm, silicon carbide, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,355.56,EUR,9,1,no
+G-FT80-011-OE,"Mechanical seal, 45 mm, silicon carbide, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,471.27,USD,10,1,no
+G-FT80-011-AM,"Mechanical seal, 45 mm, silicon carbide, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,402.63,USD,4,1,yes
+N-FT80-020-OE,"Impeller, bronze, 230 mm, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,226.64,EUR,17,1,yes
+N-FT80-020-AM,"Impeller, bronze, 230 mm, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,165.27,EUR,11,1,no
+N-FT80-021-OE,"Impeller, stainless steel, 230 mm, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,272.86,EUR,17,1,yes
+N-FT80-021-AM,"Impeller, stainless steel, 230 mm, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,187.96,EUR,9,1,no
+G-FT80-021-OE,"Impeller, stainless steel, 230 mm, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,295.02,USD,17,1,no
+G-FT80-021-AM,"Impeller, stainless steel, 230 mm, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,204.60,USD,6,1,yes
+N-FT80-030-OE,"Wear ring, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,896.93,EUR,9,1,yes
+N-FT80-030-AM,"Wear ring, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,655.57,EUR,12,1,yes
+G-FT80-030-OE,"Wear ring, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,913.94,USD,10,1,yes
+G-FT80-030-AM,"Wear ring, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,644.71,USD,12,1,yes
+N-FT80-040-OE,"Shaft sleeve, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,944.00,EUR,18,1,no
+N-FT80-040-AM,"Shaft sleeve, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,565.79,EUR,12,1,yes
+G-FT80-040-OE,"Shaft sleeve, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,920.09,USD,18,1,yes
+G-FT80-040-AM,"Shaft sleeve, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,699.11,USD,12,1,yes
+N-FT80-050-OE,"Ball bearing, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,834.67,EUR,18,4,yes
+N-FT80-050-AM,"Ball bearing, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,591.13,EUR,11,4,no
+G-FT80-050-OE,"Ball bearing, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,818.77,USD,14,4,yes
+G-FT80-050-AM,"Ball bearing, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,539.14,USD,7,4,yes
+N-FT80-060-OE,"Casing gasket set, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,243.02,EUR,15,1,no
+N-FT80-060-AM,"Casing gasket set, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,167.62,EUR,10,1,no
+G-FT80-060-OE,"Casing gasket set, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,224.33,USD,14,1,yes
+G-FT80-060-AM,"Casing gasket set, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,150.73,USD,7,1,yes
+N-FT80-070-OE,"O-ring kit, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,299.25,EUR,13,10,yes
+N-FT80-070-AM,"O-ring kit, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,214.78,EUR,3,10,yes
+G-FT80-070-OE,"O-ring kit, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,297.26,USD,18,10,no
+G-FT80-070-AM,"O-ring kit, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,215.39,USD,6,10,yes
+N-FT80-080-OE,"Coupling element, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,614.67,EUR,10,1,yes
+N-FT80-080-AM,"Coupling element, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,435.06,EUR,4,1,no
+G-FT80-080-OE,"Coupling element, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,548.46,USD,16,1,yes
+G-FT80-080-AM,"Coupling element, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,396.52,USD,12,1,yes
+N-FT80-090-OE,"Pump shaft, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,689.26,EUR,11,1,yes
+N-FT80-090-AM,"Pump shaft, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,473.70,EUR,5,1,yes
+G-FT80-090-OE,"Pump shaft, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,683.44,USD,15,1,yes
+G-FT80-090-AM,"Pump shaft, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,566.49,USD,6,1,no
+N-FT80-100-OE,"Gland packing set, OEM",fuel oil transfer pump FT-80,Nordsee Marine Spares,575.41,EUR,13,4,yes
+N-FT80-100-AM,"Gland packing set, aftermarket",fuel oil transfer pump FT-80,Nordsee Marine Spares,360.97,EUR,9,4,yes
+G-FT80-100-OE,"Gland packing set, OEM",fuel oil transfer pump FT-80,Gulfstream Pumpworks,557.51,USD,16,4,no
+G-FT80-100-AM,"Gland packing set, aftermarket",fuel oil transfer pump FT-80,Gulfstream Pumpworks,415.89,USD,3,4,no
+N-BG40-010-OE,"Mechanical seal, 45 mm, carbon/ceramic, OEM",bilge pump BG-40,Nordsee Marine Spares,260.37,EUR,12,1,yes
+N-BG40-010-AM,"Mechanical seal, 45 mm, carbon/ceramic, aftermarket",bilge pump BG-40,Nordsee Marine Spares,169.88,EUR,6,1,yes
+G-BG40-010-OE,"Mechanical seal, 45 mm, carbon/ceramic, OEM",bilge pump BG-40,Gulfstream Pumpworks,282.70,USD,11,1,no
+G-BG40-010-AM,"Mechanical seal, 45 mm, carbon/ceramic, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,173.63,USD,9,1,yes
+N-BG40-011-OE,"Mechanical seal, 45 mm, silicon carbide, OEM",bilge pump BG-40,Nordsee Marine Spares,618.52,EUR,17,1,no
+N-BG40-011-AM,"Mechanical seal, 45 mm, silicon carbide, aftermarket",bilge pump BG-40,Nordsee Marine Spares,418.76,EUR,12,1,yes
+G-BG40-011-OE,"Mechanical seal, 45 mm, silicon carbide, OEM",bilge pump BG-40,Gulfstream Pumpworks,568.65,USD,14,1,yes
+G-BG40-011-AM,"Mechanical seal, 45 mm, silicon carbide, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,391.24,USD,4,1,yes
+N-BG40-020-OE,"Impeller, bronze, 230 mm, OEM",bilge pump BG-40,Nordsee Marine Spares,537.40,EUR,16,1,no
+N-BG40-020-AM,"Impeller, bronze, 230 mm, aftermarket",bilge pump BG-40,Nordsee Marine Spares,453.72,EUR,4,1,no
+G-BG40-020-OE,"Impeller, bronze, 230 mm, OEM",bilge pump BG-40,Gulfstream Pumpworks,673.02,USD,12,1,yes
+G-BG40-020-AM,"Impeller, bronze, 230 mm, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,429.34,USD,11,1,no
+N-BG40-021-OE,"Impeller, stainless steel, 230 mm, OEM",bilge pump BG-40,Nordsee Marine Spares,75.64,EUR,16,1,yes
+N-BG40-021-AM,"Impeller, stainless steel, 230 mm, aftermarket",bilge pump BG-40,Nordsee Marine Spares,64.83,EUR,5,1,no
+G-BG40-021-OE,"Impeller, stainless steel, 230 mm, OEM",bilge pump BG-40,Gulfstream Pumpworks,75.82,USD,12,1,yes
+G-BG40-021-AM,"Impeller, stainless steel, 230 mm, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,55.62,USD,9,1,yes
+N-BG40-030-OE,"Wear ring, OEM",bilge pump BG-40,Nordsee Marine Spares,193.08,EUR,12,1,no
+N-BG40-030-AM,"Wear ring, aftermarket",bilge pump BG-40,Nordsee Marine Spares,127.18,EUR,11,1,yes
+G-BG40-030-OE,"Wear ring, OEM",bilge pump BG-40,Gulfstream Pumpworks,193.01,USD,18,1,yes
+G-BG40-030-AM,"Wear ring, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,125.61,USD,3,1,no
+N-BG40-040-OE,"Shaft sleeve, OEM",bilge pump BG-40,Nordsee Marine Spares,321.64,EUR,17,1,no
+N-BG40-040-AM,"Shaft sleeve, aftermarket",bilge pump BG-40,Nordsee Marine Spares,216.60,EUR,5,1,yes
+N-BG40-050-OE,"Ball bearing, OEM",bilge pump BG-40,Nordsee Marine Spares,544.74,EUR,13,4,no
+N-BG40-050-AM,"Ball bearing, aftermarket",bilge pump BG-40,Nordsee Marine Spares,327.97,EUR,3,4,yes
+N-BG40-060-OE,"Casing gasket set, OEM",bilge pump BG-40,Nordsee Marine Spares,604.18,EUR,18,1,no
+N-BG40-060-AM,"Casing gasket set, aftermarket",bilge pump BG-40,Nordsee Marine Spares,370.32,EUR,5,1,yes
+G-BG40-060-OE,"Casing gasket set, OEM",bilge pump BG-40,Gulfstream Pumpworks,615.82,USD,13,1,yes
+G-BG40-060-AM,"Casing gasket set, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,402.93,USD,4,1,yes
+N-BG40-070-OE,"O-ring kit, OEM",bilge pump BG-40,Nordsee Marine Spares,252.33,EUR,11,10,yes
+N-BG40-070-AM,"O-ring kit, aftermarket",bilge pump BG-40,Nordsee Marine Spares,170.19,EUR,10,10,no
+G-BG40-070-OE,"O-ring kit, OEM",bilge pump BG-40,Gulfstream Pumpworks,252.23,USD,11,10,yes
+G-BG40-070-AM,"O-ring kit, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,171.53,USD,9,10,yes
+N-BG40-080-OE,"Coupling element, OEM",bilge pump BG-40,Nordsee Marine Spares,246.48,EUR,10,1,yes
+N-BG40-080-AM,"Coupling element, aftermarket",bilge pump BG-40,Nordsee Marine Spares,165.36,EUR,12,1,yes
+G-BG40-080-OE,"Coupling element, OEM",bilge pump BG-40,Gulfstream Pumpworks,242.83,USD,14,1,yes
+G-BG40-080-AM,"Coupling element, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,187.99,USD,11,1,yes
+N-BG40-090-OE,"Pump shaft, OEM",bilge pump BG-40,Nordsee Marine Spares,738.67,EUR,9,1,yes
+N-BG40-090-AM,"Pump shaft, aftermarket",bilge pump BG-40,Nordsee Marine Spares,503.04,EUR,10,1,yes
+G-BG40-090-OE,"Pump shaft, OEM",bilge pump BG-40,Gulfstream Pumpworks,709.46,USD,10,1,yes
+G-BG40-090-AM,"Pump shaft, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,560.81,USD,11,1,yes
+N-BG40-100-OE,"Gland packing set, OEM",bilge pump BG-40,Nordsee Marine Spares,831.37,EUR,18,4,yes
+N-BG40-100-AM,"Gland packing set, aftermarket",bilge pump BG-40,Nordsee Marine Spares,557.70,EUR,11,4,no
+G-BG40-100-OE,"Gland packing set, OEM",bilge pump BG-40,Gulfstream Pumpworks,852.69,USD,13,4,yes
+G-BG40-100-AM,"Gland packing set, aftermarket",bilge pump BG-40,Gulfstream Pumpworks,672.25,USD,7,4,yes
+N-AE6L-010-OE,"Fuel injector nozzle, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,796.34,EUR,12,1,yes
+N-AE6L-010-AM,"Fuel injector nozzle, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,641.83,EUR,12,1,no
+G-AE6L-010-OE,"Fuel injector nozzle, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,981.10,USD,14,1,yes
+G-AE6L-010-AM,"Fuel injector nozzle, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,687.34,USD,10,1,yes
+N-AE6L-020-OE,"Piston ring set, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,676.22,EUR,11,1,yes
+N-AE6L-020-AM,"Piston ring set, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,476.51,EUR,8,1,yes
+G-AE6L-020-OE,"Piston ring set, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,726.60,USD,18,1,yes
+G-AE6L-020-AM,"Piston ring set, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,522.54,USD,8,1,no
+N-AE6L-030-OE,"Exhaust valve, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,384.80,EUR,14,1,yes
+N-AE6L-030-AM,"Exhaust valve, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,276.12,EUR,6,1,yes
+G-AE6L-030-OE,"Exhaust valve, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,373.38,USD,11,1,yes
+G-AE6L-030-AM,"Exhaust valve, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,245.87,USD,10,1,yes
+N-AE6L-040-OE,"Inlet valve, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,337.79,EUR,9,1,yes
+N-AE6L-040-AM,"Inlet valve, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,222.67,EUR,9,1,yes
+G-AE6L-040-OE,"Inlet valve, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,306.72,USD,10,1,no
+G-AE6L-040-AM,"Inlet valve, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,244.96,USD,11,1,no
+N-AE6L-050-OE,"Cylinder head gasket, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,257.42,EUR,18,1,no
+N-AE6L-050-AM,"Cylinder head gasket, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,168.63,EUR,8,1,yes
+G-AE6L-050-OE,"Cylinder head gasket, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,255.96,USD,17,1,no
+G-AE6L-050-AM,"Cylinder head gasket, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,177.22,USD,12,1,yes
+N-AE6L-060-OE,"Connecting rod bearing, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,833.36,EUR,17,1,no
+N-AE6L-060-AM,"Connecting rod bearing, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,548.83,EUR,5,1,no
+G-AE6L-060-OE,"Connecting rod bearing, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,779.90,USD,11,1,yes
+G-AE6L-060-AM,"Connecting rod bearing, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,593.29,USD,5,1,no
+N-AE6L-070-OE,"Fuel pump plunger, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,479.46,EUR,15,1,yes
+N-AE6L-070-AM,"Fuel pump plunger, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,365.93,EUR,10,1,yes
+G-AE6L-070-OE,"Fuel pump plunger, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,442.44,USD,9,1,yes
+G-AE6L-070-AM,"Fuel pump plunger, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,363.10,USD,11,1,yes
+N-AE6L-080-OE,"Thermostat element, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,602.07,EUR,11,1,yes
+N-AE6L-080-AM,"Thermostat element, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,380.43,EUR,11,1,yes
+G-AE6L-080-OE,"Thermostat element, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,625.53,USD,16,1,yes
+G-AE6L-080-AM,"Thermostat element, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,355.26,USD,11,1,yes
+N-AE6L-090-OE,"Lube oil filter element, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,369.60,EUR,18,1,yes
+N-AE6L-090-AM,"Lube oil filter element, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,269.85,EUR,5,1,no
+G-AE6L-090-OE,"Lube oil filter element, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,403.68,USD,10,1,yes
+G-AE6L-090-AM,"Lube oil filter element, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,301.37,USD,6,1,yes
+N-AE6L-100-OE,"Turbocharger bearing kit, OEM",auxiliary engine AE-6L,Nordsee Marine Spares,710.03,EUR,13,1,yes
+N-AE6L-100-AM,"Turbocharger bearing kit, aftermarket",auxiliary engine AE-6L,Nordsee Marine Spares,507.10,EUR,12,1,no
+G-AE6L-100-OE,"Turbocharger bearing kit, OEM",auxiliary engine AE-6L,Gulfstream Pumpworks,678.51,USD,11,1,no
+G-AE6L-100-AM,"Turbocharger bearing kit, aftermarket",auxiliary engine AE-6L,Gulfstream Pumpworks,482.16,USD,7,1,yes
+N-ME5S-010-OE,"Fuel injector nozzle, OEM",main engine ME-5S,Nordsee Marine Spares,784.59,EUR,15,1,no
+N-ME5S-010-AM,"Fuel injector nozzle, aftermarket",main engine ME-5S,Nordsee Marine Spares,538.04,EUR,10,1,yes
+G-ME5S-010-OE,"Fuel injector nozzle, OEM",main engine ME-5S,Gulfstream Pumpworks,691.27,USD,13,1,yes
+G-ME5S-010-AM,"Fuel injector nozzle, aftermarket",main engine ME-5S,Gulfstream Pumpworks,463.03,USD,10,1,yes
+N-ME5S-020-OE,"Piston ring set, OEM",main engine ME-5S,Nordsee Marine Spares,229.84,EUR,14,1,no
+N-ME5S-020-AM,"Piston ring set, aftermarket",main engine ME-5S,Nordsee Marine Spares,144.10,EUR,11,1,yes
+G-ME5S-020-OE,"Piston ring set, OEM",main engine ME-5S,Gulfstream Pumpworks,210.26,USD,11,1,yes
+G-ME5S-020-AM,"Piston ring set, aftermarket",main engine ME-5S,Gulfstream Pumpworks,150.98,USD,3,1,no
+N-ME5S-030-OE,"Exhaust valve, OEM",main engine ME-5S,Nordsee Marine Spares,440.67,EUR,15,1,yes
+N-ME5S-030-AM,"Exhaust valve, aftermarket",main engine ME-5S,Nordsee Marine Spares,288.77,EUR,8,1,yes
+G-ME5S-030-OE,"Exhaust valve, OEM",main engine ME-5S,Gulfstream Pumpworks,483.27,USD,12,1,yes
+G-ME5S-030-AM,"Exhaust valve, aftermarket",main engine ME-5S,Gulfstream Pumpworks,306.05,USD,10,1,no
+N-ME5S-040-OE,"Inlet valve, OEM",main engine ME-5S,Nordsee Marine Spares,182.91,EUR,14,1,no
+N-ME5S-040-AM,"Inlet valve, aftermarket",main engine ME-5S,Nordsee Marine Spares,122.08,EUR,10,1,no
+G-ME5S-040-OE,"Inlet valve, OEM",main engine ME-5S,Gulfstream Pumpworks,202.19,USD,14,1,no
+G-ME5S-040-AM,"Inlet valve, aftermarket",main engine ME-5S,Gulfstream Pumpworks,138.75,USD,10,1,no
+N-ME5S-050-OE,"Cylinder head gasket, OEM",main engine ME-5S,Nordsee Marine Spares,379.20,EUR,18,1,no
+N-ME5S-050-AM,"Cylinder head gasket, aftermarket",main engine ME-5S,Nordsee Marine Spares,227.17,EUR,8,1,no
+G-ME5S-050-OE,"Cylinder head gasket, OEM",main engine ME-5S,Gulfstream Pumpworks,339.28,USD,18,1,yes
+G-ME5S-050-AM,"Cylinder head gasket, aftermarket",main engine ME-5S,Gulfstream Pumpworks,231.75,USD,7,1,yes
+N-ME5S-060-OE,"Connecting rod bearing, OEM",main engine ME-5S,Nordsee Marine Spares,794.43,EUR,15,1,yes
+N-ME5S-060-AM,"Connecting rod bearing, aftermarket",main engine ME-5S,Nordsee Marine Spares,546.82,EUR,6,1,yes
+G-ME5S-060-OE,"Connecting rod bearing, OEM",main engine ME-5S,Gulfstream Pumpworks,931.71,USD,11,1,yes
+G-ME5S-060-AM,"Connecting rod bearing, aftermarket",main engine ME-5S,Gulfstream Pumpworks,572.54,USD,11,1,yes
+N-ME5S-070-OE,"Fuel pump plunger, OEM",main engine ME-5S,Nordsee Marine Spares,866.12,EUR,17,1,no
+N-ME5S-070-AM,"Fuel pump plunger, aftermarket",main engine ME-5S,Nordsee Marine Spares,667.02,EUR,11,1,yes
+G-ME5S-070-OE,"Fuel pump plunger, OEM",main engine ME-5S,Gulfstream Pumpworks,905.96,USD,15,1,yes
+G-ME5S-070-AM,"Fuel pump plunger, aftermarket",main engine ME-5S,Gulfstream Pumpworks,695.28,USD,8,1,yes
+N-ME5S-080-OE,"Thermostat element, OEM",main engine ME-5S,Nordsee Marine Spares,407.66,EUR,13,1,no
+N-ME5S-080-AM,"Thermostat element, aftermarket",main engine ME-5S,Nordsee Marine Spares,262.69,EUR,4,1,yes
+N-ME5S-090-OE,"Lube oil filter element, OEM",main engine ME-5S,Nordsee Marine Spares,108.27,EUR,14,1,no
+N-ME5S-090-AM,"Lube oil filter element, aftermarket",main engine ME-5S,Nordsee Marine Spares,84.74,EUR,11,1,no
+G-ME5S-090-OE,"Lube oil filter element, OEM",main engine ME-5S,Gulfstream Pumpworks,115.12,USD,12,1,no
+G-ME5S-090-AM,"Lube oil filter element, aftermarket",main engine ME-5S,Gulfstream Pumpworks,92.03,USD,3,1,yes
+N-ME5S-100-OE,"Turbocharger bearing kit, OEM",main engine ME-5S,Nordsee Marine Spares,529.41,EUR,14,1,no
+N-ME5S-100-AM,"Turbocharger bearing kit, aftermarket",main engine ME-5S,Nordsee Marine Spares,394.80,EUR,10,1,no
+G-ME5S-100-OE,"Turbocharger bearing kit, OEM",main engine ME-5S,Gulfstream Pumpworks,508.18,USD,17,1,no
+G-ME5S-100-AM,"Turbocharger bearing kit, aftermarket",main engine ME-5S,Gulfstream Pumpworks,366.00,USD,12,1,yes
+N-PU30-010-OE,"Bowl seal ring, nitrile, OEM",oil purifier PU-30,Nordsee Marine Spares,365.21,EUR,16,1,yes
+N-PU30-010-AM,"Bowl seal ring, nitrile, aftermarket",oil purifier PU-30,Nordsee Marine Spares,250.76,EUR,11,1,yes
+G-PU30-010-OE,"Bowl seal ring, nitrile, OEM",oil purifier PU-30,Gulfstream Pumpworks,384.60,USD,16,1,yes
+G-PU30-010-AM,"Bowl seal ring, nitrile, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,278.72,USD,10,1,no
+N-PU30-011-OE,"Bowl seal ring, fluoroelastomer, OEM",oil purifier PU-30,Nordsee Marine Spares,139.47,EUR,18,1,yes
+N-PU30-011-AM,"Bowl seal ring, fluoroelastomer, aftermarket",oil purifier PU-30,Nordsee Marine Spares,95.55,EUR,3,1,yes
+G-PU30-011-OE,"Bowl seal ring, fluoroelastomer, OEM",oil purifier PU-30,Gulfstream Pumpworks,133.38,USD,9,1,no
+G-PU30-011-AM,"Bowl seal ring, fluoroelastomer, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,100.02,USD,10,1,yes
+N-PU30-020-OE,"Sliding bowl bottom seal, OEM",oil purifier PU-30,Nordsee Marine Spares,433.50,EUR,13,1,yes
+N-PU30-020-AM,"Sliding bowl bottom seal, aftermarket",oil purifier PU-30,Nordsee Marine Spares,336.67,EUR,10,1,yes
+N-PU30-030-OE,"Disc stack o-ring, OEM",oil purifier PU-30,Nordsee Marine Spares,744.71,EUR,14,10,yes
+N-PU30-030-AM,"Disc stack o-ring, aftermarket",oil purifier PU-30,Nordsee Marine Spares,564.43,EUR,12,10,yes
+G-PU30-030-OE,"Disc stack o-ring, OEM",oil purifier PU-30,Gulfstream Pumpworks,702.67,USD,11,10,no
+G-PU30-030-AM,"Disc stack o-ring, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,574.44,USD,5,10,yes
+N-PU30-040-OE,"Friction clutch pad, OEM",oil purifier PU-30,Nordsee Marine Spares,734.08,EUR,17,1,yes
+N-PU30-040-AM,"Friction clutch pad, aftermarket",oil purifier PU-30,Nordsee Marine Spares,481.84,EUR,9,1,yes
+G-PU30-040-OE,"Friction clutch pad, OEM",oil purifier PU-30,Gulfstream Pumpworks,687.37,USD,18,1,yes
+G-PU30-040-AM,"Friction clutch pad, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,558.00,USD,10,1,yes
+N-PU30-050-OE,"Vertical shaft bearing, OEM",oil purifier PU-30,Nordsee Marine Spares,280.42,EUR,11,1,yes
+N-PU30-050-AM,"Vertical shaft bearing, aftermarket",oil purifier PU-30,Nordsee Marine Spares,189.52,EUR,12,1,yes
+G-PU30-050-OE,"Vertical shaft bearing, OEM",oil purifier PU-30,Gulfstream Pumpworks,278.57,USD,17,1,yes
+G-PU30-050-AM,"Vertical shaft bearing, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,172.54,USD,3,1,yes
+N-PU30-060-OE,"Gravity disc, OEM",oil purifier PU-30,Nordsee Marine Spares,112.51,EUR,18,1,yes
+N-PU30-060-AM,"Gravity disc, aftermarket",oil purifier PU-30,Nordsee Marine Spares,67.28,EUR,6,1,yes
+G-PU30-060-OE,"Gravity disc, OEM",oil purifier PU-30,Gulfstream Pumpworks,100.91,USD,13,1,yes
+G-PU30-060-AM,"Gravity disc, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,80.29,USD,10,1,yes
+N-PU30-070-OE,"Worm wheel, OEM",oil purifier PU-30,Nordsee Marine Spares,261.68,EUR,12,1,yes
+N-PU30-070-AM,"Worm wheel, aftermarket",oil purifier PU-30,Nordsee Marine Spares,158.57,EUR,12,1,yes
+G-PU30-070-OE,"Worm wheel, OEM",oil purifier PU-30,Gulfstream Pumpworks,265.49,USD,14,1,yes
+G-PU30-070-AM,"Worm wheel, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,151.99,USD,6,1,yes
+N-PU30-080-OE,"Operating water valve kit, OEM",oil purifier PU-30,Nordsee Marine Spares,310.90,EUR,11,1,yes
+N-PU30-080-AM,"Operating water valve kit, aftermarket",oil purifier PU-30,Nordsee Marine Spares,186.34,EUR,3,1,yes
+G-PU30-080-OE,"Operating water valve kit, OEM",oil purifier PU-30,Gulfstream Pumpworks,292.38,USD,9,1,no
+G-PU30-080-AM,"Operating water valve kit, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,208.79,USD,7,1,no
+N-PU30-090-OE,"Drive belt, OEM",oil purifier PU-30,Nordsee Marine Spares,400.52,EUR,9,1,no
+N-PU30-090-AM,"Drive belt, aftermarket",oil purifier PU-30,Nordsee Marine Spares,332.93,EUR,8,1,no
+G-PU30-090-OE,"Drive belt, OEM",oil purifier PU-30,Gulfstream Pumpworks,471.78,USD,16,1,yes
+G-PU30-090-AM,"Drive belt, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,310.74,USD,9,1,no
+N-PU30-100-OE,"Nozzle set, OEM",oil purifier PU-30,Nordsee Marine Spares,319.81,EUR,9,1,yes
+N-PU30-100-AM,"Nozzle set, aftermarket",oil purifier PU-30,Nordsee Marine Spares,234.57,EUR,8,1,no
+G-PU30-100-OE,"Nozzle set, OEM",oil purifier PU-30,Gulfstream Pumpworks,338.21,USD,17,1,yes
+G-PU30-100-AM,"Nozzle set, aftermarket",oil purifier PU-30,Gulfstream Pumpworks,224.33,USD,4,1,no
