@@ -1,0 +1,23 @@
+- name: csv_lookup
+  capability: lookup_rows
+  description: Exact filter, select and sort over a CSV file in the document folder.
+  not_for: Prose documents, or anything the retrieved context already answers.
+  args: '{"file": "name.csv", "filters": [{"column": "c", "op": "eq|contains|gt|ge|lt|le", "value": "v"}], "select": ["c"], "sort_by": "c", "descending": false, "limit": 10}. Only "file" is required.'
+
+- name: calculator
+  capability: arithmetic
+  description: Arithmetic with + - * / ** round min max.
+  not_for: Facts the documents state directly.
+  args: '{"expression": "2 * 4 * 1.5"}'
+
+- name: date
+  capability: today
+  description: Today's date, adding days to a date, and days between two dates.
+  not_for: Dates already written in the documents.
+  args: '{"op": "today"} or {"op": "add_days", "date": "YYYY-MM-DD", "days": 5} or {"op": "days_between", "start": "YYYY-MM-DD", "end": "YYYY-MM-DD"}'
+
+- name: marine_weather
+  capability: live_weather
+  description: Live marine forecast (wave height and wind) for a position, from open-meteo.
+  not_for: Briefs that only mention weather in passing.
+  args: '{"latitude": 12.9, "longitude": 74.8, "days": 3}'
