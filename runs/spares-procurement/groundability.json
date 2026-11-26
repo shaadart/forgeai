@@ -1,0 +1,100 @@
+[
+  {
+    "topic_id": "T1",
+    "topic": "Engine spares",
+    "flagged": false,
+    "log": [],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "catalogue.csv#row42",
+        "quote": "part_no: N-BP200-090-AM; description: Pump shaft, aftermarket; equipment: ballast pump BP-200"
+      },
+      {
+        "chunk_id": "catalogue.csv#row22",
+        "quote": "part_no: N-BP200-040-AM; description: Shaft sleeve, aftermarket; equipment: ballast pump BP-200"
+      },
+      {
+        "chunk_id": "catalogue.csv#row41",
+        "quote": "part_no: N-BP200-090-OE; description: Pump shaft, OEM; equipment: ballast pump BP-200"
+      },
+      {
+        "chunk_id": "catalogue.csv#row21",
+        "quote": "part_no: N-BP200-040-OE; description: Shaft sleeve, OEM; equipment: ballast pump BP-200"
+      }
+    ]
+  },
+  {
+    "topic_id": "T2",
+    "topic": "Pump spares",
+    "flagged": false,
+    "log": [],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "catalogue.csv#row174",
+        "quote": "part_no: N-BG40-090-AM; description: Pump shaft, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 503.04; currency: EUR; lead_time_days: 10; moq: 1; in_stock: yes"
+      },
+      {
+        "chunk_id": "catalogue.csv#row173",
+        "quote": "part_no: N-BG40-090-OE; description: Pump shaft, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 738.67; currency: EUR; lead_time_days: 9; moq: 1; in_stock: yes"
+      },
+      {
+        "chunk_id": "catalogue.csv#row177",
+        "quote": "part_no: N-BG40-100-OE; description: Gland packing set, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 831.37; currency: EUR; lead_time_days: 18; moq: 4; in_stock: yes"
+      }
+    ]
+  },
+  {
+    "topic_id": "T3",
+    "topic": "Supplier comparisons",
+    "flagged": true,
+    "log": [
+      "overruled by code: the checker said unsupported (No chunk provides the price and lead time for the mechanical seal, 45 mm, carbon/ceramic, OEM.), but catalogue.csv#row49 lists an item the question names"
+    ],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "catalogue.csv#row49",
+        "quote": "part_no: N-CW150-010-OE; description: Mechanical seal, 45 mm, carbon/ceramic, OEM; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 1003.38; currency: EUR; lead_time_days: 12; moq: 1; in_stock: yes"
+      }
+    ]
+  },
+  {
+    "topic_id": "T4",
+    "topic": "Order totals",
+    "flagged": true,
+    "log": [
+      "overruled by code: the checker said unsupported (The chunks do not provide the unit prices or quantities for mechanical seals and impellers, which are needed to calculate the total cost.), but catalogue.csv#row10 lists an item the question names"
+    ],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "catalogue.csv#row10",
+        "quote": "part_no: N-BP200-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 426.16; currency: EUR; lead_time_days: 5; moq: 1; in_stock: no"
+      }
+    ]
+  },
+  {
+    "topic_id": "T5",
+    "topic": "Delivery times",
+    "flagged": false,
+    "log": [],
+    "verdict": "unsupported",
+    "missing": "No chunk mentions delivery times or port calls. The chunks discuss payment terms, lead times, and other policies but do not address delivery before a vessel's next port call.",
+    "evidence": []
+  },
+  {
+    "topic_id": "T6",
+    "topic": "Vessel port calls",
+    "flagged": false,
+    "log": [],
+    "verdict": "unsupported",
+    "missing": "No chunk mentions vessel port calls, port clearance times, or related operations.",
+    "evidence": []
+  }
+]

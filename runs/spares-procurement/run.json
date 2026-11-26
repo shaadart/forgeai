@@ -1,0 +1,8 @@
+{
+  "brief": "I need an assistant that helps purchasers and technical superintendents find spares for engines and pumps in our catalogue, compare suppliers on price and lead time, work out order totals, and say whether an order placed today can arrive before the vessel's next port call.",
+  "docs": "data/spares",
+  "unattended": true,
+  "answers": null,
+  "max_refits": 3,
+  "config": "forge.colab.toml"
+}

@@ -1,0 +1,150 @@
+[
+  {
+    "topic_id": "T1",
+    "topic": "Rest hours",
+    "flagged": false,
+    "log": [],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "company_crew_handbook#s2#c1",
+        "quote": "Every crew member receives at least 10 hours of rest in any 24-hour period and at least 77 hours in any seven-day period."
+      }
+    ]
+  },
+  {
+    "topic_id": "T2",
+    "topic": "Annual leave",
+    "flagged": false,
+    "log": [],
+    "verdict": "partial",
+    "missing": "The exact number of days of annual leave per year is not specified, as it depends on the total months of service in a year.",
+    "evidence": [
+      {
+        "chunk_id": "company_crew_handbook#s3#c1",
+        "quote": "Crew members accrue paid annual leave at 2.0 calendar days for each month of service."
+      }
+    ]
+  },
+  {
+    "topic_id": "T3",
+    "topic": "Wages",
+    "flagged": false,
+    "log": [],
+    "verdict": "unsupported",
+    "missing": "No chunk directly states the monthly wage or provides a clear method to determine an individual's monthly wage. The chunks discuss minimum wage guidelines, wage payment procedures, and conditions, but do not specify the actual monthly wage for an individual.",
+    "evidence": []
+  },
+  {
+    "topic_id": "T4",
+    "topic": "Repatriation",
+    "flagged": false,
+    "log": [],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p40.1#c2",
+        "quote": "the State of which they are a national may arrange for their repatriation and recover the cost from the Member whose flag the ship flies; (b) costs incurred in repatriating seafarers shall be recoverable from the shipowner by the Member whose flag the ship flies; (c) the expenses of repatriation shall in no case be a charge upon the seafarers, except as provided for in paragraph 3 of this Standard."
+      },
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p43.1#c2",
+        "quote": "to the repatriation destination. 4. Time spent awaiting repatriation and repatriation travel time should not be deducted from paid leave accrued to the seafarers. 5. Shipowners should be required to continue to cover the costs of repatriation until the seafarers concerned are landed at a destination prescribed pursuant to this Code or are provided with suitable employment on board a ship proceeding to one of those destinations. 6. Each Member should require that shipowners take responsibility for repatriation arrangements by appropriate and expeditious means. The normal mode of transport should be by air. The Member should prescribe the destinations to which seafarers may be repatriated. The destinations should include the countries with which the seafarers may be deemed to have a substantial connection including: (a) the place at which the seafarer agreed to enter into the engagement;"
+      },
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p43.1#c1",
+        "quote": "39 Conditions of employment (b) in the cases covered by Standard A2.5, paragraph 1(b) and (c): (i) in the event of illness or injury or other medical condition which requires their repatriation when found medically fit to travel; (ii) in the event of shipwreck; (iii) in the event of the shipowner not being able to continue to fulfil their legal or contractual obligations as an employer of the seafarers by reason of insolvency, sale of ship, change of ship’s registration or any other similar reason; (iv) in the event of a ship being bound for a war zone, as defined by national laws or regulations or seafarers’ employment agreements, to which the seafarer does not consent to go; and (v) in the event of termination or interruption of employment in accordance with an industrial award or collective agreement, or termination of employment for any other similar reason."
+      }
+    ]
+  },
+  {
+    "topic_id": "T5",
+    "topic": "Medical care",
+    "flagged": false,
+    "log": [],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "company_crew_handbook#s5#c1",
+        "quote": "Report illness or injury to the Master or the officer in charge of medical care at once. Medical care on board and ashore during the contract is free of charge to the crew member. A crew member may visit a qualified doctor or dentist in port without delay when practicable."
+      },
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p62.1#c1",
+        "quote": "Each Member shall ensure that all seafarers on ships that fly its flag are covered by adequate measures for the protection of their health and that they have access to prompt and adequate medical care whilst working on board."
+      },
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p62.2#c1",
+        "quote": "A crew member may visit a qualified medical doctor or dentist without delay in ports of call, where practicable."
+      }
+    ]
+  },
+  {
+    "topic_id": "T6",
+    "topic": "Complaints",
+    "flagged": false,
+    "log": [],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p96.1#c1",
+        "quote": "2. Each Member shall ensure that, in its laws or regulations, appropriate onboard complaint procedures are in place to meet the requirements of Regulation 5.1.5. Such procedures shall seek to resolve complaints at the lowest level possible. However, in all cases, seafarers shall have a right to complain directly to the master and, where they consider it necessary, to appropriate external authorities."
+      },
+      {
+        "chunk_id": "company_crew_handbook#s6#c1",
+        "quote": "# 7. Complaints Raise a complaint first with your head of department. If it is not settled within 7 days, take it to the Master. If the Master cannot settle it within 14 days, contact the DPA ashore. A crew member may be accompanied by another crew member and must not be victimised for complaining."
+      }
+    ]
+  },
+  {
+    "topic_id": "T7",
+    "topic": "Company crew policies",
+    "flagged": false,
+    "log": [],
+    "verdict": "supported",
+    "missing": "",
+    "evidence": [
+      {
+        "chunk_id": "company_crew_handbook#s2#c1",
+        "quote": "Every crew member receives at least 10 hours of rest in any 24-hour period and at least 77 hours in any seven-day period. Daily rest may be split into no more than two periods, one of which is at least 6 hours. Each crew member signs the record of rest hours at the end of every month and keeps a copy. Rest lost because of a drill or an emergency is made up with compensatory rest."
+      },
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p35.3#c1",
+        "quote": "Regulation 2.3 – Hours of work and hours of rest Purpose: To ensure that seafarers have regulated hours of work or hours of rest 1. Each Member shall ensure that the hours of work or hours of rest for seafarers are regulated. 2. Each Member shall establish maximum hours of work or minimum hours of rest over given periods that are consistent with the provisions in the Code."
+      },
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p35.4#c1",
+        "quote": "2. Each Member shall within the limits set out in paragraphs 5 to 8 of this Standard fix either a maximum number of hours of work which shall not be exceeded in a given period of time, or a minimum number of hours of rest which shall be provided in a given period of time. 3. Each Member acknowledges that the normal working hours’ standard for seafarers, like that for other workers, shall be based on an eight-hour day with one day of rest per week and rest on public holidays. However, this shall not prevent the Member from having procedures to authorize or register a collective agreement which determines seafarers’ normal working hours on a basis no less favourable than this Standard."
+      }
+    ]
+  },
+  {
+    "topic_id": "T8",
+    "topic": "Implementation of the Maritime Labour Convention, 2006",
+    "flagged": false,
+    "log": [],
+    "verdict": "unsupported",
+    "missing": "No specific information about the implementation of the Maritime Labour Convention, 2006 is provided in the given chunks. The chunks mainly contain general information about the convention and its amendments, but do not address the implementation details or requirements.",
+    "evidence": []
+  },
+  {
+    "topic_id": "T9",
+    "topic": "Company crew policies",
+    "flagged": false,
+    "log": [],
+    "verdict": "partial",
+    "missing": "The chunks do not provide specific policies or guidelines for the crew members' roles and responsibilities in the context of company crew policies, such as recruitment, placement, and health and safety management systems.",
+    "evidence": [
+      {
+        "chunk_id": "company_crew_handbook#s5#c1",
+        "quote": "Report illness or injury to the Master or the officer in charge of medical care at once. Medical care on board and ashore during the contract is free of charge to the crew member. A crew member may visit a qualified doctor or dentist in port without delay when practicable."
+      },
+      {
+        "chunk_id": "mlc_2006_consolidated_2022#p70.2#c1",
+        "quote": "Standard A4.3 – Health and safety protection and accident prevention 1. The laws and regulations and other measures to be adopted in accordance with Regulation 4.3, paragraph 3, shall include the following subjects: (a) the adoption and effective implementation and promotion of occupational safety and health policies and programmes on ships that fly the Member’s flag, including risk evaluation as well as training and instruction of seafarers; (b) reasonable precautions to prevent occupational accidents, injuries and diseases on board ship, including through the provision of all necessary appropriately-sized personal protective equipment and measures to reduce and prevent the risk of exposure to harmful levels of ambient factors and chemicals, as well as the risk of injury or disease that may arise from the use of equipment and machinery on board ships; (c) on-board programmes for the prevention of occupational accidents, injuries and diseases and for continuous improvement in occupational safety and health protection, involving seafarers’ representatives and all other persons concerned in their implementation, taking account of preventive measures, including engineering and design control, substitution of processes and procedures for collective and individual tasks, and the use of personal protective equipment; and (d) requirements for inspecting, reporting and correcting unsafe conditions and for investigating and reporting on-board occupational accidents."
+      }
+    ]
+  }
+]

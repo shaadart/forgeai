@@ -1,0 +1,983 @@
+{
+  "T01": {
+    "case_id": "T01",
+    "state": "passed",
+    "turn": {
+      "status": "answered",
+      "answer": "The seafarer must be entitled to repatriation in the case covered by Standard A2.5, paragraph 1(a), upon the expiry of the period of notice given in accordance with the provisions of the seafarers’ employment agreement. Additionally, the seafarer must meet one of the following conditions: (i) in the event of illness or injury or other medical condition which requires their repatriation when found medically fit to travel; (ii) in the event of shipwreck; (iii) in the event of the shipowner not being able to continue to fulfil their legal or contractual obligations as an employer of the seafarers by reason of insolvency, sale of ship, change of ship’s registration or any other similar reason; (iv) in the event of a ship being bound for a war zone, as defined by national laws or regulations or seafarers’ employment agreements, to which the seafarer does not consent to go; and (v) in the event of termination or interruption of employment in accordance with an industrial award or collective agreement, or termination of employment for any other similar reason. [C1] (file: mlc_2006_consolidated_2022.pdf) \"Seafarers should be entitled to repatriation: (a) in the case covered by Standard A2.5, paragraph 1(a), upon the expiry of the period of notice given in accordance with the provisions of the seafarers’ employment agreement;\" [C3] (file: mlc_2006_consolidated_2022.pdf) \"(i) in the event of illness or injury or other medical condition which requires their repatriation when found medically fit to travel; (ii) in the event of shipwreck; (iii) in the event of the shipowner not being able to continue to fulfil their legal or contractual obligations as an employer of the seafarers by reason of insolvency, sale of ship, change of ship’s registration or any other similar reason; (iv) in the event of a ship being bound for a war zone, as defined by national laws or regulations or seafarers’ employment agreements, to which the seafarer does not consent to go; and (v) in the event of termination or interruption of employment in accordance with an industrial award or collective agreement, or termination of employment for any other similar reason.\"",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p42.2#c1",
+          "quote": "Seafarers should be entitled to repatriation: (a) in the case covered by Standard A2.5, paragraph 1(a), upon the expiry of the period of notice given in accordance with the provisions of the seafarers’ employment agreement;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p43.1#c1",
+          "quote": "(i) in the event of illness or injury or other medical condition which requires their repatriation when found medically fit to travel; (ii) in the event of shipwreck; (iii) in the event of the shipowner not being able to continue to fulfil their legal or contractual obligations as an employer of the seafarers by reason of insolvency, sale of ship, change of ship’s registration or any other similar reason; (iv) in the event of a ship being bound for a war zone, as defined by national laws or regulations or seafarers’ employment agreements, to which the seafarer does not consent to go; and (v) in the event of termination or interruption of employment in accordance with an industrial award or collective agreement, or termination of employment for any other similar reason."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p42.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.5 – Repatriation Guideline B2.5.1 – Entitlement 1. Seafarers should be entitled to repatriation: (a) in the case covered by Standard A2.5, paragraph 1(a), upon the expiry of the period of notice given in accordance with the provisions of the seafarers’ employment agreement;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p39.5#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A2.5.1 – Repatriation 1. Each Member shall ensure that seafarers on ships that fly its flag are entitled to repatriation in the following circumstances:"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p43.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "39 Conditions of employment (b) in the cases covered by Standard A2.5, paragraph 1(b) and (c): (i) in the event of illness or injury or other medical condition which requires their repatriation when found medically fit to travel; (ii) in the event of shipwreck; (iii) in the event of the shipowner not being able to continue to fulfil their legal or contractual obligations as an employer of the seafarers by reason of insolvency, sale of ship, change of ship’s registration or any other similar reason; (iv) in the event of a ship being bound for a war zone, as defined by national laws or regulations or seafarers’ employment agreements, to which the seafarer does not consent to go; and (v) in the event of termination or interruption of employment in accordance with an industrial award or collective agreement, or termination of employment for any other similar reason. 2. In determining the maximum duration of service periods on board following which a seafarer is entitled to repatriation, in accordance with this Code, account should be taken of factors affecting the seafarers’ working environment. Each Member should seek, wherever possible, to reduce these periods in the light of technological changes and developments and might be guided by any recommendations made on the matter by the Joint Maritime Commission. 3. The costs to be borne by the shipowner for repatriation under Standard A2.5 should include at least the following: (a) passage to the destination selected for repatriation in accordance with paragraph 6 of this Guideline; (b) accommodation and food from the moment the seafarers leave the ship until they reach the repatriation destination; (c) pay and allowances from the moment the seafarers leave the ship until they reach the repatriation destination, if provided for by national laws or regulations or collective agreements; (d) transportation of 30 kg of the seafarers’ personal luggage to the repatriation destination; and (e) medical treatment when necessary until the seafarers are medically fit to travel to the repatriation destination. 4. Time spent awaiting repatriation and repatriation travel time should not be deducted from paid leave accrued to the seafarers. 5. Shipowners should be required to continue to cover the costs of repatriation"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p40.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "36 Maritime Labour Convention, 2006 (a) if the seafarers’ employment agreement expires while they are abroad; (b) when the seafarers’ employment agreement is terminated: (i) by the shipowner; or (ii) by the seafarer for justified reasons; and also (c) when the seafarers are no longer able to carry out their duties under their employment agreement or cannot be expected to carry them out in the specific circumstances. 2. Each Member shall ensure that there are appropriate provisions in its laws and regulations or other measures or in collective bargaining agreements, prescribing: (a) the circumstances in which seafarers are entitled to repatriation in accordance with paragraph 1(b) and (c) of this Standard; (b) the maximum duration of service periods on board following which a seafarer is entitled to repatriation – such periods to be less than 12 months; and (c) the precise entitlements to be accorded by shipowners for repatriation, including those relating to the destinations of repatriation, the mode of transport, the items of expense to be covered and other arrangements to be made by shipowners. 3. Each Member shall prohibit shipowners from requiring that seafarers make an advance payment towards the cost of repatriation at the beginning of their employment, and also from recovering the cost of repatriation from the seafarers’ wages or other entitlements except where the seafarer has been found, in accordance with national laws or regulations or other measures or applicable collective bargaining agreements, to be in serious default of the seafarer’s employment obligations. 4. National laws and regulations shall not prejudice any right of the shipowner to recover the cost of repatriation under third-party contractual arrangements. 5. If a shipowner fails to make arrangements for or to meet the cost of repatriation of seafarers who are entitled to be repatriated: (a) the competent authority of the Member whose flag the ship flies shall arrange for repatriation of the seafarers concerned; if it fails to do so, the State from which the seafarers are to be repatriated or the State of which they are a national may arrange for their repatriation and recover the cost from the Member whose flag the ship flies; (b) costs incurred in repatriating seafarers shall be recoverable from the shipowner"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p41.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "37 Conditions of employment 8. In particular, a Member shall not refuse the right of repatriation to any seafarer because of the financial circumstances of a shipowner or because of the shipowner’s inability or unwillingness to replace a seafarer. 9. Members shall facilitate the prompt repatriation of seafarers, including when they are deemed abandoned within the meaning of Standard A2.5.2, paragraph 2. Port States, flag States and labour-supplying States shall cooperate to ensure that seafarers engaged on a ship to replace seafarers who have been abandoned in their territory, or on a ship flying their flag, shall be accorded their rights and entitlements under this Convention. 10. Each Member shall require that ships that fly its flag carry and make available to seafarers a copy of the applicable national provisions regarding repatriation written in an appropriate language."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 346
+  },
+  "T02": {
+    "case_id": "T02",
+    "state": "passed",
+    "turn": {
+      "status": "refused",
+      "answer": "I cannot help with wages. Try rephrasing your question or ask your manager or the responsible department.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p43.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "to the repatriation destination. 4. Time spent awaiting repatriation and repatriation travel time should not be deducted from paid leave accrued to the seafarers. 5. Shipowners should be required to continue to cover the costs of repatriation until the seafarers concerned are landed at a destination prescribed pursuant to this Code or are provided with suitable employment on board a ship proceeding to one of those destinations. 6. Each Member should require that shipowners take responsibility for repatriation arrangements by appropriate and expeditious means. The normal mode of transport should be by air. The Member should prescribe the destinations to which seafarers may be repatriated. The destinations should include the countries with which seafarers may be deemed to have a substantial connection including: (a) the place at which the seafarer agreed to enter into the engagement;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p40.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "the State of which they are a national may arrange for their repatriation and recover the cost from the Member whose flag the ship flies; (b) costs incurred in repatriating seafarers shall be recoverable from the shipowner by the Member whose flag the ship flies; (c) the expenses of repatriation shall in no case be a charge upon the seafarers, except as provided for in paragraph 3 of this Standard. 6. Taking into account applicable international instruments, including the International Convention on Arrest of Ships, 1999, a Member which has paid the cost of repatriation pursuant to this Code may detain, or request the detention of, the ships of the shipowner concerned until the reimbursement has been made in accordance with paragraph 5 of this Standard. 7. Each Member shall facilitate the repatriation of seafarers serving on ships which call at its ports or pass through its territorial or internal waters, as well as their replacement on board."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p42.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "38 Maritime Labour Convention, 2006 8. Assistance provided by the financial security system shall be granted promptly upon request made by the seafarer or the seafarer’s nominated representative and supported by the necessary justification of entitlement in accordance with paragraph 2 above. 9. Having regard to Regulations 2.2 and 2.5, assistance provided by the financial security system shall be sufficient to cover the following: (a) outstanding wages and other entitlements due from the shipowner to the seafarer under their employment agreement, the relevant collective bargaining agreement or the national law of the flag State, limited to four months of any such outstanding wages and four months of any such outstanding entitlements; (b) all expenses reasonably incurred by the seafarer, including the cost of repatriation referred to in paragraph 10; and (c) the essential needs of the seafarer including such items as: adequate food, clothing where necessary, accommodation, drinking water supplies, essential fuel for survival on board the ship, necessary medical care and any other reasonable costs or charges from the act or omission constituting the abandonment until the seafarer’s arrival at home. 10. The cost of repatriation shall cover travel by appropriate and expeditious means, normally by air, and include provision for food and accommodation of the seafarer from the time of leaving the ship until arrival at the seafarer’s home, necessary medical care, passage and transport of personal effects and any other reasonable costs or charges arising from the abandonment. 11. The financial security shall not cease before the end of the period of validity of the financial security unless the financial security provider has given prior notification of at least 30 days to the competent authority of the flag State. 12. If the provider of insurance or other financial security has made any payment to any seafarer in accordance with this Standard, such provider shall, up to the amount it has paid and in accordance with the applicable law, acquire by subrogation, assignment or otherwise, the rights which the seafarer would have enjoyed. 13. Nothing in this Standard shall prejudice any right of recourse of the insurer or provider of financial security against third parties."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p45.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.6 – Seafarer compensation for the ship’s loss or foundering Guideline B2.6.1 – Calculation of indemnity against unemployment 1. The indemnity against unemployment resulting from a ship’s foundering or loss should be paid for the days during which the seafarer remains in fact unemployed at the same rate as the wages payable under the employment agreement, but the total indemnity payable to any one seafarer may be limited to two months’ wages. 2. Each Member should ensure that seafarers have the same legal remedies for recovering such indemnities as they have for recovering arrears of wages earned during the service."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p33.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "for work performed on the weekly day of rest and on public holidays by at least equivalent time off duty and off the ship or additional leave in lieu of remuneration or any other compensation so provided. 4. National laws and regulations adopted after consulting the representative shipowners’ and seafarers’ organizations or, as appropriate, collective agreements should take into account the following principles: (a) equal remuneration for work of equal value should apply to all seafarers employed on the same ship without discrimination based upon race, colour, sex, religion, political opinion, national extraction or social origin; (b) the seafarers’ employment agreement specifying the applicable wages or wage rates should be carried on board the ship; information on the amount of wages or wage rates should be made available to each seafarer, either by providing at least one signed copy of the relevant information to the seafarer in a language which the seafarer understands, or by posting a copy of the agreement in a place accessible to seafarers or by some other appropriate means; (c) wages should be paid in legal tender; where appropriate, they may be paid by bank transfer, bank cheque, postal cheque or money order;"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 17
+  },
+  "T03": {
+    "case_id": "T03",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I can't find that in the Maritime Labour Convention, 2006. Try rephrasing, or ask your manager or the responsible department.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p26.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "22 Maritime Labour Convention, 2006 7. The competent authority shall ensure that adequate machinery and procedures exist for the investigation, if necessary, of complaints concerning the activities of seafarer recruitment and placement services, involving, as appropriate, representatives of shipowners and seafarers. 8. Each Member which has ratified this Convention shall, in so far as practicable, advise its nationals on the possible problems of signing on a ship that flies the flag of a State which has not ratified the Convention, until it is satisfied that standards equivalent to those fixed by this Convention are being applied. Measures taken to this effect by the Member that has ratified this Convention shall not be in contradiction with the principle of free movement of workers stipulated by the treaties to which the two States concerned may be parties. 9. Each Member which has ratified this Convention shall require that shipowners of ships that fly its flag, who use seafarer recruitment and placement services based in countries or territories in which this Convention does not apply, ensure, as far as practicable, that those services meet the requirements of this Standard. 10. Nothing in this Standard shall be understood as diminishing the obligations and responsibilities of shipowners or of a Member with respect to ships that fly its flag."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p1.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "INTERNATIONAL LABOUR CONFERENCE MARITIME LABOUR CONVENTION, 2006, as amended X Including 2022 amendments"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p22.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "18 Maritime Labour Convention, 2006 Regulation 1.2 – Medical certificate Purpose: To ensure that all seafarers are medically fit to perform their duties at sea 1. Seafarers shall not work on a ship unless they are certified as medically fit to perform their duties. 2. Exceptions can only be permitted as prescribed in the Code."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p8.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "4 Maritime Labour Convention, 2006 matter is dealt with differently by national laws or regulations or collective bargaining agreements or other measures. Such a determination may only be made in consultation with the shipowners’ and seafarers’ organizations concerned and may only be made with respect to ships of less than 200 gross tonnage not engaged in international voyages. 7. Any determinations made by a Member under paragraph 3 or 5 or 6 of this Article shall be communicated to the Director-General of the International Labour Office, who shall notify the Members of the Organization. 8. Unless expressly provided otherwise, a reference to this Convention constitutes at the same time a reference to the Regulations and the Code. Fundamental rights and principles"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p24.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "20 Maritime Labour Convention, 2006 Regulation 1.4 – Recruitment and placement Purpose: To ensure that seafarers have access to an efficient and well-regulated seafarer recruitment and placement system 1. All seafarers shall have access to an efficient, adequate and accountable system for finding employment on board ship without charge to the seafarer. 2. Seafarer recruitment and placement services operating in a Member’s territory shall conform to the standards set out in the Code. 3. Each Member shall require, in respect of seafarers who work on ships that fly its flag, that shipowners who use seafarer recruitment and placement services that are based in countries or territories in which this Convention does not apply, ensure that those services conform to the requirements set out in the Code."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "the two judge passes disagree"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [
+      "The user should rephrase the question or ask their manager or the responsible department."
+    ],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 20
+  },
+  "T04": {
+    "case_id": "T04",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "According to the Maritime Labour Convention, 2006, the key points regarding on-board complaint procedures for seafarers are: seafarers have the right to lodge complaints relating to any matter that is alleged to constitute a breach of the Convention's requirements, including seafarers' rights. The on-board procedures should be fair, effective, and expeditious, and seafarers should be able to complain directly to the master and externally. The procedures should also encourage the nomination of a person on board who can advise seafarers on the procedures available to them and attend meetings or hearings if requested. Seafarers have the right to be accompanied and represented by another seafarer of their choice on board the ship. The procedures should be well-documented and provide a proper opportunity for the master, shipowner, and other persons involved to make known their views. [C1] \"1. Each Member shall require that ships that fly its flag have on-board procedures for the fair, effective and expeditious handling of seafarer complaints alleging breaches of the requirements of this Convention (including seafarers’ rights).\", [C2] \"1. Without prejudice to any wider scope that may be given in national laws or regulations or collective agreements, the on-board procedures may be used by seafarers to lodge complaints relating to any matter that is alleged to constitute a breach of the requirements of this Convention (including seafarers’ rights).\", [C5] \"1. Subject to any relevant provisions of an applicable collective agreement, the competent authority should, in close consultation with shipowners’ and seafarers’ organizations, develop a model for fair, expeditious and well-documented on-board complaint-handling procedures for all ships that fly the Member’s flag.\", [C5] \"2. At a minimum the procedures discussed during the consultative process referred to in paragraph 1 of this Guideline should include the following: (a) complaints should be addressed to the head of the department of the seafarer lodging the complaint or to the seafarer’s superior officer; (b) the head of department or superior officer should then attempt to resolve the matter within prescribed time limits appropriate to the seriousness of the issues involved; (c) if the head of department or superior officer cannot resolve the complaint to the satisfaction of the seafarer, the latter may refer it to the master, who should handle the matter personally; (d) seafarers should at all times have the right to be accompanied and to be represented by another seafarer of their choice on board the ship concerned;\"",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p95.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Regulation 5.1.5 – On-board complaint procedures 1. Each Member shall require that ships that fly its flag have on-board procedures for the fair, effective and expeditious handling of seafarer complaints alleging breaches of the requirements of this Convention (including seafarers’ rights). 2. Each Member shall prohibit and penalize any kind of victimization of a seafarer for filing a complaint. 3. The provisions in this Regulation and related sections of the Code are without prejudice to a seafarer’s right to seek redress through whatever legal means the seafarer considers appropriate."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p95.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A5.1.5 – On-board complaint procedures 1. Without prejudice to any wider scope that may be given in national laws or regulations or collective agreements, the on-board procedures may be used by seafarers to lodge complaints relating to any matter that is alleged to constitute a breach of the requirements of this Convention (including seafarers’ rights)."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p100.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A5.2.2 – Onshore seafarer complaint-handling procedures 1. A complaint by a seafarer alleging a breach of the requirements of this Convention (including seafarers’ rights) may be reported to an authorized officer in the port at which the seafarer’s ship has called. In such cases, the authorized officer shall undertake an initial investigation. 2. Where appropriate, given the nature of the complaint, the initial investigation shall include consideration of whether the on-board complaint procedures provided under Regulation 5.1.5 have been explored. The authorized officer may also conduct a more detailed inspection in accordance with Standard A5.2.1. 3. The authorized officer shall, where appropriate, seek to promote a resolution of the complaint at the ship-board level. 4. In the event that the investigation or the inspection provided under this Standard reveals a non-conformity that falls within the scope of paragraph 6 of"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p101.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B5.2.2 – Onshore seafarer complaint-handling procedures 1. Where a complaint referred to in Standard A5.2.2 is dealt with by an authorized officer, the officer should first check whether the complaint is of a general nature which concerns all seafarers on the ship, or a category of them, or whether it relates only to the individual case of the seafarer concerned. 2. If the complaint is of a general nature, consideration should be given to undertaking a more detailed inspection in accordance with Standard A5.2.1. 3. If the complaint relates to an individual case, an examination of the results of any on-board complaint procedures for the resolution of the complaint concerned should be undertaken. If such procedures have not been explored, the authorized officer should suggest that the complainant take advantage of any such procedures available. There should be good reasons for considering a complaint before any on-board complaint procedures have been explored. These would include the inadequacy of, or undue delay in, the internal procedures or the complainant’s fear of reprisal for lodging a complaint. 4. In any investigation of a complaint, the authorized officer should give the master, the shipowner and any other person involved in the complaint a proper opportunity to make known their views. 5. In the event that the flag State demonstrates, in response to the notification by the port State in accordance with paragraph 5 of Standard A5.2.2, that it will handle the matter, and that it has in place effective procedures for this purpose and has submitted an acceptable plan of action, the authorized officer may refrain from any further involvement with the complaint."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p96.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B5.1.5 – On-board complaint procedures 1. Subject to any relevant provisions of an applicable collective agreement, the competent authority should, in close consultation with shipowners’ and seafarers’ organizations, develop a model for fair, expeditious and well-documented on-board complaint-handling procedures for all ships that fly the Member’s flag. In developing these procedures the following matters should be considered: (a) many complaints may relate specifically to those individuals to whom the complaint is to be made or even to the master of the ship. In all cases seafarers should also be able to complain directly to the master and to make a complaint externally; and (b) in order to help avoid problems of victimization of seafarers making complaints about matters under this Convention, the procedures should encourage the nomination of a person on board who can advise seafarers on the procedures available to them and, if requested by the complainant seafarer, also attend any meetings or hearings into the subject matter of the complaint. 2. At a minimum the procedures discussed during the consultative process referred to in paragraph 1 of this Guideline should include the following: (a) complaints should be addressed to the head of the department of the seafarer lodging the complaint or to the seafarer’s superior officer; (b) the head of department or superior officer should then attempt to resolve the matter within prescribed time limits appropriate to the seriousness of the issues involved; (c) if the head of department or superior officer cannot resolve the complaint to the satisfaction of the seafarer, the latter may refer it to the master, who should handle the matter personally; (d) seafarers should at all times have the right to be accompanied and to be represented by another seafarer of their choice on board the ship concerned;"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "the two judge passes disagree"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [
+      "The procedures should be well-documented and provide a proper opportunity for the master, shipowner, and other persons involved to make known their views."
+    ],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": true,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 395
+  },
+  "T05": {
+    "case_id": "T05",
+    "state": "passed",
+    "turn": {
+      "status": "refused",
+      "answer": "I cannot help with wages. Try rephrasing, or ask your manager or the responsible department.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p38.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "34 Maritime Labour Convention, 2006 Standard A2.4 – Entitlement to leave 1. Each Member shall adopt laws and regulations determining the minimum standards for annual leave for seafarers serving on ships that fly its flag, taking proper account of the special needs of seafarers with respect to such leave. 2. Subject to any collective agreement or laws or regulations providing for an appropriate method of calculation that takes account of the special needs of seafarers in this respect, the annual leave with pay entitlement shall be calculated on the basis of a minimum of 2.5 calendar days per month of employment. The manner in which the length of service is calculated shall be determined by the competent authority or through the appropriate machinery in each country. Justified absences from work shall not be considered as annual leave. 3. Any agreement to forgo the minimum annual leave with pay prescribed in this Standard, except in cases provided for by the competent authority, shall be prohibited."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p35.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.2.4 – Minimum monthly basic pay or wage figure for able seafarers 1. The basic pay or wages for a calendar month of service for an able seafarer should be no less than the amount periodically set by the Joint Maritime Commission or another body authorized by the Governing Body of the International Labour Office. Upon a decision of the Governing Body, the Director-General shall notify any revised amount to the Members of the Organization. 2. Nothing in this Guideline should be deemed to prejudice arrangements agreed between shipowners or their organizations and seafarers’ organizations with regard to the regulation of standard minimum terms and conditions of employment, provided such terms and conditions are recognized by the competent authority."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p24.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "20 Maritime Labour Convention, 2006 Regulation 1.4 – Recruitment and placement Purpose: To ensure that seafarers have access to an efficient and well-regulated seafarer recruitment and placement system 1. All seafarers shall have access to an efficient, adequate and accountable system for finding employment on board ship without charge to the seafarer. 2. Seafarer recruitment and placement services operating in a Member’s territory shall conform to the standards set out in the Code. 3. Each Member shall require, in respect of seafarers who work on ships that fly its flag, that shipowners who use seafarer recruitment and placement services that are based in countries or territories in which this Convention does not apply, ensure that those services conform to the requirements set out in the Code."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p28.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "24 Maritime Labour Convention, 2006 (j) procedures to ensure that requests for information or advice by families of seafarers while the seafarers are at sea are dealt with promptly and sympathetically and at no cost; and (k) verifying that labour conditions on ships where seafarers are placed are in conformity with applicable collective bargaining agreements concluded between a shipowner and a representative seafarers’ organization and, as a matter of policy, supplying seafarers only to shipowners that offer terms and conditions of employment to seafarers which comply with applicable laws or regulations or collective agreements. 3. Consideration should be given to encouraging international cooperation between Members and relevant organizations, such as: (a) the systematic exchange of information on the maritime industry and labour market on a bilateral, regional and multilateral basis; (b) the exchange of information on maritime labour legislation; (c) the harmonization of policies, working methods and legislation governing recruitment and placement of seafarers; (d) the improvement of procedures and conditions for the international recruitment and placement of seafarers; and (e) workforce planning, taking account of the supply of and demand for seafarers and the requirements of the maritime industry."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p32.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "28 Maritime Labour Convention, 2006 (a) a system for enabling seafarers, at the time of their entering employment or during it, to allot, if they so desire, a proportion of their wages for remittance at regular intervals to their families by bank transfers or similar means; and (b) a requirement that allotments should be remitted in due time and directly to the person or persons nominated by the seafarers. 5. Any charge for the service under paragraphs 3 and 4 of this Standard shall be reasonable in amount, and the rate of currency exchange, unless otherwise provided, shall, in accordance with national laws or regulations, be at the prevailing market rate or the official published rate and not unfavourable to the seafarer. 6. Member that adopts national laws or regulations governing seafarers’ wages shall give due consideration to the guidance provided in Part B of the Code. 7. Where a seafarer is held captive on or off the ship as a result of acts of piracy or armed robbery against ships, wages and other entitlements under the seafarers’ employment agreement, relevant collective bargaining agreement or applicable national laws, including the remittance of any allotments as provided in paragraph 4 of this Standard, shall continue to be paid during the entire period of captivity and until the seafarer is released and duly repatriated in accordance with Standard A2.5.1 or, where the seafarer dies while in captivity, until the date of death as determined in accordance with applicable national laws or regulations. The terms piracy and armed robbery against ships shall have the same meaning as in Standard A2.1, paragraph 7."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 15
+  },
+  "T06": {
+    "case_id": "T06",
+    "state": "failed",
+    "turn": {
+      "status": "answered",
+      "answer": "No, according to the Maritime Labour Convention, 2006, a ship's crew member cannot be punished for complaining about poor working conditions. The Convention states that there should be safeguards against the possibility of victimization of seafarers for filing complaints (Regulation 92, paragraph 3).",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p96.1#c1",
+          "quote": "The term “victimization” covers any adverse action taken by any person with respect to a seafarer for lodging a complaint which is not manifestly vexatious or maliciously made."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p98.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A5.2.1 – Inspections in port 1. Where an authorized officer, having come on board to carry out an inspection and requested, where applicable, the maritime labour certificate and the declaration of maritime labour compliance, finds that: (a) the required documents are not produced or maintained or are falsely maintained or that the documents produced do not contain the information required by this Convention or are otherwise invalid; or (b) there are clear grounds for believing that the working and living conditions on the ship do not conform to the requirements of this Convention; or (c) there are reasonable grounds to believe that the ship has changed flag for the purpose of avoiding compliance with this Convention; or (d) there is a complaint alleging that specific working and living conditions on the ship do not conform to the requirements of this Convention; a more detailed inspection may be carried out to ascertain the working and living conditions on board the ship. Such inspection shall in any case be carried out where the working and living conditions believed or alleged to be defective could constitute a clear hazard to the safety, health or security of seafarers or where the authorized officer has grounds to believe that any deficiencies constitute a serious breach of the requirements of this Convention (including seafarers’ rights). 2. Where a more detailed inspection is carried out on a foreign ship in the port of a Member by authorized officers in the circumstances set out in subparagraph (a), (b) or (c) of paragraph 1 of this Standard, it shall in principle cover the matters listed in Appendix A5-III. 3. In the case of a complaint under paragraph 1(d) of this Standard, the inspection shall generally be limited to matters within the scope of the complaint, although a complaint, or its investigation, may provide clear grounds for a detailed inspection in accordance with paragraph 1(b) of this Standard. For the purpose of paragraph 1(d) of this Standard, “complaint” means information submitted by a seafarer, a professional body, an association, a trade union or, generally, any person with an interest in the safety of the ship, including an interest in safety or health hazards to seafarers on board."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p96.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B5.1.5 – On-board complaint procedures 1. Subject to any relevant provisions of an applicable collective agreement, the competent authority should, in close consultation with shipowners’ and seafarers’ organizations, develop a model for fair, expeditious and well-documented on-board complaint-handling procedures for all ships that fly the Member’s flag. In developing these procedures the following matters should be considered: (a) many complaints may relate specifically to those individuals to whom the complaint is to be made or even to the master of the ship. In all cases seafarers should also be able to complain directly to the master and to make a complaint externally; and (b) in order to help avoid problems of victimization of seafarers making complaints about matters under this Convention, the procedures should encourage the nomination of a person on board who can advise seafarers on the procedures available to them and, if requested by the complainant seafarer, also attend any meetings or hearings into the subject matter of the complaint. 2. At a minimum the procedures discussed during the consultative process referred to in paragraph 1 of this Guideline should include the following: (a) complaints should be addressed to the head of the department of the seafarer lodging the complaint or to the seafarer’s superior officer; (b) the head of department or superior officer should then attempt to resolve the matter within prescribed time limits appropriate to the seriousness of the issues involved; (c) if the head of department or superior officer cannot resolve the complaint to the satisfaction of the seafarer, the latter may refer it to the master, who should handle the matter personally; (d) seafarers should at all times have the right to be accompanied and to be represented by another seafarer of their choice on board the ship concerned;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p45.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "41 Conditions of employment Regulation 2.6 – Seafarer compensation for the ship’s loss or foundering Purpose: To ensure that seafarers are compensated when a ship is lost or has foundered 1. Seafarers are entitled to adequate compensation in the case of injury, loss or unemployment arising from the ship’s loss or foundering."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p96.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "92 Maritime Labour Convention, 2006 2. Each Member shall ensure that, in its laws or regulations, appropriate onboard complaint procedures are in place to meet the requirements of Regulation 5.1.5. Such procedures shall seek to resolve complaints at the lowest level possible. However, in all cases, seafarers shall have a right to complain directly to the master and, where they consider it necessary, to appropriate external authorities. 3. The on-board complaint procedures shall include the right of the seafarer to be accompanied or represented during the complaints procedure, as well as safeguards against the possibility of victimization of seafarers for filing complaints. The term “victimization” covers any adverse action taken by any person with respect to a seafarer for lodging a complaint which is not manifestly vexatious or maliciously made. 4. In addition to a copy of their seafarers’ employment agreement, all seafarers shall be provided with a copy of the on-board complaint procedures applicable on the ship. This shall include contact information for the competent authority in the flag State and, where different, in the seafarers’ country of residence, and the name of a person or persons on board the ship who can, on a confidential basis, provide seafarers with impartial advice on their complaint and otherwise assist them in following the complaint procedures available to them on board the ship."
+        },
+        {
+          "chunk_id": "company_crew_handbook#s6#c1",
+          "doc": "company_crew_handbook.docx",
+          "text": "# 7. Complaints Raise a complaint first with your head of department. If it is not settled within 7 days, take it to the Master. If the Master cannot settle it within 14 days, contact the DPA ashore. A crew member may be accompanied by another crew member and must not be victimised for complaining."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "check 2: expected to refuse, status was answered"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 43
+  },
+  "T07": {
+    "case_id": "T07",
+    "state": "passed",
+    "turn": {
+      "status": "answered",
+      "answer": "According to the text, recruitment agencies must provide the following services to seafarers: medical examinations, seafarers' identity documents, and other items required for employment. They must also maintain full and complete records of the seafarers, including qualifications, employment history, personal data, and medical data. Additionally, they must maintain up-to-date lists of ships they provide seafarers for and ensure that there is a means for seafarers to contact them in an emergency. They must also prevent exploitation, clearly publicize costs, advise seafarers of job conditions and shipowner policies, and verify employment references. Furthermore, they must ensure that seafarers are not subject to exploitation and that there are procedures in place to deal with cases of incompetence or indiscipline. [C2] (file: mlc_2006_consolidated_2022.pdf) \"(b) maintaining, with due regard to the right to privacy and the need to protect confidentiality, full and complete records of the seafarers covered by their recruitment and placement system, which should include but not be limited to: (i) the seafarers’ qualifications; (ii) record of employment; (iii) personal data relevant to employment; and (iv) medical data relevant to employment; (c) maintaining up-to-date lists of the ships for which the seafarer recruitment and placement services provide seafarers and ensuring that there is a means by which the services can be contacted in an emergency at all hours; (d) procedures to ensure that seafarers are not subject to exploitation by the seafarer recruitment and placement services or their personnel with regard to the offer of engagement on particular ships or by particular companies; (e) procedures to prevent the opportunities for exploitation of seafarers arising from the issue of joining advances or any other financial transaction between the shipowner and the seafarers which are handled by the seafarer recruitment and placement services; (f) clearly publicizing costs, if any, which the seafarer will be expected to bear in the recruitment process; (g) ensuring that seafarers are advised of any particular conditions applicable to the job for which they are to be engaged and of the particular shipowner’s policies relating to their employment; (h) procedures which are in accordance with the principles of natural justice for dealing with cases of incompetence or indiscipline consistent with national laws and practice and, where applicable, with collective agreements; (i) procedures to ensure, as far as practicable, that all mandatory certificates and documents submitted for employment are up to date and have not been fraudulently obtained and that employment references are verified;\"",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p24.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "20 Maritime Labour Convention, 2006 Regulation 1.4 – Recruitment and placement Purpose: To ensure that seafarers have access to an efficient and well-regulated seafarer recruitment and placement system 1. All seafarers shall have access to an efficient, adequate and accountable system for finding employment on board ship without charge to the seafarer. 2. Seafarer recruitment and placement services operating in a Member’s territory shall conform to the standards set out in the Code. 3. Each Member shall require, in respect of seafarers who work on ships that fly its flag, that shipowners who use seafarer recruitment and placement services that are based in countries or territories in which this Convention does not apply, ensure that those services conform to the requirements set out in the Code."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p27.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "23 Minimum requirements for seafarers to work on a ship ship’s safe navigation and pollution prevention operations have had adequate training, including approved sea-service experience, and have relevant knowledge of the maritime industry, including the relevant maritime international instruments on training, certification and labour standards; (g) prescribing operational standards and adopting codes of conduct and ethical practices for seafarer recruitment and placement services; and (h) exercising supervision of the licensing or certification system on the basis of a system of quality standards. 2. In establishing the system referred to in Standard A1.4, paragraph 2, each Member should consider requiring seafarer recruitment and placement services, established in its territory, to develop and maintain verifiable operational practices. These operational practices for private seafarer recruitment and placement services and, to the extent that they are applicable, for public seafarer recruitment and placement services should address the following matters: (a) medical examinations, seafarers’ identity documents and such other items as may be required for the seafarer to gain employment; (b) maintaining, with due regard to the right to privacy and the need to protect confidentiality, full and complete records of the seafarers covered by their recruitment and placement system, which should include but not be limited to: (i) the seafarers’ qualifications; (ii) record of employment; (iii) personal data relevant to employment; and (iv) medical data relevant to employment; (c) maintaining up-to-date lists of the ships for which the seafarer recruitment and placement services provide seafarers and ensuring that there is a means by which the services can be contacted in an emergency at all hours; (d) procedures to ensure that seafarers are not subject to exploitation by the seafarer recruitment and placement services or their personnel with regard to the offer of engagement on particular ships or by particular companies; (e) procedures to prevent the opportunities for exploitation of seafarers arising from the issue of joining advances or any other financial transaction between the shipowner and the seafarers which are handled by the seafarer recruitment and placement services; (f) clearly publicizing costs, if any, which the seafarer will be expected to bear in the recruitment process; (g) ensuring that seafarers are advised of any particular conditions applicable to the"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p26.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B1.4 – Recruitment and placement Guideline B1.4.1 – Organizational and operational guidelines 1. When fulfilling its obligations under Standard A1.4, paragraph 1, the compe-tent authority should consider: (a) taking the necessary measures to promote effective cooperation among seafarer recruitment and placement services, whether public or private; (b) the needs of the maritime industry at both the national and international levels, when developing training programmes for seafarers that form the part of the ship’s crew that is responsible for the ship’s safe navigation and pollution prevention operations, with the participation of shipowners, seafarers and the relevant training institutions; (c) making suitable arrangements for the cooperation of representative shipowners’ and seafarers’ organizations in the organization and operation of the public seafarer recruitment and placement services, where they exist; (d) determining, with due regard to the right to privacy and the need to protect confidentiality, the conditions under which seafarers’ personal data may be processed by seafarer recruitment and placement services, including the collection, storage, combination and communication of such data to third parties; (e) maintaining an arrangement for the collection and analysis of all relevant information on the maritime labour market, including the current and prospective supply of seafarers that work as crew classified by age, sex, rank and qualifications, and the industry’s requirements, the collection of data on age or sex being admissible only for statistical purposes or if used in the framework of a programme to prevent discrimination based on age or sex; (f) ensuring that the staff responsible for the supervision of public and private seafarer recruitment and placement services for ship’s crew with responsibility for the"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p24.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A1.4 – Recruitment and placement 1. Each Member that operates a public seafarer recruitment and placement service shall ensure that the service is operated in an orderly manner that protects and promotes seafarers’ employment rights as provided in this Convention. 2. Where a Member has private seafarer recruitment and placement services operating in its territory whose primary purpose is the recruitment and placement of seafarers or which recruit and place a significant number of seafarers, they shall be operated only in conformity with a standardized system of licensing or certification or other form of regulation. This system shall be established, modified or changed only after consultation with the shipowners’ and seafarers’ organizations concerned. In the event of doubt as to whether this Convention applies to a private recruitment and placement service, the question shall be determined by the competent authority in each Member after consultation with the shipowners’ and seafarers’ organizations concerned. Undue proliferation of private seafarer recruitment and placement services shall not be encouraged. 3. The provisions of paragraph 2 of this Standard shall also apply – to the extent that they are determined by the competent authority, in consultation with the shipowners’ and seafarers’ organizations concerned, to be appropriate – in the context of recruitment and placement services operated by a seafarers’ organization in the territory of the Member for the supply of seafarers who are nationals of that Member to ships which fly its flag. The services covered by this paragraph are those fulfilling the following conditions: (a) the recruitment and placement service is operated pursuant to a collective bargaining agreement between that organization and a shipowner; (b) both the seafarers’ organization and the shipowner are based in the territory of the Member; (c) the Member has national laws or regulations or a procedure to authorize or register the collective bargaining agreement permitting the operation of the recruitment and placement service; and (d) the recruitment and placement service is operated in an orderly manner and measures are in place to protect and promote seafarers’ employment rights comparable to those provided in paragraph 5 of this Standard."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p27.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "the seafarer recruitment and placement services; (f) clearly publicizing costs, if any, which the seafarer will be expected to bear in the recruitment process; (g) ensuring that seafarers are advised of any particular conditions applicable to the job for which they are to be engaged and of the particular shipowner’s policies relating to their employment; (h) procedures which are in accordance with the principles of natural justice for dealing with cases of incompetence or indiscipline consistent with national laws and practice and, where applicable, with collective agreements; (i) procedures to ensure, as far as practicable, that all mandatory certificates and documents submitted for employment are up to date and have not been fraudulently obtained and that employment references are verified;"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 402
+  },
+  "T08": {
+    "case_id": "T08",
+    "state": "failed",
+    "turn": {
+      "status": "answered",
+      "answer": "The procedures for dealing with cases of incompetence or indiscipline should be in accordance with the principles of natural justice, consistent with national laws and practice, and, where applicable, with collective agreements. This is stated in Guideline B1.4 – Recruitment and placement, Guideline B1.4.1 – Organizational and operational guidelines, paragraph 1, point (h).",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p26.2#c1",
+          "quote": "(h) procedures which are in accordance with the principles of natural justice for dealing with cases of incompetence or indiscipline consistent with national laws and practice and, where applicable, with collective agreements;"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p27.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "the seafarer recruitment and placement services; (f) clearly publicizing costs, if any, which the seafarer will be expected to bear in the recruitment process; (g) ensuring that seafarers are advised of any particular conditions applicable to the job for which they are to be engaged and of the particular shipowner’s policies relating to their employment; (h) procedures which are in accordance with the principles of natural justice for dealing with cases of incompetence or indiscipline consistent with national laws and practice and, where applicable, with collective agreements; (i) procedures to ensure, as far as practicable, that all mandatory certificates and documents submitted for employment are up to date and have not been fraudulently obtained and that employment references are verified;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p26.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B1.4 – Recruitment and placement Guideline B1.4.1 – Organizational and operational guidelines 1. When fulfilling its obligations under Standard A1.4, paragraph 1, the compe-tent authority should consider: (a) taking the necessary measures to promote effective cooperation among seafarer recruitment and placement services, whether public or private; (b) the needs of the maritime industry at both the national and international levels, when developing training programmes for seafarers that form the part of the ship’s crew that is responsible for the ship’s safe navigation and pollution prevention operations, with the participation of shipowners, seafarers and the relevant training institutions; (c) making suitable arrangements for the cooperation of representative shipowners’ and seafarers’ organizations in the organization and operation of the public seafarer recruitment and placement services, where they exist; (d) determining, with due regard to the right to privacy and the need to protect confidentiality, the conditions under which seafarers’ personal data may be processed by seafarer recruitment and placement services, including the collection, storage, combination and communication of such data to third parties; (e) maintaining an arrangement for the collection and analysis of all relevant information on the maritime labour market, including the current and prospective supply of seafarers that work as crew classified by age, sex, rank and qualifications, and the industry’s requirements, the collection of data on age or sex being admissible only for statistical purposes or if used in the framework of a programme to prevent discrimination based on age or sex; (f) ensuring that the staff responsible for the supervision of public and private seafarer recruitment and placement services for ship’s crew with responsibility for the"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p24.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A1.4 – Recruitment and placement 1. Each Member that operates a public seafarer recruitment and placement service shall ensure that the service is operated in an orderly manner that protects and promotes seafarers’ employment rights as provided in this Convention. 2. Where a Member has private seafarer recruitment and placement services operating in its territory whose primary purpose is the recruitment and placement of seafarers or which recruit and place a significant number of seafarers, they shall be operated only in conformity with a standardized system of licensing or certification or other form of regulation. This system shall be established, modified or changed only after consultation with the shipowners’ and seafarers’ organizations concerned. In the event of doubt as to whether this Convention applies to a private recruitment and placement service, the question shall be determined by the competent authority in each Member after consultation with the shipowners’ and seafarers’ organizations concerned. Undue proliferation of private seafarer recruitment and placement services shall not be encouraged. 3. The provisions of paragraph 2 of this Standard shall also apply – to the extent that they are determined by the competent authority, in consultation with the shipowners’ and seafarers’ organizations concerned, to be appropriate – in the context of recruitment and placement services operated by a seafarers’ organization in the territory of the Member for the supply of seafarers who are nationals of that Member to ships which fly its flag. The services covered by this paragraph are those fulfilling the following conditions: (a) the recruitment and placement service is operated pursuant to a collective bargaining agreement between that organization and a shipowner; (b) both the seafarers’ organization and the shipowner are based in the territory of the Member; (c) the Member has national laws or regulations or a procedure to authorize or register the collective bargaining agreement permitting the operation of the recruitment and placement service; and (d) the recruitment and placement service is operated in an orderly manner and measures are in place to protect and promote seafarers’ employment rights comparable to those provided in paragraph 5 of this Standard."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p96.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B5.1.5 – On-board complaint procedures 1. Subject to any relevant provisions of an applicable collective agreement, the competent authority should, in close consultation with shipowners’ and seafarers’ organizations, develop a model for fair, expeditious and well-documented on-board complaint-handling procedures for all ships that fly the Member’s flag. In developing these procedures the following matters should be considered: (a) many complaints may relate specifically to those individuals to whom the complaint is to be made or even to the master of the ship. In all cases seafarers should also be able to complain directly to the master and to make a complaint externally; and (b) in order to help avoid problems of victimization of seafarers making complaints about matters under this Convention, the procedures should encourage the nomination of a person on board who can advise seafarers on the procedures available to them and, if requested by the complainant seafarer, also attend any meetings or hearings into the subject matter of the complaint. 2. At a minimum the procedures discussed during the consultative process referred to in paragraph 1 of this Guideline should include the following: (a) complaints should be addressed to the head of the department of the seafarer lodging the complaint or to the seafarer’s superior officer; (b) the head of department or superior officer should then attempt to resolve the matter within prescribed time limits appropriate to the seriousness of the issues involved; (c) if the head of department or superior officer cannot resolve the complaint to the satisfaction of the seafarer, the latter may refer it to the master, who should handle the matter personally; (d) seafarers should at all times have the right to be accompanied and to be represented by another seafarer of their choice on board the ship concerned;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p24.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "20 Maritime Labour Convention, 2006 Regulation 1.4 – Recruitment and placement Purpose: To ensure that seafarers have access to an efficient and well-regulated seafarer recruitment and placement system 1. All seafarers shall have access to an efficient, adequate and accountable system for finding employment on board ship without charge to the seafarer. 2. Seafarer recruitment and placement services operating in a Member’s territory shall conform to the standards set out in the Code. 3. Each Member shall require, in respect of seafarers who work on ships that fly its flag, that shipowners who use seafarer recruitment and placement services that are based in countries or territories in which this Convention does not apply, ensure that those services conform to the requirements set out in the Code."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "check 4: quote not found in mlc_2006_consolidated_2022#p26.2#c1: '(h) procedures which are in accordance with the principles of natural justice fo'"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 53
+  },
+  "T09": {
+    "case_id": "T09",
+    "state": "passed",
+    "turn": {
+      "status": "answered",
+      "answer": "The functions of the committees and other bodies related to safety and prevention for seafarers include: (a) the preparation of national guidelines and policies for occupational safety and health management systems and for accident prevention provisions, rules and manuals; (b) the organization of occupational safety and health protection and accident prevention training and programmes; (c) the organization of publicity on occupational safety and health protection and accident prevention, including films, posters, notices and brochures; and (d) the distribution of literature and information on occupational safety and health protection and accident prevention so that it reaches seafarers on board ships. [C2]",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p75.3#c1",
+          "quote": "Consideration should be given to including the following in the functions of the committees and other bodies referred to in Guideline B4.3.7, paragraph 2:"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p75.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B4.3.7 – National protection and prevention programmes 1. In order to provide a sound basis for measures to promote occupational safety and health protection and prevention of accidents, injuries and diseases which are due to particular hazards of maritime employment, research should be undertaken into general trends and into such hazards as are revealed by statistics. 2. The implementation of protection and prevention programmes for the promotion of occupational safety and health should be so organized that the competent authority, shipowners and seafarers or their representatives and other appropriate bodies may play an active role, including through such means as information sessions, on-board guidelines on maximum exposure levels to potentially harmful ambient workplace factors and other hazards or outcomes of a systematic risk evaluation process. In particular, national or local joint occupational safety and health protection and accident prevention committees or ad hoc working parties and on-board committees, on which shipowners’ and seafarers’ organizations concerned are represented, should be established. 3. Where such activity takes place at company level, the representation of seafarers on any safety committee on board that shipowner’s ships should be considered."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p75.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B4.3.8 – Content of protection and prevention programmes 1. Consideration should be given to including the following in the functions of the committees and other bodies referred to in Guideline B4.3.7, paragraph 2: (a) the preparation of national guidelines and policies for occupational safety and health management systems and for accident prevention provisions, rules and manuals; (b) the organization of occupational safety and health protection and accident prevention training and programmes; (c) the organization of publicity on occupational safety and health protection and accident prevention, including films, posters, notices and brochures; and (d) the distribution of literature and information on occupational safety and health protection and accident prevention so that it reaches seafarers on board ships."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p70.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A4.3 – Health and safety protection and accident prevention 1. The laws and regulations and other measures to be adopted in accordance with Regulation 4.3, paragraph 3, shall include the following subjects: (a) the adoption and effective implementation and promotion of occupational safety and health policies and programmes on ships that fly the Member’s flag, including risk evaluation as well as training and instruction of seafarers; (b) reasonable precautions to prevent occupational accidents, injuries and diseases on board ship, including through the provision of all necessary appropriately-sized personal protective equipment and measures to reduce and prevent the risk of exposure to harmful levels of ambient factors and chemicals, as well as the risk of injury or disease that may arise from the use of equipment and machinery on board ships; (c) on-board programmes for the prevention of occupational accidents, injuries and diseases and for continuous improvement in occupational safety and health protection, involving seafarers’ representatives and all other persons concerned in their implementation, taking account of preventive measures, including engineering and design control, substitution of processes and procedures for collective and individual tasks, and the use of personal protective equipment; and (d) requirements for inspecting, reporting and correcting unsafe conditions and for investigating and reporting on-board occupational accidents. 2. The provisions referred to in paragraph 1 of this Standard shall: (a) take account of relevant international instruments dealing with occupational safety and health protection in general and with specific risks, and address all matters relevant to the prevention of occupational accidents, injuries and diseases that may be applicable to the work of seafarers and particularly those which are specific to maritime employment; (b) clearly specify the obligation of shipowners, seafarers and others concerned to comply with the applicable standards and with the ship’s occupational safety and"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p70.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "66 Maritime Labour Convention, 2006 Regulation 4.3 – Health and safety protection and accident prevention Purpose: To ensure that seafarers’ work environment on board ships promotes occupational safety and health 1. Each Member shall ensure that seafarers on ships that fly its flag are provided with occupational health protection and live, work and train on board ship in a safe and hygienic environment. 2. Each Member shall develop and promulgate national guidelines for the management of occupational safety and health on board ships that fly its flag, after consultation with representative shipowners’ and seafarers’ organizations and taking into account applicable codes, guidelines and standards recommended by international organizations, national administrations and maritime industry organizations. 3. Each Member shall adopt laws and regulations and other measures addressing the matters specified in the Code, taking into account relevant international instruments, and set standards for occupational safety and health protection and acci-dent prevention on ships that fly its flag."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p71.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "67 Health protection, medical care, welfare and social security protection health policy and programme with special attention being paid to the safety and health of seafarers under the age of 18; (c) specify the duties of the master or a person designated by the master, or both, to take specific responsibility for the implementation of and compliance with the ship’s occupational safety and health policy and programme; and (d) specify the authority of the ship’s seafarers appointed or elected as safety representatives to participate in meetings of the ship’s safety committee. Such a committee shall be established on board a ship on which there are five or more seafarers. 3. The laws and regulations and other measures referred to in Regulation 4.3, paragraph 3, shall be regularly reviewed in consultation with the representatives of the shipowners’ and seafarers’ organizations and, if necessary, revised to take account of changes in technology and research in order to facilitate continuous improvement in occupational safety and health policies and programmes and to provide a safe occupational environment for seafarers on ships that fly the Member’s flag. 4. Compliance with the requirements of applicable international instruments on the acceptable levels of exposure to workplace hazards on board ships and on the development and implementation of ships’ occupational safety and health policies and programmes shall be considered as meeting the requirements of this Convention. 5. Each Member shall ensure that: (a) all deaths of seafarers employed, engaged or working on board ships that fly its flag are adequately investigated and recorded, and reported on an annual basis to the Director-General of the International Labour Office to be published in a global register; (b) occupational accidents, injuries and diseases are adequately reported, taking into account the guidance provided by the International Labour Organization with respect to the reporting and recording of occupational accidents and diseases; (c) comprehensive statistics of such accidents and diseases are kept, analysed and published and, where appropriate, followed up by research into general trends and into the hazards identified; and (d) occupational accidents are investigated. 6. Reporting and investigation of occupational safety and health matters shall be designed to ensure the protection of seafarers’ personal data, and shall take account"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 99
+  },
+  "T10": {
+    "case_id": "T10",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "According to the MLC 2006, seafarers can be repatriated in the following circumstances: (a) if the seafarers' employment agreement expires while they are abroad; (b) when the seafarers' employment agreement is terminated: (i) by the shipowner; or (ii) by the seafarer for justified reasons; and also (c) when the seafarers are no longer able to carry out their duties under their employment agreement or cannot be expected to carry them out in the specific circumstances. [C1] (file: mlc_2006_consolidated_2022.pdf) \"(a) if the seafarers’ employment agreement expires while they are abroad; (b) when the seafarers’ employment agreement is terminated: (i) by the shipowner; or (ii) by the seafarer for justified reasons; and also (c) when the seafarers are no longer able to carry out their duties under their employment agreement or cannot be expected to carry them out in the specific circumstances.\"",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p40.1#c1",
+          "quote": "(a) if the seafarers’ employment agreement expires while they are abroad; (b) when the seafarers’ employment agreement is terminated: (i) by the shipowner; or (ii) by the seafarer for justified reasons; and also (c) when the seafarers are no longer able to carry out their duties under their employment agreement or cannot be expected to carry them out in the specific circumstances."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p40.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "36 Maritime Labour Convention, 2006 (a) if the seafarers’ employment agreement expires while they are abroad; (b) when the seafarers’ employment agreement is terminated: (i) by the shipowner; or (ii) by the seafarer for justified reasons; and also (c) when the seafarers are no longer able to carry out their duties under their employment agreement or cannot be expected to carry them out in the specific circumstances. 2. Each Member shall ensure that there are appropriate provisions in its laws and regulations or other measures or in collective bargaining agreements, prescribing: (a) the circumstances in which seafarers are entitled to repatriation in accordance with paragraph 1(b) and (c) of this Standard; (b) the maximum duration of service periods on board following which a seafarer is entitled to repatriation – such periods to be less than 12 months; and (c) the precise entitlements to be accorded by shipowners for repatriation, including those relating to the destinations of repatriation, the mode of transport, the items of expense to be covered and other arrangements to be made by shipowners. 3. Each Member shall prohibit shipowners from requiring that seafarers make an advance payment towards the cost of repatriation at the beginning of their employment, and also from recovering the cost of repatriation from the seafarers’ wages or other entitlements except where the seafarer has been found, in accordance with national laws or regulations or other measures or applicable collective bargaining agreements, to be in serious default of the seafarer’s employment obligations. 4. National laws and regulations shall not prejudice any right of the shipowner to recover the cost of repatriation under third-party contractual arrangements. 5. If a shipowner fails to make arrangements for or to meet the cost of repatriation of seafarers who are entitled to be repatriated: (a) the competent authority of the Member whose flag the ship flies shall arrange for repatriation of the seafarers concerned; if it fails to do so, the State from which the seafarers are to be repatriated or the State of which they are a national may arrange for their repatriation and recover the cost from the Member whose flag the ship flies; (b) costs incurred in repatriating seafarers shall be recoverable from the shipowner"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p39.4#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Regulation 2.5 – Repatriation Purpose: To ensure that seafarers are able to return home 1. Seafarers have a right to be repatriated at no cost to themselves in the circumstances and under the conditions specified in the Code. 2. Each Member shall require ships that fly its flag to provide financial security to ensure that seafarers are duly repatriated in accordance with the Code."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p43.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "to the repatriation destination. 4. Time spent awaiting repatriation and repatriation travel time should not be deducted from paid leave accrued to the seafarers. 5. Shipowners should be required to continue to cover the costs of repatriation until the seafarers concerned are landed at a destination prescribed pursuant to this Code or are provided with suitable employment on board a ship proceeding to one of those destinations. 6. Each Member should require that shipowners take responsibility for repatriation arrangements by appropriate and expeditious means. The normal mode of transport should be by air. The Member should prescribe the destinations to which seafarers may be repatriated. The destinations should include the countries with which seafarers may be deemed to have a substantial connection including: (a) the place at which the seafarer agreed to enter into the engagement;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p27.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "the seafarer recruitment and placement services; (f) clearly publicizing costs, if any, which the seafarer will be expected to bear in the recruitment process; (g) ensuring that seafarers are advised of any particular conditions applicable to the job for which they are to be engaged and of the particular shipowner’s policies relating to their employment; (h) procedures which are in accordance with the principles of natural justice for dealing with cases of incompetence or indiscipline consistent with national laws and practice and, where applicable, with collective agreements; (i) procedures to ensure, as far as practicable, that all mandatory certificates and documents submitted for employment are up to date and have not been fraudulently obtained and that employment references are verified;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p42.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "law, acquire by subrogation, assignment or otherwise, the rights which the seafarer would have enjoyed. 13. Nothing in this Standard shall prejudice any right of recourse of the insurer or provider of financial security against third parties. 14. The provisions in this Standard are not intended to be exclusive or to prejudice any other rights, claims or remedies that may also be available to compensate seafarers who are abandoned. National laws and regulations may provide that any amounts payable under this Standard can be offset against amounts received from other sources arising from any rights, claims or remedies that may be the subject of compensation under the present Standard."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "the two judge passes disagree"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": false,
+    "gold_rank": 11,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [
+      "Seafarers can be repatriated in case of illness, injury, or other medical conditions requiring repatriation.",
+      "Seafarers can be repatriated in case of shipwreck.",
+      "Seafarers can be repatriated if the shipowner is unable to continue fulfilling their obligations due to insolvency, sale of the ship, change of ship’s registration, or other similar reasons.",
+      "Seafarers can be repatriated if a ship is bound for a war zone to which they do not consent to go.",
+      "Seafarers can be repatriated if their employment is terminated or interrupted for any other similar reason."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 139
+  },
+  "T11": {
+    "case_id": "T11",
+    "state": "failed",
+    "turn": {
+      "status": "answered",
+      "answer": "According to the MLC 2006, the shipowner must cover the following costs during seafarers' repatriation: [C3] (file: mlc_2006_consolidated_2022.pdf) (a) all expenses reasonably incurred by the seafarer, including the cost of repatriation referred to in paragraph 10; and (b) the essential needs of the seafarer including such items as: adequate food, clothing where necessary, accommodation, drinking water supplies, essential fuel for survival on board the ship, necessary medical care and any other reasonable costs or charges from the act or omission constituting the abandonment until the seafarer’s arrival at home. [C4] (file: mlc_2006_consolidated_2022.pdf) 5. Shipowners should be required to continue to cover the costs of repatriation until the seafarers concerned are landed at a destination prescribed pursuant to this Code or are provided with suitable employment on board a ship proceeding to one of those destinations.",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p40.1#c1",
+          "quote": "all expenses reasonably incurred by the seafarer, including the cost of repatriation referred to in paragraph 10; and the essential needs of the seafarer including such items as: adequate food, clothing where necessary, accommodation, drinking water supplies, essential fuel for survival on board the ship, necessary medical care and any other reasonable costs or charges from the act or omission constituting the abandonment until the seafarer’s arrival at home."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p43.1#c2",
+          "quote": "Shipowners should be required to continue to cover the costs of repatriation until the seafarers concerned are landed at a destination prescribed pursuant to this Code or are provided with suitable employment on board a ship proceeding to one of those destinations."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p42.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "38 Maritime Labour Convention, 2006 8. Assistance provided by the financial security system shall be granted promptly upon request made by the seafarer or the seafarer’s nominated representative and supported by the necessary justification of entitlement in accordance with paragraph 2 above. 9. Having regard to Regulations 2.2 and 2.5, assistance provided by the financial security system shall be sufficient to cover the following: (a) outstanding wages and other entitlements due from the shipowner to the seafarer under their employment agreement, the relevant collective bargaining agreement or the national law of the flag State, limited to four months of any such outstanding wages and four months of any such outstanding entitlements; (b) all expenses reasonably incurred by the seafarer, including the cost of repatriation referred to in paragraph 10; and (c) the essential needs of the seafarer including such items as: adequate food, clothing where necessary, accommodation, drinking water supplies, essential fuel for survival on board the ship, necessary medical care and any other reasonable costs or charges from the act or omission constituting the abandonment until the seafarer’s arrival at home. 10. The cost of repatriation shall cover travel by appropriate and expeditious means, normally by air, and include provision for food and accommodation of the seafarer from the time of leaving the ship until arrival at the seafarer’s home, necessary medical care, passage and transport of personal effects and any other reasonable costs or charges arising from the abandonment. 11. The financial security shall not cease before the end of the period of validity of the financial security unless the financial security provider has given prior notification of at least 30 days to the competent authority of the flag State. 12. If the provider of insurance or other financial security has made any payment to any seafarer in accordance with this Standard, such provider shall, up to the amount it has paid and in accordance with the applicable law, acquire by subrogation, assignment or otherwise, the rights which the seafarer would have enjoyed. 13. Nothing in this Standard shall prejudice any right of recourse of the insurer or provider of financial security against third parties."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p40.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "the State of which they are a national may arrange for their repatriation and recover the cost from the Member whose flag the ship flies; (b) costs incurred in repatriating seafarers shall be recoverable from the shipowner by the Member whose flag the ship flies; (c) the expenses of repatriation shall in no case be a charge upon the seafarers, except as provided for in paragraph 3 of this Standard. 6. Taking into account applicable international instruments, including the International Convention on Arrest of Ships, 1999, a Member which has paid the cost of repatriation pursuant to this Code may detain, or request the detention of, the ships of the shipowner concerned until the reimbursement has been made in accordance with paragraph 5 of this Standard. 7. Each Member shall facilitate the repatriation of seafarers serving on ships which call at its ports or pass through its territorial or internal waters, as well as their replacement on board."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p40.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "36 Maritime Labour Convention, 2006 (a) if the seafarers’ employment agreement expires while they are abroad; (b) when the seafarers’ employment agreement is terminated: (i) by the shipowner; or (ii) by the seafarer for justified reasons; and also (c) when the seafarers are no longer able to carry out their duties under their employment agreement or cannot be expected to carry them out in the specific circumstances. 2. Each Member shall ensure that there are appropriate provisions in its laws and regulations or other measures or in collective bargaining agreements, prescribing: (a) the circumstances in which seafarers are entitled to repatriation in accordance with paragraph 1(b) and (c) of this Standard; (b) the maximum duration of service periods on board following which a seafarer is entitled to repatriation – such periods to be less than 12 months; and (c) the precise entitlements to be accorded by shipowners for repatriation, including those relating to the destinations of repatriation, the mode of transport, the items of expense to be covered and other arrangements to be made by shipowners. 3. Each Member shall prohibit shipowners from requiring that seafarers make an advance payment towards the cost of repatriation at the beginning of their employment, and also from recovering the cost of repatriation from the seafarers’ wages or other entitlements except where the seafarer has been found, in accordance with national laws or regulations or other measures or applicable collective bargaining agreements, to be in serious default of the seafarer’s employment obligations. 4. National laws and regulations shall not prejudice any right of the shipowner to recover the cost of repatriation under third-party contractual arrangements. 5. If a shipowner fails to make arrangements for or to meet the cost of repatriation of seafarers who are entitled to be repatriated: (a) the competent authority of the Member whose flag the ship flies shall arrange for repatriation of the seafarers concerned; if it fails to do so, the State from which the seafarers are to be repatriated or the State of which they are a national may arrange for their repatriation and recover the cost from the Member whose flag the ship flies; (b) costs incurred in repatriating seafarers shall be recoverable from the shipowner"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p43.1#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "to the repatriation destination. 4. Time spent awaiting repatriation and repatriation travel time should not be deducted from paid leave accrued to the seafarers. 5. Shipowners should be required to continue to cover the costs of repatriation until the seafarers concerned are landed at a destination prescribed pursuant to this Code or are provided with suitable employment on board a ship proceeding to one of those destinations. 6. Each Member should require that shipowners take responsibility for repatriation arrangements by appropriate and expeditious means. The normal mode of transport should be by air. The Member should prescribe the destinations to which seafarers may be repatriated. The destinations should include the countries with which seafarers may be deemed to have a substantial connection including: (a) the place at which the seafarer agreed to enter into the engagement;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p106.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "102 AppEndix A5-I The working and living conditions of seafarers that must be inspected and approved by the flag State before certifying a ship in accordance with Standard A5.1.3, paragraph 1: Minimum age Medical certification Qualifications of seafarers Seafarers’ employment agreements Use of any licensed or certified or regulated private recruitment and placement service Hours of work or rest Manning levels for the ship Accommodation On-board recreational facilities Food and catering Health and safety and accident prevention On-board medical care On-board complaint procedures Payment of wages Financial security for repatriation Financial security relating to shipowners’ liability"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "check 4: quote not found in mlc_2006_consolidated_2022#p40.1#c1: 'all expenses reasonably incurred by the seafarer, including the cost of repatria'"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": false,
+    "gold_rank": 11,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [
+      "The shipowner must provide pay and allowances for the seafarers from the moment they leave the ship until they reach the repatriation destination, if provided for by national laws or regulations or collective agreements.",
+      "The shipowner must transport 30 kg of the seafarers' personal luggage to the repatriation destination.",
+      "The shipowner must cover the cost of medical treatment until the seafarers are medically fit to travel to the repatriation destination."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 133
+  },
+  "T12": {
+    "case_id": "T12",
+    "state": "passed",
+    "turn": {
+      "status": "answered",
+      "answer": "2.5 calendar days per month of employment",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p38.1#c1",
+          "quote": "the annual leave with pay entitlement shall be calculated on the basis of a minimum of 2.5 calendar days per month of employment."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p38.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "34 Maritime Labour Convention, 2006 Standard A2.4 – Entitlement to leave 1. Each Member shall adopt laws and regulations determining the minimum standards for annual leave for seafarers serving on ships that fly its flag, taking proper account of the special needs of seafarers with respect to such leave. 2. Subject to any collective agreement or laws or regulations providing for an appropriate method of calculation that takes account of the special needs of seafarers in this respect, the annual leave with pay entitlement shall be calculated on the basis of a minimum of 2.5 calendar days per month of employment. The manner in which the length of service is calculated shall be determined by the competent authority or through the appropriate machinery in each country. Justified absences from work shall not be considered as annual leave. 3. Any agreement to forgo the minimum annual leave with pay prescribed in this Standard, except in cases provided for by the competent authority, shall be prohibited."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p37.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A2.3, paragraph 14. Regulation 2.4 – Entitlement to leave Purpose: To ensure that seafarers have adequate leave 1. Each Member shall require that seafarers employed on ships that fly its flag are given paid annual leave under appropriate conditions, in accordance with the provisions in the Code. 2. Seafarers shall be granted shore leave to benefit their health and well-being and consistent with the operational requirements of their positions."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p38.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.4 – Entitlement to leave Guideline B2.4.1 – Calculation of entitlement 1. Under conditions as determined by the competent authority or through the appropriate machinery in each country, service off-articles should be counted as part of the period of service. 2. Under conditions as determined by the competent authority or in an applicable collective agreement, absence from work to attend an approved maritime vocational training course or for such reasons as illness or injury or for maternity should be counted as part of the period of service. 3. The level of pay during annual leave should be at the seafarer’s normal level of remuneration provided for by national laws or regulations or in the applicable seafarers’ employment agreement. For seafarers employed for periods shorter than one year or in the event of termination of the employment relationship, entitlement to leave should be calculated on a pro-rata basis. 4. The following should not be counted as part of annual leave with pay: (a) public and customary holidays recognized as such in the flag State, whether or not they fall during the annual leave with pay; (b) periods of incapacity for work resulting from illness or injury or from maternity, under conditions as determined by the competent authority or through the appropriate machinery in each country; (c) temporary shore leave granted to a seafarer while under an employment agreement; and (d) compensatory leave of any kind, under conditions as determined by the competent authority or through the appropriate machinery in each country."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p39.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "35 Conditions of employment 2. Seafarers should in principle have the right to take annual leave in the place with which they have a substantial connection, which would normally be the same as the place to which they are entitled to be repatriated. Seafarers should not be required without their consent to take annual leave due to them in another place except under the provisions of a seafarers’ employment agreement or of national laws or regulations. 3. If seafarers are required to take their annual leave from a place other than that permitted by paragraph 2 of this Guideline, they should be entitled to free transportation to the place where they were engaged or recruited, whichever is nearer their home; subsistence and other costs directly involved should be for the account of the shipowner; the travel time involved should not be deducted from the annual leave with pay due to the seafarer. 4. A seafarer taking annual leave should be recalled only in cases of extreme emergency and with the seafarer’s consent."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p30.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "26 Maritime Labour Convention, 2006 bargaining agreement is not in English, the following shall also be available in English (except for ships engaged only in domestic voyages): (a) a copy of a standard form of the agreement; and (b) the portions of the collective bargaining agreement that are subject to a port State inspection under Regulation 5.2. 3. The document referred to in paragraph 1(e) of this Standard shall not contain any statement as to the quality of the seafarers’ work or as to their wages. The form of the document, the particulars to be recorded and the manner in which such particulars are to be entered, shall be determined by national law. 4. Each Member shall adopt laws and regulations specifying the matters that are to be included in all seafarers’ employment agreements governed by its national law. Seafarers’ employment agreements shall in all cases contain the following particulars: (a) the seafarer’s full name, date of birth or age, and birthplace; (b) the shipowner’s name and address; (c) the place where and date when the seafarers’ employment agreement is entered into; (d) the capacity in which the seafarer is to be employed; (e) the amount of the seafarer’s wages or, where applicable, the formula used for calculating them; (f) the amount of paid annual leave or, where applicable, the formula used for calculating it; (g) the termination of the agreement and the conditions thereof, including: (i) if the agreement has been made for an indefinite period, the conditions entitling either party to terminate it, as well as the required notice period, which shall not be less for the shipowner than for the seafarer; (ii) if the agreement has been made for a definite period, the date fixed for its expiry; and (iii) if the agreement has been made for a voyage, the port of destination and the time which has to expire after arrival before the seafarer should be discharged; (h) the health and social security protection benefits to be provided to the seafarer by the shipowner; (i) the seafarer’s entitlement to repatriation; (j) reference to the collective bargaining agreement, if applicable; and (k) any other particulars which national law may require. 5. Each Member shall adopt laws or regulations establishing minimum notice"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 7
+  },
+  "T13": {
+    "case_id": "T13",
+    "state": "passed",
+    "turn": {
+      "status": "answered",
+      "answer": "No, any agreement to forgo the minimum annual leave with pay prescribed in this Standard, except in cases provided for by the competent authority, shall be prohibited.",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p38.1#c1",
+          "quote": "Any agreement to forgo the minimum annual leave with pay prescribed in this Standard, except in cases provided for by the competent authority, shall be prohibited."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p38.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "34 Maritime Labour Convention, 2006 Standard A2.4 – Entitlement to leave 1. Each Member shall adopt laws and regulations determining the minimum standards for annual leave for seafarers serving on ships that fly its flag, taking proper account of the special needs of seafarers with respect to such leave. 2. Subject to any collective agreement or laws or regulations providing for an appropriate method of calculation that takes account of the special needs of seafarers in this respect, the annual leave with pay entitlement shall be calculated on the basis of a minimum of 2.5 calendar days per month of employment. The manner in which the length of service is calculated shall be determined by the competent authority or through the appropriate machinery in each country. Justified absences from work shall not be considered as annual leave. 3. Any agreement to forgo the minimum annual leave with pay prescribed in this Standard, except in cases provided for by the competent authority, shall be prohibited."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p37.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A2.3, paragraph 14. Regulation 2.4 – Entitlement to leave Purpose: To ensure that seafarers have adequate leave 1. Each Member shall require that seafarers employed on ships that fly its flag are given paid annual leave under appropriate conditions, in accordance with the provisions in the Code. 2. Seafarers shall be granted shore leave to benefit their health and well-being and consistent with the operational requirements of their positions."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p39.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "35 Conditions of employment 2. Seafarers should in principle have the right to take annual leave in the place with which they have a substantial connection, which would normally be the same as the place to which they are entitled to be repatriated. Seafarers should not be required without their consent to take annual leave due to them in another place except under the provisions of a seafarers’ employment agreement or of national laws or regulations. 3. If seafarers are required to take their annual leave from a place other than that permitted by paragraph 2 of this Guideline, they should be entitled to free transportation to the place where they were engaged or recruited, whichever is nearer their home; subsistence and other costs directly involved should be for the account of the shipowner; the travel time involved should not be deducted from the annual leave with pay due to the seafarer. 4. A seafarer taking annual leave should be recalled only in cases of extreme emergency and with the seafarer’s consent."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p38.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.4 – Entitlement to leave Guideline B2.4.1 – Calculation of entitlement 1. Under conditions as determined by the competent authority or through the appropriate machinery in each country, service off-articles should be counted as part of the period of service. 2. Under conditions as determined by the competent authority or in an applicable collective agreement, absence from work to attend an approved maritime vocational training course or for such reasons as illness or injury or for maternity should be counted as part of the period of service. 3. The level of pay during annual leave should be at the seafarer’s normal level of remuneration provided for by national laws or regulations or in the applicable seafarers’ employment agreement. For seafarers employed for periods shorter than one year or in the event of termination of the employment relationship, entitlement to leave should be calculated on a pro-rata basis. 4. The following should not be counted as part of annual leave with pay: (a) public and customary holidays recognized as such in the flag State, whether or not they fall during the annual leave with pay; (b) periods of incapacity for work resulting from illness or injury or from maternity, under conditions as determined by the competent authority or through the appropriate machinery in each country; (c) temporary shore leave granted to a seafarer while under an employment agreement; and (d) compensatory leave of any kind, under conditions as determined by the competent authority or through the appropriate machinery in each country."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p39.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.4.4 – Young seafarers 1. Special measures should be considered with respect to young seafarers under the age of 18 who have served six months or any other shorter period of time under a collective agreement or seafarers’ employment agreement without leave on a foreigngoing ship which has not returned to their country of residence in that time, and will not return in the subsequent three months of the voyage. Such measures could consist of their repatriation at no expense to themselves to the place of original engagement in their country of residence for the purpose of taking any leave earned during the voyage."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 27
+  },
+  "T14": {
+    "case_id": "T14",
+    "state": "passed",
+    "turn": {
+      "status": "answered",
+      "answer": "Crew members are entitled to at least 10 hours of rest in any 24-hour period and at least 77 hours in any seven-day period. [C1] (file: company_crew_handbook.docx) \"Every crew member receives at least 10 hours of rest in any 24-hour period and at least 77 hours in any seven-day period.\" [C2] (file: mlc_2006_consolidated_2022.pdf) \"(b) minimum hours of rest shall not be less than: (i) ten hours in any 24-hour period; and (ii) 77 hours in any seven-day period.\"",
+      "citations": [
+        {
+          "chunk_id": "company_crew_handbook#s2#c1",
+          "quote": "Every crew member receives at least 10 hours of rest in any 24-hour period and at least 77 hours in any seven-day period."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p36.1#c1",
+          "quote": "(b) minimum hours of rest shall not be less than: (i) ten hours in any 24-hour period; and (ii) 77 hours in any seven-day period."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "company_crew_handbook#s2#c1",
+          "doc": "company_crew_handbook.docx",
+          "text": "# 2. Hours of rest Every crew member receives at least 10 hours of rest in any 24-hour period and at least 77 hours in any seven-day period. Daily rest may be split into no more than two periods, one of which is at least 6 hours. Each crew member signs the record of rest hours at the end of every month and keeps a copy. Rest lost because of a drill or an emergency is made up with compensatory rest."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p36.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "32 Maritime Labour Convention, 2006 4. In determining the national standards, each Member shall take account of the danger posed by the fatigue of seafarers, especially those whose duties involve navigational safety and the safe and secure operation of the ship. 5. The limits on hours of work or rest shall be as follows: (a) maximum hours of work shall not exceed: (i) 14 hours in any 24-hour period; and (ii) 72 hours in any seven-day period; or (b) minimum hours of rest shall not be less than: (i) ten hours in any 24-hour period; and (ii) 77 hours in any seven-day period. 6. Hours of rest may be divided into no more than two periods, one of which shall be at least six hours in length, and the interval between consecutive periods of rest shall not exceed 14 hours. 7. Musters, fire-fighting and lifeboat drills, and drills prescribed by national laws and regulations and by international instruments, shall be conducted in a manner that minimizes the disturbance of rest periods and does not induce fatigue. 8. When a seafarer is on call, such as when a machinery space is unattended, the seafarer shall have an adequate compensatory rest period if the normal period of rest is disturbed by call-outs to work. 9. If no collective agreement or arbitration award exists or if the competent authority determines that the provisions in the agreement or award in respect of paragraph 7 or 8 of this Standard are inadequate, the competent authority shall determine such provisions to ensure the seafarers concerned have sufficient rest. 10. Each Member shall require the posting, in an easily accessible place, of a table with the shipboard working arrangements, which shall contain for every position at least: (a) the schedule of service at sea and service in port; and (b) the maximum hours of work or the minimum hours of rest required by national laws or regulations or applicable collective agreements. 11. The table referred to in paragraph 10 of this Standard shall be established in a standardized format in the working language or languages of the ship and in English. 12. Each Member shall require that records of seafarers’ daily hours of work"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p35.4#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Standard A2.3 – Hours of work and hours of rest 1. For the purpose of this Standard, the term: (a) hours of work means time during which seafarers are required to do work on account of the ship; (b) hours of rest means time outside hours of work; this term does not include short breaks. 2. Each Member shall within the limits set out in paragraphs 5 to 8 of this Standard fix either a maximum number of hours of work which shall not be exceeded in a given period of time, or a minimum number of hours of rest which shall be provided in a given period of time. 3. Each Member acknowledges that the normal working hours’ standard for seafarers, like that for other workers, shall be based on an eight-hour day with one day of rest per week and rest on public holidays. However, this shall not prevent the Member from having procedures to authorize or register a collective agreement which determines seafarers’ normal working hours on a basis no less favourable than this Standard."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p37.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.3 – Hours of work and hours of rest Guideline B2.3.1 – Young seafarers 1. At sea and in port the following provisions should apply to all young seafarers under the age of 18: (a) working hours should not exceed eight hours per day and 40 hours per week and overtime should be worked only where unavoidable for safety reasons; (b) sufficient time should be allowed for all meals, and a break of at least one hour for the main meal of the day should be assured; and (c) a 15-minute rest period as soon as possible following each two hours of continuous work should be allowed. 2. Exceptionally, the provisions of paragraph 1 of this Guideline need not be applied if: (a) they are impracticable for young seafarers in the deck, engine room and catering departments assigned to watchkeeping duties or working on a rostered shift-work system; or (b) the effective training of young seafarers in accordance with established programmes and schedules would be impaired. 3. Such exceptional situations should be recorded, with reasons, and signed by the master. 4. Paragraph 1 of this Guideline does not exempt young seafarers from the general obligation on all seafarers to work during any emergency as provided for in"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p35.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Regulation 2.3 – Hours of work and hours of rest Purpose: To ensure that seafarers have regulated hours of work or hours of rest 1. Each Member shall ensure that the hours of work or hours of rest for seafarers are regulated. 2. Each Member shall establish maximum hours of work or minimum hours of rest over given periods that are consistent with the provisions in the Code."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 76
+  },
+  "T15": {
+    "case_id": "T15",
+    "state": "failed",
+    "turn": {
+      "status": "answered",
+      "answer": "According to the Maritime Labour Convention, 2006, hours of rest may be divided into no more than two periods, one of which shall be at least six hours in length, and the interval between consecutive periods of rest shall not exceed 14 hours [C2]. If rest is lost due to an emergency, it is made up with compensatory rest [C1].",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p36.1#c1",
+          "quote": "hours of rest may be divided into no more than two periods, one of which shall be at least six hours in length, and the interval between consecutive periods of rest shall not exceed 14 hours."
+        },
+        {
+          "chunk_id": "company_crew_handbook#s2#c1",
+          "quote": "Rest lost because of a drill or an emergency is made up with compensatory rest."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "company_crew_handbook#s2#c1",
+          "doc": "company_crew_handbook.docx",
+          "text": "# 2. Hours of rest Every crew member receives at least 10 hours of rest in any 24-hour period and at least 77 hours in any seven-day period. Daily rest may be split into no more than two periods, one of which is at least 6 hours. Each crew member signs the record of rest hours at the end of every month and keeps a copy. Rest lost because of a drill or an emergency is made up with compensatory rest."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p36.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "32 Maritime Labour Convention, 2006 4. In determining the national standards, each Member shall take account of the danger posed by the fatigue of seafarers, especially those whose duties involve navigational safety and the safe and secure operation of the ship. 5. The limits on hours of work or rest shall be as follows: (a) maximum hours of work shall not exceed: (i) 14 hours in any 24-hour period; and (ii) 72 hours in any seven-day period; or (b) minimum hours of rest shall not be less than: (i) ten hours in any 24-hour period; and (ii) 77 hours in any seven-day period. 6. Hours of rest may be divided into no more than two periods, one of which shall be at least six hours in length, and the interval between consecutive periods of rest shall not exceed 14 hours. 7. Musters, fire-fighting and lifeboat drills, and drills prescribed by national laws and regulations and by international instruments, shall be conducted in a manner that minimizes the disturbance of rest periods and does not induce fatigue. 8. When a seafarer is on call, such as when a machinery space is unattended, the seafarer shall have an adequate compensatory rest period if the normal period of rest is disturbed by call-outs to work. 9. If no collective agreement or arbitration award exists or if the competent authority determines that the provisions in the agreement or award in respect of paragraph 7 or 8 of this Standard are inadequate, the competent authority shall determine such provisions to ensure the seafarers concerned have sufficient rest. 10. Each Member shall require the posting, in an easily accessible place, of a table with the shipboard working arrangements, which shall contain for every position at least: (a) the schedule of service at sea and service in port; and (b) the maximum hours of work or the minimum hours of rest required by national laws or regulations or applicable collective agreements. 11. The table referred to in paragraph 10 of this Standard shall be established in a standardized format in the working language or languages of the ship and in English. 12. Each Member shall require that records of seafarers’ daily hours of work"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p35.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Regulation 2.3 – Hours of work and hours of rest Purpose: To ensure that seafarers have regulated hours of work or hours of rest 1. Each Member shall ensure that the hours of work or hours of rest for seafarers are regulated. 2. Each Member shall establish maximum hours of work or minimum hours of rest over given periods that are consistent with the provisions in the Code."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p37.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "33 Conditions of employment take account of more frequent or longer leave periods or the granting of compensatory leave for watchkeeping seafarers or seafarers working on board ships on short voyages. 14. Nothing in this Standard shall be deemed to impair the right of the master of a ship to require a seafarer to perform any hours of work necessary for the immediate safety of the ship, persons on board or cargo, or for the purpose of giving assistance to other ships or persons in distress at sea. Accordingly, the master may suspend the schedule of hours of work or hours of rest and require a seafarer to perform any hours of work necessary until the normal situation has been restored. As soon as practicable after the normal situation has been restored, the master shall ensure that any seafarers who have performed work in a scheduled rest period are provided with an adequate period of rest."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p37.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.3 – Hours of work and hours of rest Guideline B2.3.1 – Young seafarers 1. At sea and in port the following provisions should apply to all young seafarers under the age of 18: (a) working hours should not exceed eight hours per day and 40 hours per week and overtime should be worked only where unavoidable for safety reasons; (b) sufficient time should be allowed for all meals, and a break of at least one hour for the main meal of the day should be assured; and (c) a 15-minute rest period as soon as possible following each two hours of continuous work should be allowed. 2. Exceptionally, the provisions of paragraph 1 of this Guideline need not be applied if: (a) they are impracticable for young seafarers in the deck, engine room and catering departments assigned to watchkeeping duties or working on a rostered shift-work system; or (b) the effective training of young seafarers in accordance with established programmes and schedules would be impaired. 3. Such exceptional situations should be recorded, with reasons, and signed by the master. 4. Paragraph 1 of this Guideline does not exempt young seafarers from the general obligation on all seafarers to work during any emergency as provided for in"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "unsupported claim: The interval between consecutive periods of rest shall not exceed 14 hours."
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [
+      "The interval between consecutive periods of rest shall not exceed 14 hours."
+    ],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 60
+  },
+  "T16": {
+    "case_id": "T16",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "An able seafarer refers to a seafarer who is capable of performing their duties on board a ship, as mentioned in Guideline B2.2.4 of the Maritime Labour Convention, 2006. [C2] 1. The basic pay or wages for a calendar month of service for an able seafarer should be no less than the amount periodically set by the Joint Maritime Commission or another body authorized by the Governing Body of the International Labour Office.",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p35.2#c1",
+          "quote": "The basic pay or wages for a calendar month of service for an able seafarer should be no less than the amount periodically set by the Joint Maritime Commission or another body authorized by the Governing Body of the International Labour Office."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p67.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Regulation 4.2 – Shipowners’ liability Purpose: To ensure that seafarers are protected from the financial consequences of sickness, injury or death occurring in connection with their employment 1. Each Member shall ensure that measures, in accordance with the Code, are in place on ships that fly its flag to provide seafarers employed on the ships with a right to material assistance and support from the shipowner with respect to the financial consequences of sickness, injury or death occurring while they are serving under a seafarers’ employment agreement or arising from their employment under such agreement. 2. This Regulation does not affect any other legal remedies that a seafarer may seek."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p35.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.2.4 – Minimum monthly basic pay or wage figure for able seafarers 1. The basic pay or wages for a calendar month of service for an able seafarer should be no less than the amount periodically set by the Joint Maritime Commission or another body authorized by the Governing Body of the International Labour Office. Upon a decision of the Governing Body, the Director-General shall notify any revised amount to the Members of the Organization. 2. Nothing in this Guideline should be deemed to prejudice arrangements agreed between shipowners or their organizations and seafarers’ organizations with regard to the regulation of standard minimum terms and conditions of employment, provided such terms and conditions are recognized by the competent authority."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p98.2#c2",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "submitted by a seafarer, a professional body, an association, a trade union or, generally, any person with an interest in the safety of the ship, including an interest in safety or health hazards to seafarers on board. 4. Where, following a more detailed inspection, the working and living conditions on the ship are found not to conform to the requirements of this Convention, the authorized officer shall forthwith bring the deficiencies to the attention of the master"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p8.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Article IV 1. Every seafarer has the right to a safe and secure workplace that complies with safety standards. 2. Every seafarer has a right to fair terms of employment. 3. Every seafarer has a right to decent working and living conditions on board ship. 4. Every seafarer has a right to health protection, medical care, welfare measures and other forms of social protection. 5. Each Member shall ensure, within the limits of its jurisdiction, that the seafarers’ employment and social rights set out in the preceding paragraphs of this Article are fully implemented in accordance with the requirements of this Convention. Unless specified otherwise in the Convention, such implementation may be achieved through national laws or regulations, through applicable collective bargaining agreements or through other measures or in practice. Implementation and enforcement responsibilities"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p81.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B4.4.6 – Seafarers in a foreign port 1. For the protection of seafarers in foreign ports, measures should be taken to facilitate: (a) access to consuls of their State of nationality or State of residence; and (b) effective cooperation between consuls and the local or national authorities. 2. Seafarers who are detained in a foreign port should be dealt with promptly under due process of law and with appropriate consular protection. 3. Whenever a seafarer is detained for any reason in the territory of a Member, the competent authority should, if the seafarer so requests, immediately inform the flag State and the State of nationality of the seafarer. The competent authority should promptly inform the seafarer of the right to make such a request. The State of nationality of the seafarer should promptly notify the seafarer’s next of kin. The competent authority should allow consular officers of these States immediate access to the seafarer and regular visits thereafter so long as the seafarer is detained. 4. Each Member should take measures, whenever necessary, to ensure the safety of seafarers from aggression and other unlawful acts while ships are in their territorial waters and especially in approaches to ports. 5. Every effort should be made by those responsible in port and on board a ship to facilitate shore leave for seafarers as soon as possible after a ship’s arrival in port."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "the two judge passes disagree"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": false,
+    "gold_rank": 29,
+    "unsupported": [
+      "An able seafarer refers to a seafarer who is capable of performing their duties on board a ship."
+    ],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": true,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 72
+  },
+  "T17": {
+    "case_id": "T17",
+    "state": "passed",
+    "turn": {
+      "status": "answered",
+      "answer": "In the context of seafarers, 'basic pay or wages' means the pay, however composed, for normal hours of work, and does not include payments for overtime worked, bonuses, allowances, paid leave or any other additional remuneration. [C1] (a) basic pay or wages means the pay, however composed, for normal hours of work; it does not include payments for overtime worked, bonuses, allowances, paid leave or any other additional remuneration. 'Overtime' means time worked in excess of the normal hours of work. [C1] (e) overtime means time worked in excess of the normal hours of work.",
+      "citations": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p32.2#c1",
+          "quote": "(a) basic pay or wages means the pay, however composed, for normal hours of work; it does not include payments for overtime worked, bonuses, allowances, paid leave or any other additional remuneration."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p32.2#c1",
+          "quote": "(e) overtime means time worked in excess of the normal hours of work."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p32.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.2 – Wages Guideline B2.2.1 – Specific definitions 1. For the purpose of this Guideline, the term: (a) able seafarer means any seafarer who is deemed competent to perform any duty which may be required of a rating serving in the deck department, other than the duties of a supervisory or specialist rating, or who is defined as such by national laws, regulations or practice, or by collective agreement; (b) basic pay or wages means the pay, however composed, for normal hours of work; it does not include payments for overtime worked, bonuses, allowances, paid leave or any other additional remuneration; (c) consolidated wage means a wage or salary which includes the basic pay and other pay-related benefits; a consolidated wage may include compensation for all overtime hours which are worked and all other pay-related benefits, or it may include only certain benefits in a partial consolidation; (d) hours of work means time during which seafarers are required to do work on account of the ship; (e) overtime means time worked in excess of the normal hours of work."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p33.1#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "29 Conditions of employment (b) for the purpose of calculating overtime, the number of normal hours per week covered by the basic pay or wages should be prescribed by national laws or regulations, if not determined by collective agreements, but should not exceed 48 hours per week; collective agreements may provide for a different but not less favourable treatment; (c) the rate or rates of compensation for overtime, which should be not less than one and one-quarter times the basic pay or wages per hour, should be prescribed by national laws or regulations or by collective agreements, if applicable; and (d) records of all overtime worked should be maintained by the master, or a person assigned by the master, and endorsed by the seafarer at no greater than monthly intervals. 2. For seafarers whose wages are fully or partially consolidated: (a) the seafarers’ employment agreement should specify clearly, where appropriate, the number of hours of work expected of the seafarer in return for this remuneration, and any additional allowances which might be due in addition to the consolidated wage, and in which circumstances; (b) where hourly overtime is payable for hours worked in excess of those covered by the consolidated wage, the hourly rate should be not less than one and onequarter times the basic rate corresponding to the normal hours of work as defined in paragraph 1 of this Guideline; the same principle should be applied to the overtime hours included in the consolidated wage; (c) remuneration for that portion of the fully or partially consolidated wage representing the normal hours of work as defined in paragraph 1(a) of this Guideline should be no less than the applicable minimum wage; and (d) for seafarers whose wages are partially consolidated, records of all overtime worked should be maintained and endorsed as provided for in paragraph 1(d) of this Guideline. 3. National laws or regulations or collective agreements may provide for compensation for overtime or for work performed on the weekly day of rest and on public holidays by at least equivalent time off duty and off the ship or additional leave in lieu of remuneration or any other compensation so provided."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p32.3#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.2.2 – Calculation and payment 1. For seafarers whose remuneration includes separate compensation for overtime worked: (a) for the purpose of calculating wages, the normal hours of work at sea and in port should not exceed eight hours per day;"
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p35.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.2.4 – Minimum monthly basic pay or wage figure for able seafarers 1. The basic pay or wages for a calendar month of service for an able seafarer should be no less than the amount periodically set by the Joint Maritime Commission or another body authorized by the Governing Body of the International Labour Office. Upon a decision of the Governing Body, the Director-General shall notify any revised amount to the Members of the Organization. 2. Nothing in this Guideline should be deemed to prejudice arrangements agreed between shipowners or their organizations and seafarers’ organizations with regard to the regulation of standard minimum terms and conditions of employment, provided such terms and conditions are recognized by the competent authority."
+        },
+        {
+          "chunk_id": "mlc_2006_consolidated_2022#p34.2#c1",
+          "doc": "mlc_2006_consolidated_2022.pdf",
+          "text": "Guideline B2.2.3 – Minimum wages 1. Without prejudice to the principle of free collective bargaining, each Member should, after consulting representative shipowners’ and seafarers’ organizations, establish procedures for determining minimum wages for seafarers. Representative shipowners’ and seafarers’ organizations should participate in the operation of such procedures. 2. When establishing such procedures and in fixing minimum wages, due regard should be given to international labour standards concerning minimum wage fixing, as well as the following principles: (a) the level of minimum wages should take into account the nature of maritime employment, crewing levels of ships, and seafarers’ normal hours of work; and (b) the level of minimum wages should be adjusted to take into account changes in the cost of living and in the needs of seafarers."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 93
+  }
+}

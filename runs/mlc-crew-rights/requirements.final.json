@@ -1,0 +1,102 @@
+{
+  "scope": "Answers seafarers' questions about rest hours, annual leave, wages, repatriation, medical care, and complaints under the Maritime Labour Convention, 2006, and about the company's own crew policies.",
+  "audience": "Seafarers",
+  "tone": "Clear, concise, and accurate",
+  "must_answer": [
+    {
+      "id": "T1",
+      "topic": "Rest hours",
+      "example_question": "How many hours of rest do I get per week?",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T2",
+      "topic": "Annual leave",
+      "example_question": "How many days of annual leave do I get per year?",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": "The exact number of days of annual leave per year is not specified, as it depends on the total months of service in a year."
+    },
+    {
+      "id": "T4",
+      "topic": "Repatriation",
+      "example_question": "What is the process for repatriation?",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T5",
+      "topic": "Medical care",
+      "example_question": "What medical care is available on board?",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T6",
+      "topic": "Complaints",
+      "example_question": "How do I file a complaint about working conditions?",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T7",
+      "topic": "Company crew policies",
+      "example_question": "What are the company's policies on rest hours?",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T9",
+      "topic": "Company crew policies",
+      "example_question": "Company crew policies",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": "The chunks do not provide specific policies or guidelines for the crew members' roles and responsibilities in the context of company crew policies, such as recruitment, placement, and health and safety management systems."
+    }
+  ],
+  "must_refuse": [
+    {
+      "id": "X1",
+      "topic": "Wages",
+      "reason": "The documents do not cover this. No chunk directly states the monthly wage or provides a clear method to determine an individual's monthly wage. The chunks discuss minimum wage guidelines, wage payment procedures, and conditions, but do not specify the actual monthly wage for an individual.",
+      "referral": "your manager or the responsible department"
+    },
+    {
+      "id": "X2",
+      "topic": "Implementation of the Maritime Labour Convention, 2006",
+      "reason": "The documents do not cover this. No specific information about the implementation of the Maritime Labour Convention, 2006 is provided in the given chunks. The chunks mainly contain general information about the convention and its amendments, but do not address the implementation details or requirements.",
+      "referral": "your manager or the responsible department"
+    }
+  ],
+  "assumptions": [
+    {
+      "text": "If the two fee sources disagree, both values are shown. Nobody confirmed this.",
+      "from_question": "Q2"
+    },
+    {
+      "text": "The company's crew policies are in company_crew_handbook.docx. Nobody confirmed this.",
+      "from_question": "Q2"
+    },
+    {
+      "text": "Overruled by code: nobody confirmed refusing 'Implementation of the Maritime Labour Convention, 2006', and the brief asks about it, so the documents decide (see the groundability table).",
+      "from_question": "Q3"
+    },
+    {
+      "text": "Overruled by code: nobody confirmed refusing 'Company crew policies', and the brief asks about it, so the documents decide (see the groundability table).",
+      "from_question": "Q1"
+    }
+  ]
+}

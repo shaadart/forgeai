@@ -1,0 +1,71 @@
+{
+  "scope": "Answers purchasers' and technical superintendents' questions about engine and pump spares, supplier comparisons, order totals, and delivery times, using the catalogue.csv and supplier terms files.",
+  "audience": "Purchasers and technical superintendents",
+  "tone": "Friendly, concise, technical",
+  "must_answer": [
+    {
+      "id": "T1",
+      "topic": "Engine spares",
+      "example_question": "What spares are available for the ballast pump BP-200?",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T2",
+      "topic": "Pump spares",
+      "example_question": "What spares are available for the bilge pump BG-40?",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T3",
+      "topic": "Supplier comparisons",
+      "example_question": "What is the price and lead time for the mechanical seal, 45 mm, carbon/ceramic, OEM?",
+      "capabilities": [
+        "retrieval",
+        "lookup_rows"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T4",
+      "topic": "Order totals",
+      "example_question": "I want to order 5 mechanical seals and 3 impellers. What is the total cost?",
+      "capabilities": [
+        "retrieval",
+        "arithmetic"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T5",
+      "topic": "Delivery times",
+      "example_question": "Can I get the order delivered before the vessel's next port call?",
+      "capabilities": [
+        "retrieval",
+        "today"
+      ],
+      "scope_note": ""
+    },
+    {
+      "id": "T6",
+      "topic": "Vessel port calls",
+      "example_question": "Vessel port calls",
+      "capabilities": [
+        "retrieval"
+      ],
+      "scope_note": ""
+    }
+  ],
+  "must_refuse": [],
+  "assumptions": [
+    {
+      "text": "Overruled by code: nobody confirmed refusing 'Vessel port calls', and the brief asks about it, so the documents decide (see the groundability table).",
+      "from_question": "Q1"
+    }
+  ]
+}
