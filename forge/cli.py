@@ -73,6 +73,18 @@ def talk(args) -> int:
     return chat.chat(Path(args.agent), LLM(config), Embedder(config["embeddings"]["model"]), args.reindex)
 
 
+def ui(args) -> int:
+    try:
+        from . import ui as web
+    except ImportError:
+        print("the web UI needs the ui extra: uv sync --extra ui")
+        return 1
+    if args.config and not Path(args.config).is_file():
+        print(f"error: no config file at {args.config}")
+        return 1
+    return web.launch(Path(args.runs), Path(args.config) if args.config else None, args.port)
+
+
 def doctor(args) -> int:
     config = load_config(Path(args.config) if args.config else None)
     failures = 0
@@ -130,6 +142,12 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("agent", help="path to an agent yaml")
     p.add_argument("--reindex", action="store_true", help="accept changed documents")
     p.set_defaults(handler=talk)
+
+    p = commands.add_parser("ui", help="web UI: chat, factory runs, certificate (replay unless --config)")
+    p.add_argument("--config", help="a forge.toml for live chat and new runs; without it the UI only replays")
+    p.add_argument("--runs", default="runs", help="folder of run folders")
+    p.add_argument("--port", type=int)
+    p.set_defaults(handler=ui)
 
     p = commands.add_parser("doctor", parents=[common], help="check keys, models and embeddings")
     p.set_defaults(handler=doctor)
