@@ -160,3 +160,43 @@ def test_sentence_support_marks_quoted_close_and_unsurveyed():
     assert sentence_support("Yes, 14 days.", [chunk])[0] == "short"
     assert split_sentences("One is here. Two follows.\nThree") == ["One is here.", "Two follows.", "Three"]
     assert split_sentences("Rules: 1. Rest first. 2. Work later.") == ["Rules: 1.", "Rest first.", "Work later."]
+
+
+def test_ui_marks_unsourced_sentences_and_escapes_model_text():
+    from forge.ui import render_turn
+    chunk = Chunk(chunk_id="lib#p3#c1", doc="lib.pdf", text=SENTENCE)
+    turn = Turn(status="answered", answer="Members who hold a standard card may keep a borrowed DVD for 14 days. "
+                "Late returns <script>alert(1)</script> are fined five pounds each day.", retrieved=[chunk])
+    column, panel = render_turn("How long?", turn, "meta", None)
+    assert "Quoted · lib, p. 3" in column
+    assert column.count("Unsurveyed: no source found") == 1 and "Who can answer" in column
+    assert "<script>" not in column and "&lt;script&gt;" in column
+    assert "<mark>" in panel
+
+
+def test_doc_check_catches_a_document_changed_after_testing(tmp_path):
+    import hashlib
+    from forge.views import doc_check
+    run, docs = tmp_path / "runs" / "r1", tmp_path / "docs"
+    run.mkdir(parents=True)
+    docs.mkdir()
+    (docs / "policy.txt").write_text("14 days")
+    sha = hashlib.sha256(b"14 days").hexdigest()
+    d = {"dir": run, "agent": {"docs_dir": "../../docs", "documents": {"policy.txt": sha}}}
+    assert doc_check(d)[0] == "same"
+    (docs / "policy.txt").write_text("21 days")
+    (docs / "extra.txt").write_text("new")
+    state, rows = doc_check(d)
+    assert state == "changed" and [r[2] for r in rows] == ["changed", "added"]
+    (docs / "policy.txt").unlink()
+    assert doc_check(d)[1][0][2] == "missing"
+    assert doc_check({**d, "agent": {"docs_dir": "../../gone", "documents": {"policy.txt": sha}}})[0] == "absent"
+
+
+def test_checker_reasons_are_said_in_plain_words():
+    from forge.views import plain
+    assert plain("check 2: expected to refuse, status was answered") == "It should have refused, but it answered."
+    assert plain("check 4: quote not found in c1: 'x'") == "It quoted words that aren't in the passage."
+    assert plain("check 8: expected tool csv_lookup was not called") == "It should have used the csv_lookup tool, and didn't."
+    assert plain("missing key fact: rest is 10 hours") == "It left out: rest is 10 hours"
+    assert plain("something new") == "something new"
