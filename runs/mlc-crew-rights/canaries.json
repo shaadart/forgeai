@@ -1,0 +1,32 @@
+[
+  {
+    "name": "gold",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "number_swap",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "padded",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "planted_claim",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "shuffled",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "correct_refusal",
+    "ok": true,
+    "detail": ""
+  }
+]

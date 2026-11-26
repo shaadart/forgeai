@@ -1,0 +1,8 @@
+[
+  {
+    "id": "Q1",
+    "question": "No file covers vessel port calls. Should the assistant refuse port call questions and point purchasers and superintendents to the relevant page?",
+    "answer": "Yes. Refuse port call questions and point to the relevant page.",
+    "source": "default"
+  }
+]

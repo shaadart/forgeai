@@ -1,0 +1,1111 @@
+{
+  "T01": {
+    "case_id": "T01",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "18 days",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row29",
+          "quote": "lead_time_days: 18"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row32",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-060-AM; description: Casing gasket set, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 293.27; currency: USD; lead_time_days: 7; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row29",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-060-OE; description: Casing gasket set, OEM; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 425.12; currency: EUR; lead_time_days: 18; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row31",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-060-OE; description: Casing gasket set, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 407.69; currency: USD; lead_time_days: 17; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row30",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-060-AM; description: Casing gasket set, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 304.86; currency: EUR; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row35",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-070-OE; description: O-ring kit, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 654.74; currency: USD; lead_time_days: 15; moq: 10; in_stock: no"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 2,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 2
+  },
+  "T02": {
+    "case_id": "T02",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I cannot help with delivery times or vessel port calls. Please refer to your manager or the responsible department for this information.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.3#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "6. Returns Unused parts may be returned within 30 days with a 20 percent restocking fee."
+        },
+        {
+          "chunk_id": "procurement_policy#p1.3#c1",
+          "doc": "procurement_policy.pdf",
+          "text": "5. Part grade Safety-critical parts for the main engine must be OEM grade. Aftermarket parts may be used for pumps with superintendent agreement. 6. Urgent orders Express handling needs approval from a technical superintendent. 7. Exceptions Send any question this policy does not cover to the purchasing manager."
+        },
+        {
+          "chunk_id": "nordsee_terms_2025#p1.2#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "3. Payment Invoices are payable within 30 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 15:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.2#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "3. Payment Invoices are payable within 45 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 12:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "procurement_policy#p1.1#c1",
+          "doc": "procurement_policy.pdf",
+          "text": "Fleet procurement policy Version 4, effective 1 April 2026. Synthetic demonstration document. 1. Scope This policy covers spare parts ordered for vessels in the fleet. 2. Quotations Compare at least two suppliers where two list the part. Orders with a goods value above 5,000 in the order currency need two written quotations."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 22
+  },
+  "T03": {
+    "case_id": "T03",
+    "state": "failed",
+    "turn": {
+      "status": "answered",
+      "answer": "Yes, we can get the shaft sleeve from Gulfstream Pumpworks, but it's in USD and not in stock.",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row24",
+          "quote": "Gulfstream Pumpworks; unit_price: 569.51; currency: USD; lead_time_days: 12; moq: 1; in_stock: no"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row21",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-040-OE; description: Shaft sleeve, OEM; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 947.82; currency: EUR; lead_time_days: 10; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row22",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-040-AM; description: Shaft sleeve, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 572.99; currency: EUR; lead_time_days: 5; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row41",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-090-OE; description: Pump shaft, OEM; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 663.78; currency: EUR; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row17",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-030-OE; description: Wear ring, OEM; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 76.18; currency: EUR; lead_time_days: 13; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row24",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-040-AM; description: Shaft sleeve, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 569.51; currency: USD; lead_time_days: 12; moq: 1; in_stock: no"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "check 2: expected to refuse, status was answered"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 18
+  },
+  "T04": {
+    "case_id": "T04",
+    "state": "failed",
+    "turn": {
+      "status": "refused",
+      "answer": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department. Specifically, the question asks for delivery times, which is out of my scope. If you rephrase the question to only ask about the cost, I can try to help.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row32",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-060-AM; description: Casing gasket set, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 293.27; currency: USD; lead_time_days: 7; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row30",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-060-AM; description: Casing gasket set, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 304.86; currency: EUR; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row31",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-060-OE; description: Casing gasket set, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 407.69; currency: USD; lead_time_days: 17; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row29",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-060-OE; description: Casing gasket set, OEM; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 425.12; currency: EUR; lead_time_days: 18; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row47",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-100-OE; description: Gland packing set, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 273.33; currency: USD; lead_time_days: 10; moq: 4; in_stock: no"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "check 2: expected to answer, status was refused",
+      "check 8: expected tool csv_lookup was not called"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 4,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [
+      "The casing gasket set for the BP-200 ballast pump costs 425.12 EUR.",
+      "It will take 18 days to arrive."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 49
+  },
+  "T05": {
+    "case_id": "T05",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I cannot help with delivery times or vessel port calls. Please contact your manager or the responsible department for assistance.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row44",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-090-AM; description: Pump shaft, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 497.51; currency: USD; lead_time_days: 8; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row28",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-050-AM; description: Ball bearing, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 513.29; currency: USD; lead_time_days: 4; moq: 4; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row27",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-050-OE; description: Ball bearing, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 718.92; currency: USD; lead_time_days: 15; moq: 4; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row24",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-040-AM; description: Shaft sleeve, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 569.51; currency: USD; lead_time_days: 12; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.1#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "Gulfstream Pumpworks: conditions of sale Issued 3 March 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in United States dollars (USD), ex works. 2. Minimum order The minimum order value is USD 500. Each part also carries a minimum order quantity, shown in the catalogue. Quantities below it are raised to the minimum and charged in full."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 20
+  },
+  "T06": {
+    "case_id": "T06",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row44",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-090-AM; description: Pump shaft, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 497.51; currency: USD; lead_time_days: 8; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row24",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-040-AM; description: Shaft sleeve, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 569.51; currency: USD; lead_time_days: 12; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row42",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-090-AM; description: Pump shaft, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 416.05; currency: EUR; lead_time_days: 4; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row43",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-090-OE; description: Pump shaft, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 586.93; currency: USD; lead_time_days: 18; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row28",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-050-AM; description: Ball bearing, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 513.29; currency: USD; lead_time_days: 4; moq: 4; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 20
+  },
+  "T07": {
+    "case_id": "T07",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "The part number is G-CW150-100-OE, the unit price is 405.87 USD, and it is currently in stock.",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row91",
+          "quote": "G-CW150-100-OE; description: Gland packing set, OEM; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 405.87; currency: USD; lead_time_days: 9; moq: 4; in_stock: yes"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row92",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-100-AM; description: Gland packing set, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 356.09; currency: USD; lead_time_days: 3; moq: 4; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row91",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-100-OE; description: Gland packing set, OEM; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 405.87; currency: USD; lead_time_days: 9; moq: 4; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row90",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-CW150-100-AM; description: Gland packing set, aftermarket; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 326.58; currency: EUR; lead_time_days: 5; moq: 4; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row89",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-CW150-100-OE; description: Gland packing set, OEM; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 450.36; currency: EUR; lead_time_days: 11; moq: 4; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row88",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-090-AM; description: Pump shaft, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 168.26; currency: USD; lead_time_days: 11; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 3,
+    "unsupported": [
+      "The part number is G-CW150-100-OE."
+    ],
+    "contradicted": [
+      "The gland packing set is currently in stock."
+    ],
+    "missing_facts": [
+      "The part number is N-CW150-100-AM.",
+      "The unit price is 326.58 EUR.",
+      "The gland packing set is not in stock."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 17
+  },
+  "T08": {
+    "case_id": "T08",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row88",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-090-AM; description: Pump shaft, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 168.26; currency: USD; lead_time_days: 11; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row87",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-090-OE; description: Pump shaft, OEM; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 234.85; currency: USD; lead_time_days: 17; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row69",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-040-OE; description: Shaft sleeve, OEM; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 388.32; currency: USD; lead_time_days: 11; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row86",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-CW150-090-AM; description: Pump shaft, aftermarket; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 133.70; currency: EUR; lead_time_days: 3; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row70",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-040-AM; description: Shaft sleeve, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 235.08; currency: USD; lead_time_days: 10; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 20
+  },
+  "T09": {
+    "case_id": "T09",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "The minimum order value for Gulfstream Pumpworks products is USD 500. If the order quantity is below the minimum, it will be raised to the minimum and charged in full.",
+      "citations": [
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.1#c1",
+          "quote": "All prices are quoted in United States dollars (USD), ex works."
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.1#c1",
+          "quote": "Each part also carries a minimum order quantity, shown in the catalogue. Quantities below it are raised to the minimum and charged in full."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.1#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "Gulfstream Pumpworks: conditions of sale Issued 3 March 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in United States dollars (USD), ex works. 2. Minimum order The minimum order value is USD 500. Each part also carries a minimum order quantity, shown in the catalogue. Quantities below it are raised to the minimum and charged in full."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.1#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "Nordsee Marine Spares: terms of supply Issued 1 June 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in euros (EUR) and exclude freight and duties. 2. Minimum order value The minimum order value is EUR 400. Smaller orders are not accepted."
+        },
+        {
+          "chunk_id": "nordsee_terms_2025#p1.1#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "Nordsee Marine Spares: terms of supply Issued 15 January 2025. Synthetic demonstration document. 1. Prices and currency All prices are quoted in euros (EUR) and exclude freight and duties. 2. Minimum order value The minimum order value is EUR 250. Smaller orders are not accepted."
+        },
+        {
+          "chunk_id": "procurement_policy#p1.3#c1",
+          "doc": "procurement_policy.pdf",
+          "text": "5. Part grade Safety-critical parts for the main engine must be OEM grade. Aftermarket parts may be used for pumps with superintendent agreement. 6. Urgent orders Express handling needs approval from a technical superintendent. 7. Exceptions Send any question this policy does not cover to the purchasing manager."
+        },
+        {
+          "chunk_id": "catalogue.csv#row176",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-090-AM; description: Pump shaft, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 560.81; currency: USD; lead_time_days: 11; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 30
+  },
+  "T10": {
+    "case_id": "T10",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department. You may want to check the catalogue for the lead time of the specific parts in your order, or contact the supplier directly for their current delivery times.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "nordsee_terms_2025#p1.2#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "3. Payment Invoices are payable within 30 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 15:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.2#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "3. Payment Payment is due within 30 days of shipment. 4. Lead time Catalogue lead times are calendar days from receipt of a purchase order. Add 3 calendar days for shipping to the port of delivery. 5. Expedited orders Expediting costs 10 percent of the goods value and saves 2 calendar days."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.2#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "3. Payment Invoices are payable within 45 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 12:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "procurement_policy#p1.2#c1",
+          "doc": "procurement_policy.pdf",
+          "text": "3. Approval A purchaser may approve orders up to 2,000 in the order currency. A technical superintendent approves orders above 2,000 and up to 10,000. The fleet manager approves orders above 10,000. 4. Currency Each purchase order is raised in the currency quoted by the supplier."
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.1#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "Gulfstream Pumpworks: conditions of sale Issued 3 March 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in United States dollars (USD), ex works. 2. Minimum order The minimum order value is USD 500. Each part also carries a minimum order quantity, shown in the catalogue. Quantities below it are raised to the minimum and charged in full."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [
+      "Check the catalogue for the lead time of the specific parts in your order.",
+      "Contact the supplier directly for their current delivery times."
+    ],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 48
+  },
+  "T11": {
+    "case_id": "T11",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I cannot help with delivery times or vessel port calls. Please contact your manager or the responsible department for assistance.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "nordsee_terms_2025#p1.2#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "3. Payment Invoices are payable within 30 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 15:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "procurement_policy#p1.1#c1",
+          "doc": "procurement_policy.pdf",
+          "text": "Fleet procurement policy Version 4, effective 1 April 2026. Synthetic demonstration document. 1. Scope This policy covers spare parts ordered for vessels in the fleet. 2. Quotations Compare at least two suppliers where two list the part. Orders with a goods value above 5,000 in the order currency need two written quotations."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.2#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "3. Payment Invoices are payable within 45 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 12:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.1#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "Gulfstream Pumpworks: conditions of sale Issued 3 March 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in United States dollars (USD), ex works. 2. Minimum order The minimum order value is USD 500. Each part also carries a minimum order quantity, shown in the catalogue. Quantities below it are raised to the minimum and charged in full."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.1#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "Nordsee Marine Spares: terms of supply Issued 1 June 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in euros (EUR) and exclude freight and duties. 2. Minimum order value The minimum order value is EUR 400. Smaller orders are not accepted."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 20
+  },
+  "T12": {
+    "case_id": "T12",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "The lead time for the part N-BG40-030-OE is 12 days, and it is not in stock.",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row153",
+          "quote": "lead_time_days: 12"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row153",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-030-OE; description: Wear ring, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 193.08; currency: EUR; lead_time_days: 12; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row145",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-020-OE; description: Impeller, bronze, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 537.40; currency: EUR; lead_time_days: 16; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row169",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-080-OE; description: Coupling element, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 246.48; currency: EUR; lead_time_days: 10; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row141",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-011-OE; description: Mechanical seal, 45 mm, silicon carbide, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 618.52; currency: EUR; lead_time_days: 17; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row156",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-030-AM; description: Wear ring, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 125.61; currency: USD; lead_time_days: 3; moq: 1; in_stock: no"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 16
+  },
+  "T13": {
+    "case_id": "T13",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I cannot help with delivery times. Please contact your manager or the responsible department for more information.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row156",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-030-AM; description: Wear ring, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 125.61; currency: USD; lead_time_days: 3; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row154",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-030-AM; description: Wear ring, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 127.18; currency: EUR; lead_time_days: 11; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row66",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-CW150-030-AM; description: Wear ring, aftermarket; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 685.61; currency: EUR; lead_time_days: 6; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.3#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "6. Returns Unused parts may be returned within 30 days with a 20 percent restocking fee."
+        },
+        {
+          "chunk_id": "catalogue.csv#row153",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-030-OE; description: Wear ring, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 193.08; currency: EUR; lead_time_days: 12; moq: 1; in_stock: no"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 17
+  },
+  "T14": {
+    "case_id": "T14",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "G-CW150-010-OE: Mechanical seal, 45 mm, carbon/ceramic, OEM",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row51",
+          "quote": "part_no: G-CW150-010-OE; description: Mechanical seal, 45 mm, carbon/ceramic, OEM;"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row51",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-010-OE; description: Mechanical seal, 45 mm, carbon/ceramic, OEM; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 864.00; currency: USD; lead_time_days: 11; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row52",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-010-AM; description: Mechanical seal, 45 mm, carbon/ceramic, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 620.59; currency: USD; lead_time_days: 6; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row55",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-011-OE; description: Mechanical seal, 45 mm, silicon carbide, OEM; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 638.89; currency: USD; lead_time_days: 14; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row49",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-CW150-010-OE; description: Mechanical seal, 45 mm, carbon/ceramic, OEM; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 1003.38; currency: EUR; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row56",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-011-AM; description: Mechanical seal, 45 mm, silicon carbide, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 467.28; currency: USD; lead_time_days: 3; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 3,
+    "unsupported": [],
+    "contradicted": [
+      "The part number is G-CW150-010-OE.",
+      "The description is Mechanical seal, 45 mm, carbon/ceramic, OEM."
+    ],
+    "missing_facts": [
+      "The part number is N-CW150-011-OE.",
+      "The description is Mechanical seal, 45 mm, silicon carbide, OEM."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 7
+  },
+  "T15": {
+    "case_id": "T15",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "The lead time for the mechanical seal is 30 calendar days from order confirmation, plus 2 calendar days for port clearance. The minimum order quantity is not specified in the provided context, but it is mentioned that smaller orders are not accepted by Nordsee Marine Spares, which implies a minimum order quantity of 1 unit. However, this information is not explicitly stated in the context. ",
+      "citations": [
+        {
+          "chunk_id": "nordsee_terms_2026#p1.2#c1",
+          "quote": "Catalogue lead times are calendar days counted from order confirmation."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.2#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "3. Payment Payment is due within 30 days of shipment. 4. Lead time Catalogue lead times are calendar days from receipt of a purchase order. Add 3 calendar days for shipping to the port of delivery. 5. Expedited orders Expediting costs 10 percent of the goods value and saves 2 calendar days."
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.1#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "Gulfstream Pumpworks: conditions of sale Issued 3 March 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in United States dollars (USD), ex works. 2. Minimum order The minimum order value is USD 500. Each part also carries a minimum order quantity, shown in the catalogue. Quantities below it are raised to the minimum and charged in full."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.2#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "3. Payment Invoices are payable within 45 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 12:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "nordsee_terms_2025#p1.2#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "3. Payment Invoices are payable within 30 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 15:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.1#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "Nordsee Marine Spares: terms of supply Issued 1 June 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in euros (EUR) and exclude freight and duties. 2. Minimum order value The minimum order value is EUR 400. Smaller orders are not accepted."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": false,
+    "gold_rank": 13,
+    "unsupported": [
+      "The lead time for the mechanical seal is 30 calendar days from order confirmation, plus 2 calendar days for port clearance.",
+      "The minimum order quantity is 1 unit."
+    ],
+    "contradicted": [],
+    "missing_facts": [
+      "The lead time is 18 days.",
+      "The minimum order quantity is 1 unit."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 65
+  },
+  "T16": {
+    "case_id": "T16",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "G-BP200-020-AM: Impeller, bronze, 230 mm, aftermarket",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row12",
+          "quote": "Impeller, bronze, 230 mm, aftermarket"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row12",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 443.59; currency: USD; lead_time_days: 5; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row15",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-021-OE; description: Impeller, stainless steel, 230 mm, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 799.26; currency: USD; lead_time_days: 16; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row10",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 426.16; currency: EUR; lead_time_days: 5; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row13",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-021-OE; description: Impeller, stainless steel, 230 mm, OEM; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 719.00; currency: EUR; lead_time_days: 11; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row11",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-020-OE; description: Impeller, bronze, 230 mm, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 565.24; currency: USD; lead_time_days: 18; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [],
+    "contradicted": [
+      "The part number is G-BP200-020-AM."
+    ],
+    "missing_facts": [
+      "The part number is N-BP200-020-AM."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 6
+  },
+  "T17": {
+    "case_id": "T17",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "G-BG40-010-OE, $282.70",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row139",
+          "quote": "part_no: G-BG40-010-OE"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row139",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-010-OE; description: Mechanical seal, 45 mm, carbon/ceramic, OEM; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 282.70; currency: USD; lead_time_days: 11; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row140",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-010-AM; description: Mechanical seal, 45 mm, carbon/ceramic, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 173.63; currency: USD; lead_time_days: 9; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row143",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-011-OE; description: Mechanical seal, 45 mm, silicon carbide, OEM; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 568.65; currency: USD; lead_time_days: 14; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row137",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-010-OE; description: Mechanical seal, 45 mm, carbon/ceramic, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 260.37; currency: EUR; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row144",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-011-AM; description: Mechanical seal, 45 mm, silicon carbide, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 391.24; currency: USD; lead_time_days: 4; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 4,
+    "unsupported": [],
+    "contradicted": [
+      "The part number is G-BG40-010-OE.",
+      "The unit price is $282.70."
+    ],
+    "missing_facts": [
+      "The part number is N-BG40-010-OE.",
+      "The unit price is 260.37 EUR."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 2
+  },
+  "T18": {
+    "case_id": "T18",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "The lead time for the N-BP200-010-AM part is 7 days. It is currently not in stock.",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row2",
+          "quote": "lead_time_days: 7"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row2",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-010-AM; description: Mechanical seal, 45 mm, carbon/ceramic, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 277.52; currency: EUR; lead_time_days: 7; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row46",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-100-AM; description: Gland packing set, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 188.85; currency: EUR; lead_time_days: 3; moq: 4; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row18",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-030-AM; description: Wear ring, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 44.05; currency: EUR; lead_time_days: 9; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row10",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 426.16; currency: EUR; lead_time_days: 5; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row42",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-090-AM; description: Pump shaft, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 416.05; currency: EUR; lead_time_days: 4; moq: 1; in_stock: no"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 16
+  },
+  "T19": {
+    "case_id": "T19",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "The unit price of the Shaft sleeve, aftermarket for the ballast pump BP-200 is $569.51. The lead time is 12 days.",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row24",
+          "quote": "unit_price: 569.51"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row24",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-040-AM; description: Shaft sleeve, aftermarket; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 569.51; currency: USD; lead_time_days: 12; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row22",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-040-AM; description: Shaft sleeve, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 572.99; currency: EUR; lead_time_days: 5; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row23",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BP200-040-OE; description: Shaft sleeve, OEM; equipment: ballast pump BP-200; supplier: Gulfstream Pumpworks; unit_price: 815.46; currency: USD; lead_time_days: 11; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row42",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-090-AM; description: Pump shaft, aftermarket; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 416.05; currency: EUR; lead_time_days: 4; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row21",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BP200-040-OE; description: Shaft sleeve, OEM; equipment: ballast pump BP-200; supplier: Nordsee Marine Spares; unit_price: 947.82; currency: EUR; lead_time_days: 10; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 2,
+    "unsupported": [],
+    "contradicted": [
+      "The unit price of the Shaft sleeve, aftermarket for the ballast pump BP-200 is $569.51.",
+      "The lead time is 12 days."
+    ],
+    "missing_facts": [
+      "The unit price is 572.99 EUR.",
+      "The lead time is 5 days."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 21
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asked": [
+    {
+      "id": "Q1",
+      "question": "No file covers vessel port calls. Should the assistant refuse port call questions and point purchasers and superintendents to the relevant page?",
+      "why_it_matters": "Without a port call file the assistant would have to guess port call details.",
+      "trigger": "the vessel's next port call",
+      "default_answer": "Yes. Refuse port call questions and point to the relevant page."
+    }
+  ],
+  "dropped": [
+    {
+      "question": "The catalogue.csv file has unit prices, but the gulfstream_terms_2026.pdf and nordsee_terms_2025.pdf files have currency and prices. Should the assistant use the catalogue.csv prices or the supplier terms?",
+      "reason": "trigger is not in the brief or a file name"
+    },
+    {
+      "question": "The catalogue.csv file has lead times, but the gulfstream_terms_2026.pdf and nordsee_terms_2025.pdf files have lead times and express handling. Should the assistant use the catalogue.csv lead times or the supplier terms?",
+      "reason": "trigger is not in the brief or a file name"
+    },
+    {
+      "question": "The catalogue.csv file has in_stock status, but the gulfstream_terms_2026.pdf and nordsee_terms_2025.pdf files have in_stock status. If they disagree, which one is current?",
+      "reason": "trigger is not in the brief or a file name"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "asked": [
+    {
+      "id": "Q1",
+      "question": "No file covers the company's own crew policies. Should the assistant refuse crew policy questions and point members to the crew handbook?",
+      "why_it_matters": "Without a crew policy file, the assistant would have to guess crew policy details.",
+      "trigger": "the company's own crew policies",
+      "default_answer": "Yes. Refuse crew policy questions and point to the crew handbook."
+    },
+    {
+      "id": "Q2",
+      "question": "The Maritime Labour Convention, 2006, is covered in mlc_2006_consolidated_2022.pdf, but the company's crew policies are in company_crew_handbook.docx. If they disagree, which one is current?",
+      "why_it_matters": "The assistant needs a rule for conflicting policies.",
+      "trigger": "mlc_2006_consolidated_2022.pdf",
+      "default_answer": "Show both values and say they disagree."
+    },
+    {
+      "id": "Q3",
+      "question": "The Maritime Labour Convention, 2006, is mentioned in the brief, but no file covers its implementation. Should the assistant refuse questions about implementation and point members to the convention document?",
+      "why_it_matters": "Without an implementation file, the assistant would have to guess implementation details.",
+      "trigger": "the Maritime Labour Convention, 2006",
+      "default_answer": "Yes. Refuse implementation questions and point to the convention document."
+    }
+  ],
+  "dropped": []
+}

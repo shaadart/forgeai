@@ -1,0 +1,98 @@
+[
+  {
+    "name": "catalogue.csv",
+    "type": "csv",
+    "sha256": "7e350201c8dae45849468c499b11c6edf38aa359940e17e09e1e3bf132cdbfbc",
+    "pages": null,
+    "rows": 300,
+    "headings": [],
+    "columns": [
+      "part_no",
+      "description",
+      "equipment",
+      "supplier",
+      "unit_price",
+      "currency",
+      "lead_time_days",
+      "moq",
+      "in_stock"
+    ],
+    "read": true,
+    "note": ""
+  },
+  {
+    "name": "gulfstream_terms_2026.pdf",
+    "type": "pdf",
+    "sha256": "ec183129bf583a767e701edbeb8ccfedf7cda0bdd296289f86731a42f2689342",
+    "pages": 1,
+    "rows": null,
+    "headings": [
+      "1. Prices and currency",
+      "2. Minimum order",
+      "3. Payment",
+      "4. Lead time",
+      "5. Expedited orders",
+      "6. Returns"
+    ],
+    "columns": [],
+    "read": true,
+    "note": ""
+  },
+  {
+    "name": "nordsee_terms_2025.pdf",
+    "type": "pdf",
+    "sha256": "1a0fb5f46a95f03acb5d1eff5bb2552311bde8720d495c412d99cb517ccd443f",
+    "pages": 1,
+    "rows": null,
+    "headings": [
+      "1. Prices and currency",
+      "2. Minimum order value",
+      "3. Payment",
+      "4. Lead time",
+      "5. Express handling",
+      "6. Warranty",
+      "7. Cancellation"
+    ],
+    "columns": [],
+    "read": true,
+    "note": ""
+  },
+  {
+    "name": "nordsee_terms_2026.pdf",
+    "type": "pdf",
+    "sha256": "0fc736e4a2c34d2aa30650857676e02b6be2cddee8813498364f54926877e3bb",
+    "pages": 1,
+    "rows": null,
+    "headings": [
+      "1. Prices and currency",
+      "2. Minimum order value",
+      "3. Payment",
+      "4. Lead time",
+      "5. Express handling",
+      "6. Warranty",
+      "7. Cancellation"
+    ],
+    "columns": [],
+    "read": true,
+    "note": ""
+  },
+  {
+    "name": "procurement_policy.pdf",
+    "type": "pdf",
+    "sha256": "a44143a1397d73fe2ef63914ddaacde9128ec51763780840aa3f4604da346f16",
+    "pages": 1,
+    "rows": null,
+    "headings": [
+      "1. Scope",
+      "2. Quotations",
+      "3. Approval",
+      "4. Currency",
+      "5. Part grade",
+      "6. Urgent orders",
+      "7. Exceptions"
+    ],
+    "columns": [],
+    "read": true,
+    "note": ""
+  }
+]

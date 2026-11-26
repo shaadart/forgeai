@@ -1,0 +1,449 @@
+{
+  "name": "Spare Parts Assistant",
+  "train": {
+    "v0": {
+      "passed": 0,
+      "failed": 2,
+      "unknown": 17,
+      "total": 19,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.6576280471103807
+      ]
+    },
+    "final": {
+      "passed": 0,
+      "failed": 2,
+      "unknown": 17,
+      "total": 19,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.6576280471103807
+      ]
+    }
+  },
+  "sealed": {
+    "v0": {
+      "passed": 0,
+      "failed": 2,
+      "unknown": 8,
+      "total": 10,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.6576280471103807
+      ]
+    },
+    "final": {
+      "passed": 0,
+      "failed": 2,
+      "unknown": 8,
+      "total": 10,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.6576280471103807
+      ]
+    },
+    "final_without_memorizable": {
+      "passed": 0,
+      "failed": 2,
+      "unknown": 8,
+      "total": 10,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.6576280471103807
+      ]
+    }
+  },
+  "train_sealed_gap": 0.0,
+  "likely_overfitting": false,
+  "noise": {
+    "flips": 0,
+    "floor": 1
+  },
+  "loop": {
+    "accepted": 0,
+    "rejected": 3
+  },
+  "judge": {
+    "health": "degraded",
+    "canaries": [
+      {
+        "name": "gold",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "number_swap",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "padded",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "planted_claim",
+        "ok": false,
+        "detail": ""
+      },
+      {
+        "name": "shuffled",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "correct_refusal",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "shuffle_disagreements": 6,
+    "number_disagreements": 0,
+    "judged": 29
+  },
+  "classifier": {
+    "disagreements": 0,
+    "classified": 6
+  },
+  "evalset": {
+    "generated": 35,
+    "kept": 29,
+    "rejected": 6,
+    "lexical_overlap": 1,
+    "groundability_disagreements": [
+      "How long does it take to receive a shaft sleeve for a BG-40 bilge pump if ordered now?",
+      "Does the supplier have any other parts for bilge pumps?",
+      "Can we expect the gland packing set to be in stock next week?"
+    ],
+    "below_minimum": false
+  },
+  "memorizable": {
+    "cases": [],
+    "rate": 0.0
+  },
+  "assumptions": [
+    "Overruled by code: nobody confirmed refusing 'Vessel port calls', and the brief asks about it, so the documents decide (see the groundability table)."
+  ],
+  "demoted_topics": [
+    "Delivery times",
+    "Vessel port calls"
+  ],
+  "generator_defects": [],
+  "unused_tools": [
+    "calculator",
+    "csv_lookup"
+  ],
+  "documents_not_read": [],
+  "answer_words": {
+    "train_v0": 21.9,
+    "train_final": 21.9
+  },
+  "contract_failures": {
+    "report": 1
+  },
+  "budget": {
+    "calls": 282,
+    "tokens": 410583,
+    "limit": 8000000,
+    "seconds": 2440.1
+  },
+  "stopped": null,
+  "failures": [
+    {
+      "id": "T01",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the lead time for the Casing gasket set, OEM for the ballast pump BP-200?",
+      "got": "18 days",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T02",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "When will the parts be delivered?",
+      "got": "I cannot help with delivery times or vessel port calls. Please refer to your manager or the responsible department for this information.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T03",
+      "split": "train",
+      "category": "hallucination",
+      "question": "Can we get this part from another supplier?",
+      "got": "Yes, we can get the shaft sleeve from Gulfstream Pumpworks, but it's in USD and not in stock.",
+      "evidence": "check 2: expected to refuse, status was answered",
+      "note": "answered a question that should be refused",
+      "still_open_because": "Refit 3 targeted it and did not beat the noise floor."
+    },
+    {
+      "id": "T04",
+      "split": "train",
+      "category": "wrong_refusal",
+      "question": "How much does the casing gasket set for the BP-200 ballast pump cost, and how long will it take to arrive?",
+      "got": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department. Specifically, the question asks for delivery times, which is out of my scope. If you rephrase the question to only ask about the cost, I can try to help.",
+      "evidence": "check 2: expected to answer, status was refused; check 8: expected tool csv_lookup was not called",
+      "note": "refused although the needed text was retrieved",
+      "still_open_because": "Refit 2 targeted it; code rejected the patch: sentence to replace is not in /system_prompt/refusal_policy."
+    },
+    {
+      "id": "T05",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "How many days will it take to deliver the ballast pump BP-200 if I order now?",
+      "got": "I cannot help with delivery times or vessel port calls. Please contact your manager or the responsible department for assistance.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T06",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "Could you tell me the next port of call for the ballast pump BP-200?",
+      "got": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T07",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the part number and unit price of the gland packing set for the CW-150 cooling water pump, and is it currently in stock?",
+      "got": "The part number is G-CW150-100-OE, the unit price is 405.87 USD, and it is currently in stock.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T08",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "When will the parts for the CW-150 cooling water pump be delivered?",
+      "got": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T09",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the minimum order value for Gulfstream Pumpworks products, and what happens if the order quantity is below the minimum?",
+      "got": "The minimum order value for Gulfstream Pumpworks products is USD 500. If the order quantity is below the minimum, it will be raised to the minimum and charged in full.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T10",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "How long will it take to deliver my order if I place it now?",
+      "got": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department. You may want to check the catalogue for the lead time of the specific parts in your order, or contact the supplier directly for their current delivery times.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T11",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "Can the vessel call at a specific port for a particular shipment?",
+      "got": "I cannot help with delivery times or vessel port calls. Please contact your manager or the responsible department for assistance.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T12",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the lead time for the part N-BG40-030-OE, and is it in stock?",
+      "got": "The lead time for the part N-BG40-030-OE is 12 days, and it is not in stock.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T13",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "When will the wear ring be delivered?",
+      "got": "I cannot help with delivery times. Please contact your manager or the responsible department for more information.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T14",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the part number and description of the mechanical seal for the cooling water pump CW-150?",
+      "got": "G-CW150-010-OE: Mechanical seal, 45 mm, carbon/ceramic, OEM",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T15",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "How long is the lead time for the mechanical seal and what is the minimum order quantity?",
+      "got": "The lead time for the mechanical seal is 30 calendar days from order confirmation, plus 2 calendar days for port clearance. The minimum order quantity is not specified in the provided context, but it is mentioned that smaller orders are not accepted by Nordsee Marine Spares, which implies a minimum ",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T16",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the part number and description for the ballast pump BP-200 impeller?",
+      "got": "G-BP200-020-AM: Impeller, bronze, 230 mm, aftermarket",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T17",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the part number and unit price for the mechanical seal used in the BG-40 bilge pump?",
+      "got": "G-BG40-010-OE, $282.70",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T18",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the lead time for the N-BP200-010-AM part and is it currently in stock?",
+      "got": "The lead time for the N-BP200-010-AM part is 7 days. It is currently not in stock.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T19",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What is the unit price of the Shaft sleeve, aftermarket for the ballast pump BP-200 and what is the lead time in days?",
+      "got": "The unit price of the Shaft sleeve, aftermarket for the ballast pump BP-200 is $569.51. The lead time is 12 days.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S01",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "What is the unit price of the Shaft sleeve, aftermarket for the bilge pump BG-40, and who is the supplier?",
+      "got": "216.60 EUR, Nordsee Marine Spares",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S02",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "When will the next port call for the supply ship be?",
+      "got": "I cannot help with delivery times or vessel port calls. Please contact your manager or the responsible department for this information.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S03",
+      "split": "sealed",
+      "category": "hallucination",
+      "question": "How much does a Shaft sleeve, aftermarket cost if ordered now?",
+      "got": "263.16",
+      "evidence": "check 8: expected tool csv_lookup was not called; check 8: expected tool calculator was not called",
+      "note": "stated something the context does not support",
+      "still_open_because": "Sealed case: never shown to the fixer."
+    },
+    {
+      "id": "S04",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "What is the part number and description of the aftermarket impeller for the bilge pump BG-40?",
+      "got": "G-BG40-020-AM, Impeller, bronze, 230 mm, aftermarket",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S05",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "How long is the lead time for the aftermarket impeller, and is it in stock?",
+      "got": "The lead time for the aftermarket impeller is 11 days, and it is not in stock. [C1] \"Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 429.34; currency: USD; lead_time_days: 11; moq: 1; in_stock: no\"",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S06",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "How long will it take to deliver the impeller to my location?",
+      "got": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S07",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "Will the part fit on the Smith Marine bilge pump model SG-50?",
+      "got": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S08",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "What is the unit price of the impeller for the bilge pump BG-40?",
+      "got": "The unit price of the impeller for the bilge pump BG-40 is $429.34 for the aftermarket bronze impeller, $673.02 for the OEM bronze impeller, and $537.40 for the OEM bronze impeller from Nordsee Marine Spares.",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S09",
+      "split": "sealed",
+      "category": "hallucination",
+      "question": "Can we order an Impeller from Nordsee Marine Spares for the bilge pump BG-40, and if so, what is the unit price and minimum order quantity?",
+      "got": "Yes, we can order an Impeller from Nordsee Marine Spares for the bilge pump BG-40. The unit price and minimum order quantity depend on the type of impeller. For an aftermarket impeller, the unit price is 453.72 EUR and the minimum order quantity is 1. For an OEM impeller, the unit price is 537.40 EU",
+      "evidence": "check 4: quote not found in catalogue.csv#row146: 'All prices are quoted in euros (EUR) and exclude freight and duties.'; check 4: quote not found in catalogue.csv#row146: 'The minimum order value is EUR 400. Smaller orders are not accepted.'; check 4: quote not found in catalogue.csv#row145: 'All p",
+      "note": "stated something the context does not support",
+      "still_open_because": "Sealed case: never shown to the fixer."
+    },
+    {
+      "id": "S10",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "What is the lead time and minimum order quantity for the impeller part N-BG40-020-OE?",
+      "got": "16 days, 1 unit",
+      "evidence": "a judge canary failed, so this label cannot be trusted",
+      "note": "a judge canary failed, so this label cannot be trusted",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    }
+  ]
+}

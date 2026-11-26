@@ -1,0 +1,295 @@
+{
+  "name": "Maritime Labour Assistant",
+  "train": {
+    "v0": {
+      "passed": 9,
+      "failed": 4,
+      "unknown": 4,
+      "total": 17,
+      "rate": 0.6923076923076923,
+      "ci": [
+        0.4236888781333764,
+        0.8731950283838191
+      ]
+    },
+    "final": {
+      "passed": 9,
+      "failed": 4,
+      "unknown": 4,
+      "total": 17,
+      "rate": 0.6923076923076923,
+      "ci": [
+        0.4236888781333764,
+        0.8731950283838191
+      ]
+    }
+  },
+  "sealed": {
+    "v0": {
+      "passed": 7,
+      "failed": 3,
+      "unknown": 2,
+      "total": 12,
+      "rate": 0.7,
+      "ci": [
+        0.39677321997956516,
+        0.892210712513788
+      ]
+    },
+    "final": {
+      "passed": 7,
+      "failed": 3,
+      "unknown": 2,
+      "total": 12,
+      "rate": 0.7,
+      "ci": [
+        0.39677321997956516,
+        0.892210712513788
+      ]
+    },
+    "final_without_memorizable": {
+      "passed": 7,
+      "failed": 3,
+      "unknown": 2,
+      "total": 12,
+      "rate": 0.7,
+      "ci": [
+        0.39677321997956516,
+        0.892210712513788
+      ]
+    }
+  },
+  "train_sealed_gap": -0.007692307692307665,
+  "likely_overfitting": false,
+  "noise": {
+    "flips": 3,
+    "floor": 3
+  },
+  "loop": {
+    "accepted": 0,
+    "rejected": 3
+  },
+  "judge": {
+    "health": "ok",
+    "canaries": [
+      {
+        "name": "gold",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "number_swap",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "padded",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "planted_claim",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "shuffled",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "correct_refusal",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "shuffle_disagreements": 6,
+    "number_disagreements": 0,
+    "judged": 29
+  },
+  "classifier": {
+    "disagreements": 0,
+    "classified": 12
+  },
+  "evalset": {
+    "generated": 39,
+    "kept": 29,
+    "rejected": 10,
+    "lexical_overlap": 6,
+    "groundability_disagreements": [
+      "What is the minimum number of days off a seafarer should get per month according to the Maritime Labour Convention, 2006?",
+      "Can a seafarer waive their right to minimum annual leave with pay?",
+      "Can seafarers be placed in positions that require different qualifications than those they possess?",
+      "How should the shipowner handle the repatriation of a seafarer who is ill and requires medical treatment?"
+    ],
+    "below_minimum": false
+  },
+  "memorizable": {
+    "cases": [],
+    "rate": 0.0
+  },
+  "assumptions": [
+    "If the two fee sources disagree, both values are shown. Nobody confirmed this.",
+    "The company's crew policies are in company_crew_handbook.docx. Nobody confirmed this.",
+    "Overruled by code: nobody confirmed refusing 'Implementation of the Maritime Labour Convention, 2006', and the brief asks about it, so the documents decide (see the groundability table).",
+    "Overruled by code: nobody confirmed refusing 'Company crew policies', and the brief asks about it, so the documents decide (see the groundability table)."
+  ],
+  "demoted_topics": [
+    "Wages",
+    "Implementation of the Maritime Labour Convention, 2006"
+  ],
+  "generator_defects": [
+    "dropped tool csv_lookup: no supported topic needs it, or nothing for it to read",
+    "dropped tool calculator: no supported topic needs it, or nothing for it to read",
+    "dropped tool date: no supported topic needs it, or nothing for it to read"
+  ],
+  "unused_tools": [],
+  "documents_not_read": [],
+  "answer_words": {
+    "train_v0": 117.5,
+    "train_final": 117.5
+  },
+  "contract_failures": {
+    "agent": 1,
+    "report": 1
+  },
+  "budget": {
+    "calls": 336,
+    "tokens": 827485,
+    "limit": 8000000,
+    "seconds": 15925.5
+  },
+  "stopped": null,
+  "failures": [
+    {
+      "id": "T03",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "Does the Maritime Labour Convention, 2006 apply to all types of ships?",
+      "got": "I can't find that in the Maritime Labour Convention, 2006. Try rephrasing, or ask your manager or the responsible department.",
+      "evidence": "the two judge passes disagree",
+      "note": "the two judge passes disagree",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T04",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What are the key points regarding on-board complaint procedures for seafarers under this regulation?",
+      "got": "According to the Maritime Labour Convention, 2006, the key points regarding on-board complaint procedures for seafarers are: seafarers have the right to lodge complaints relating to any matter that is alleged to constitute a breach of the Convention's requirements, including seafarers' rights. The o",
+      "evidence": "the two judge passes disagree",
+      "note": "the two judge passes disagree",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T06",
+      "split": "train",
+      "category": "hallucination",
+      "question": "Can a ship's crew member be punished for complaining about poor working conditions?",
+      "got": "No, according to the Maritime Labour Convention, 2006, a ship's crew member cannot be punished for complaining about poor working conditions. The Convention states that there should be safeguards against the possibility of victimization of seafarers for filing complaints (Regulation 92, paragraph 3)",
+      "evidence": "check 2: expected to refuse, status was answered",
+      "note": "answered a question that should be refused",
+      "still_open_because": "Refit 1 targeted it and did not beat the noise floor."
+    },
+    {
+      "id": "T08",
+      "split": "train",
+      "category": "prompt_defect",
+      "question": "What procedures should recruitment agencies follow for dealing with incompetence or indiscipline?",
+      "got": "The procedures for dealing with cases of incompetence or indiscipline should be in accordance with the principles of natural justice, consistent with national laws and practice, and, where applicable, with collective agreements. This is stated in Guideline B1.4 – Recruitment and placement, Guideline",
+      "evidence": "check 4: quote not found in mlc_2006_consolidated_2022#p26.2#c1: '(h) procedures which are in accordance with the principles of natural justice fo'",
+      "note": "had the context and still got it wrong",
+      "still_open_because": "Refit 2 targeted it and did not beat the noise floor."
+    },
+    {
+      "id": "T10",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What are the conditions under which seafarers can be repatriated according to the MLC 2006?",
+      "got": "According to the MLC 2006, seafarers can be repatriated in the following circumstances: (a) if the seafarers' employment agreement expires while they are abroad; (b) when the seafarers' employment agreement is terminated: (i) by the shipowner; or (ii) by the seafarer for justified reasons; and also ",
+      "evidence": "the two judge passes disagree",
+      "note": "the two judge passes disagree",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "T11",
+      "split": "train",
+      "category": "retrieval_miss",
+      "question": "What costs must the shipowner cover during seafarers' repatriation according to the MLC 2006?",
+      "got": "According to the MLC 2006, the shipowner must cover the following costs during seafarers' repatriation: [C3] (file: mlc_2006_consolidated_2022.pdf) (a) all expenses reasonably incurred by the seafarer, including the cost of repatriation referred to in paragraph 10; and (b) the essential needs of the",
+      "evidence": "check 4: quote not found in mlc_2006_consolidated_2022#p40.1#c1: 'all expenses reasonably incurred by the seafarer, including the cost of repatria'",
+      "note": "passes once the gold chunk is injected",
+      "still_open_because": "Refit 3 targeted it and did not beat the noise floor."
+    },
+    {
+      "id": "T15",
+      "split": "train",
+      "category": "hallucination",
+      "question": "What are the rules for splitting the rest periods and what happens if rest is lost due to an emergency?",
+      "got": "According to the Maritime Labour Convention, 2006, hours of rest may be divided into no more than two periods, one of which shall be at least six hours in length, and the interval between consecutive periods of rest shall not exceed 14 hours [C2]. If rest is lost due to an emergency, it is made up w",
+      "evidence": "unsupported claim: The interval between consecutive periods of rest shall not exceed 14 hours.",
+      "note": "stated something the context does not support",
+      "still_open_because": "Refit 1 targeted it and did not beat the noise floor."
+    },
+    {
+      "id": "T16",
+      "split": "train",
+      "category": "judge_uncertain",
+      "question": "What does 'able seafarer' mean in this context?",
+      "got": "An able seafarer refers to a seafarer who is capable of performing their duties on board a ship, as mentioned in Guideline B2.2.4 of the Maritime Labour Convention, 2006. [C2] 1. The basic pay or wages for a calendar month of service for an able seafarer should be no less than the amount periodicall",
+      "evidence": "the two judge passes disagree",
+      "note": "the two judge passes disagree",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S02",
+      "split": "sealed",
+      "category": "hallucination",
+      "question": "What are the minimum wages for seafarers under the Maritime Labour Convention, 2006?",
+      "got": "The Maritime Labour Convention, 2006, does not establish a fixed minimum wage for seafarers. Instead, it provides guidelines for determining minimum wages, as stated in Guideline B2.2.3: \"Each Member should, after consulting representative shipowners’ and seafarers’ organizations, establish procedur",
+      "evidence": "check 2: expected to refuse, status was answered",
+      "note": "answered a question that should be refused",
+      "still_open_because": "Sealed case: never shown to the fixer."
+    },
+    {
+      "id": "S03",
+      "split": "sealed",
+      "category": "hallucination",
+      "question": "Can seafarers refuse to work in conditions that do not comply with the Maritime Labour Convention, 2006, and what are the implications?",
+      "got": "Yes, seafarers can refuse to work in conditions that do not comply with the Maritime Labour Convention, 2006. [C1] 1. Seafarers shall not work on a ship unless they are certified as medically fit to perform their duties. 2. Exceptions can only be permitted as prescribed in the Code. This implies tha",
+      "evidence": "check 2: expected to refuse, status was answered",
+      "note": "answered a question that should be refused",
+      "still_open_because": "Sealed case: never shown to the fixer."
+    },
+    {
+      "id": "S04",
+      "split": "sealed",
+      "category": "retrieval_miss",
+      "question": "What are the main obligations of the competent authority regarding seafarer recruitment and placement services?",
+      "got": "The competent authority shall closely supervise and control all seafarer recruitment and placement services operating in the territory of the Member concerned. Any licences or certificates or similar authorizations for the operation of private services in the territory are granted or renewed only af",
+      "evidence": "missing key fact: The competent authority should consider promoting effective cooperation among seafarer recruitment and placement services.; missing key fact: Consideration should be given to encouraging international cooperation between Members and relevant organizations.",
+      "note": "passes once the gold chunk is injected",
+      "still_open_because": "Sealed case: never shown to the fixer."
+    },
+    {
+      "id": "S05",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "What are the main responsibilities of the Designated Person Ashore (DPA) according to the crew handbook, and how do they relate to the safety and health regulations mentioned in the MLC 2006?",
+      "got": "According to the crew handbook, the Designated Person Ashore (DPA) receives complaints that cannot be settled on board. This is mentioned in [C1] (file: company_crew_handbook.docx) under the section 'Who to ask'.\n\nIn relation to the safety and health regulations mentioned in the MLC 2006, the DPA's ",
+      "evidence": "the two judge passes disagree",
+      "note": "the two judge passes disagree",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    },
+    {
+      "id": "S06",
+      "split": "sealed",
+      "category": "judge_uncertain",
+      "question": "What are the responsibilities of the Master and the crewing officer ashore, and how does the Designated Person Ashore handle complaints that cannot be resolved on board?",
+      "got": "According to the company's crew handbook [C1], the Master is responsible for day-to-day crew matters on board, and the crewing officer ashore handles contracts, leave, wages, and travel. The Designated Person Ashore (DPA) receives complaints that cannot be settled on board. Additionally, the Maritim",
+      "evidence": "the two judge passes disagree",
+      "note": "the two judge passes disagree",
+      "still_open_because": "The judge could not decide, so it was never sent to the fixer."
+    }
+  ]
+}

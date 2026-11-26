@@ -1,0 +1,613 @@
+{
+  "S01": {
+    "case_id": "S01",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "216.60 EUR, Nordsee Marine Spares",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row158",
+          "quote": "216.60; currency: EUR;"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row157",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-040-OE; description: Shaft sleeve, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 321.64; currency: EUR; lead_time_days: 17; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row158",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-040-AM; description: Shaft sleeve, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 216.60; currency: EUR; lead_time_days: 5; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row176",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-090-AM; description: Pump shaft, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 560.81; currency: USD; lead_time_days: 11; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row175",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-090-OE; description: Pump shaft, OEM; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 709.46; currency: USD; lead_time_days: 10; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row174",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-090-AM; description: Pump shaft, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 503.04; currency: EUR; lead_time_days: 10; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 2,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 5
+  },
+  "S02": {
+    "case_id": "S02",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I cannot help with delivery times or vessel port calls. Please contact your manager or the responsible department for this information.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "nordsee_terms_2025#p1.2#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "3. Payment Invoices are payable within 30 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 15:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.2#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "3. Payment Invoices are payable within 45 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 12:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "procurement_policy#p1.1#c1",
+          "doc": "procurement_policy.pdf",
+          "text": "Fleet procurement policy Version 4, effective 1 April 2026. Synthetic demonstration document. 1. Scope This policy covers spare parts ordered for vessels in the fleet. 2. Quotations Compare at least two suppliers where two list the part. Orders with a goods value above 5,000 in the order currency need two written quotations."
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.2#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "3. Payment Payment is due within 30 days of shipment. 4. Lead time Catalogue lead times are calendar days from receipt of a purchase order. Add 3 calendar days for shipping to the port of delivery. 5. Expedited orders Expediting costs 10 percent of the goods value and saves 2 calendar days."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.1#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "Nordsee Marine Spares: terms of supply Issued 1 June 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in euros (EUR) and exclude freight and duties. 2. Minimum order value The minimum order value is EUR 400. Smaller orders are not accepted."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 21
+  },
+  "S03": {
+    "case_id": "S03",
+    "state": "failed",
+    "turn": {
+      "status": "answered",
+      "answer": "263.16",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row68",
+          "quote": "263.16"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row68",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-CW150-040-AM; description: Shaft sleeve, aftermarket; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 263.16; currency: EUR; lead_time_days: 6; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row67",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-CW150-040-OE; description: Shaft sleeve, OEM; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 383.04; currency: EUR; lead_time_days: 10; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row110",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-FT80-040-AM; description: Shaft sleeve, aftermarket; equipment: fuel oil transfer pump FT-80; supplier: Nordsee Marine Spares; unit_price: 565.79; currency: EUR; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row158",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-040-AM; description: Shaft sleeve, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 216.60; currency: EUR; lead_time_days: 5; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row70",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-040-AM; description: Shaft sleeve, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 235.08; currency: USD; lead_time_days: 10; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "check 8: expected tool csv_lookup was not called",
+      "check 8: expected tool calculator was not called"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 4,
+    "unsupported": [
+      "The unit price of the Shaft sleeve, aftermarket is 263.16 EUR."
+    ],
+    "contradicted": [],
+    "missing_facts": [
+      "The unit price of the Shaft sleeve, aftermarket is 216.60 EUR.",
+      "The lead time is 5 days."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 1
+  },
+  "S04": {
+    "case_id": "S04",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "G-BG40-020-AM, Impeller, bronze, 230 mm, aftermarket",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row148",
+          "quote": "Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 429.34; currency: USD; lead_time_days: 11; moq: 1; in_stock: no"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row148",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 429.34; currency: USD; lead_time_days: 11; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row150",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-021-AM; description: Impeller, stainless steel, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 64.83; currency: EUR; lead_time_days: 5; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row152",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-021-AM; description: Impeller, stainless steel, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 55.62; currency: USD; lead_time_days: 9; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row151",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-021-OE; description: Impeller, stainless steel, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 75.82; currency: USD; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row145",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-020-OE; description: Impeller, bronze, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 537.40; currency: EUR; lead_time_days: 16; moq: 1; in_stock: no"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [],
+    "contradicted": [
+      "The part number is G-BG40-020-AM."
+    ],
+    "missing_facts": [
+      "The part number is N-BG40-020-AM."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 6
+  },
+  "S05": {
+    "case_id": "S05",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "The lead time for the aftermarket impeller is 11 days, and it is not in stock. [C1] \"Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 429.34; currency: USD; lead_time_days: 11; moq: 1; in_stock: no\"",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row148",
+          "quote": "Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 429.34; currency: USD; lead_time_days: 11; moq: 1; in_stock: no"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row148",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 429.34; currency: USD; lead_time_days: 11; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row60",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 591.81; currency: USD; lead_time_days: 4; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row62",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-CW150-021-AM; description: Impeller, stainless steel, 230 mm, aftermarket; equipment: cooling water pump CW-150; supplier: Nordsee Marine Spares; unit_price: 149.50; currency: EUR; lead_time_days: 7; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.2#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "3. Payment Payment is due within 30 days of shipment. 4. Lead time Catalogue lead times are calendar days from receipt of a purchase order. Add 3 calendar days for shipping to the port of delivery. 5. Expedited orders Expediting costs 10 percent of the goods value and saves 2 calendar days."
+        },
+        {
+          "chunk_id": "catalogue.csv#row64",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-CW150-021-AM; description: Impeller, stainless steel, 230 mm, aftermarket; equipment: cooling water pump CW-150; supplier: Gulfstream Pumpworks; unit_price: 135.36; currency: USD; lead_time_days: 4; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 2,
+    "unsupported": [],
+    "contradicted": [
+      "The lead time for the aftermarket impeller is 11 days."
+    ],
+    "missing_facts": [
+      "The lead time for the aftermarket impeller is 4 days."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 38
+  },
+  "S06": {
+    "case_id": "S06",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "nordsee_terms_2025#p1.2#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "3. Payment Invoices are payable within 30 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 15:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.2#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "3. Payment Invoices are payable within 45 days of the invoice date. 4. Lead time Catalogue lead times are calendar days counted from order confirmation. Orders received after 12:00 Central European Time are confirmed on the next working day. Delivery to the vessel adds 2 calendar days for port clearance."
+        },
+        {
+          "chunk_id": "nordsee_terms_2025#p1.3#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "5. Express handling Express handling carries a surcharge of 15 percent of the goods value and reduces the lead time by 3 calendar days. It is offered for stocked items only. 6. Warranty Parts are warranted for 12 months from delivery against defects in material."
+        },
+        {
+          "chunk_id": "gulfstream_terms_2026#p1.2#c1",
+          "doc": "gulfstream_terms_2026.pdf",
+          "text": "3. Payment Payment is due within 30 days of shipment. 4. Lead time Catalogue lead times are calendar days from receipt of a purchase order. Add 3 calendar days for shipping to the port of delivery. 5. Expedited orders Expediting costs 10 percent of the goods value and saves 2 calendar days."
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.3#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "5. Express handling Express handling carries a surcharge of 20 percent of the goods value and reduces the lead time by 3 calendar days. It is offered for stocked items only. 6. Warranty Parts are warranted for 12 months from delivery against defects in material."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 20
+  },
+  "S07": {
+    "case_id": "S07",
+    "state": "unknown",
+    "turn": {
+      "status": "refused",
+      "answer": "I can't find that in the catalogue or supplier terms. Try rephrasing, or ask your manager or the responsible department.",
+      "citations": [],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row174",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-090-AM; description: Pump shaft, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 503.04; currency: EUR; lead_time_days: 10; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row173",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-090-OE; description: Pump shaft, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 738.67; currency: EUR; lead_time_days: 9; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row158",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-040-AM; description: Shaft sleeve, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 216.60; currency: EUR; lead_time_days: 5; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row157",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-040-OE; description: Shaft sleeve, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 321.64; currency: EUR; lead_time_days: 17; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row154",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-030-AM; description: Wear ring, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 127.18; currency: EUR; lead_time_days: 11; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": null,
+    "gold_rank": null,
+    "unsupported": [
+      "The answer is based on the evidence provided."
+    ],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": true,
+    "number_disagree": false,
+    "answer_words": 20
+  },
+  "S08": {
+    "case_id": "S08",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "The unit price of the impeller for the bilge pump BG-40 is $429.34 for the aftermarket bronze impeller, $673.02 for the OEM bronze impeller, and $537.40 for the OEM bronze impeller from Nordsee Marine Spares.",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row148",
+          "quote": "429.34"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row148",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 429.34; currency: USD; lead_time_days: 11; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row147",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-020-OE; description: Impeller, bronze, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 673.02; currency: USD; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row145",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-020-OE; description: Impeller, bronze, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 537.40; currency: EUR; lead_time_days: 16; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row152",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-021-AM; description: Impeller, stainless steel, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 55.62; currency: USD; lead_time_days: 9; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row151",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-021-OE; description: Impeller, stainless steel, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 75.82; currency: USD; lead_time_days: 12; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": false,
+    "gold_rank": 6,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [
+      "The aftermarket impeller costs 453.72 EUR.",
+      "The OEM impeller costs 537.40 EUR."
+    ],
+    "facts_present": false,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 35
+  },
+  "S09": {
+    "case_id": "S09",
+    "state": "failed",
+    "turn": {
+      "status": "answered",
+      "answer": "Yes, we can order an Impeller from Nordsee Marine Spares for the bilge pump BG-40. The unit price and minimum order quantity depend on the type of impeller. For an aftermarket impeller, the unit price is 453.72 EUR and the minimum order quantity is 1. For an OEM impeller, the unit price is 537.40 EUR and the minimum order quantity is 1. However, Nordsee Marine Spares has a minimum order value of 400 EUR, so we would need to order at least 400 EUR worth of parts to meet this requirement. If we order less than 400 EUR, we would need to choose a different supplier or split the order into multiple shipments to meet the minimum order value requirement. The lead time for the aftermarket impeller is 4 days, and the lead time for the OEM impeller is 16 days.",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row146",
+          "quote": "All prices are quoted in euros (EUR) and exclude freight and duties."
+        },
+        {
+          "chunk_id": "catalogue.csv#row146",
+          "quote": "The minimum order value is EUR 400. Smaller orders are not accepted."
+        },
+        {
+          "chunk_id": "catalogue.csv#row145",
+          "quote": "All prices are quoted in euros (EUR) and exclude freight and duties."
+        },
+        {
+          "chunk_id": "catalogue.csv#row145",
+          "quote": "The minimum order value is EUR 400. Smaller orders are not accepted."
+        },
+        {
+          "chunk_id": "catalogue.csv#row150",
+          "quote": "All prices are quoted in euros (EUR) and exclude freight and duties."
+        },
+        {
+          "chunk_id": "catalogue.csv#row150",
+          "quote": "The minimum order value is EUR 400. Smaller orders are not accepted."
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row145",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-020-OE; description: Impeller, bronze, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 537.40; currency: EUR; lead_time_days: 16; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row146",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 453.72; currency: EUR; lead_time_days: 4; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row150",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-021-AM; description: Impeller, stainless steel, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 64.83; currency: EUR; lead_time_days: 5; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "nordsee_terms_2026#p1.1#c1",
+          "doc": "nordsee_terms_2026.pdf",
+          "text": "Nordsee Marine Spares: terms of supply Issued 1 June 2026. Synthetic demonstration document. 1. Prices and currency All prices are quoted in euros (EUR) and exclude freight and duties. 2. Minimum order value The minimum order value is EUR 400. Smaller orders are not accepted."
+        },
+        {
+          "chunk_id": "nordsee_terms_2025#p1.1#c1",
+          "doc": "nordsee_terms_2025.pdf",
+          "text": "Nordsee Marine Spares: terms of supply Issued 15 January 2025. Synthetic demonstration document. 1. Prices and currency All prices are quoted in euros (EUR) and exclude freight and duties. 2. Minimum order value The minimum order value is EUR 250. Smaller orders are not accepted."
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "check 4: quote not found in catalogue.csv#row146: 'All prices are quoted in euros (EUR) and exclude freight and duties.'",
+      "check 4: quote not found in catalogue.csv#row146: 'The minimum order value is EUR 400. Smaller orders are not accepted.'",
+      "check 4: quote not found in catalogue.csv#row145: 'All prices are quoted in euros (EUR) and exclude freight and duties.'",
+      "check 4: quote not found in catalogue.csv#row145: 'The minimum order value is EUR 400. Smaller orders are not accepted.'",
+      "check 4: quote not found in catalogue.csv#row150: 'All prices are quoted in euros (EUR) and exclude freight and duties.'",
+      "check 4: quote not found in catalogue.csv#row150: 'The minimum order value is EUR 400. Smaller orders are not accepted.'"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 2,
+    "unsupported": [
+      "We can order an Impeller from Nordsee Marine Spares for the bilge pump BG-40."
+    ],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 141
+  },
+  "S10": {
+    "case_id": "S10",
+    "state": "unknown",
+    "turn": {
+      "status": "answered",
+      "answer": "16 days, 1 unit",
+      "citations": [
+        {
+          "chunk_id": "catalogue.csv#row145",
+          "quote": "lead_time_days: 16"
+        }
+      ],
+      "clarifying_question": null,
+      "retrieved": [
+        {
+          "chunk_id": "catalogue.csv#row145",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-020-OE; description: Impeller, bronze, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 537.40; currency: EUR; lead_time_days: 16; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row146",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 453.72; currency: EUR; lead_time_days: 4; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row148",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-020-AM; description: Impeller, bronze, 230 mm, aftermarket; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 429.34; currency: USD; lead_time_days: 11; moq: 1; in_stock: no"
+        },
+        {
+          "chunk_id": "catalogue.csv#row147",
+          "doc": "catalogue.csv",
+          "text": "part_no: G-BG40-020-OE; description: Impeller, bronze, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Gulfstream Pumpworks; unit_price: 673.02; currency: USD; lead_time_days: 12; moq: 1; in_stock: yes"
+        },
+        {
+          "chunk_id": "catalogue.csv#row149",
+          "doc": "catalogue.csv",
+          "text": "part_no: N-BG40-021-OE; description: Impeller, stainless steel, 230 mm, OEM; equipment: bilge pump BG-40; supplier: Nordsee Marine Spares; unit_price: 75.64; currency: EUR; lead_time_days: 16; moq: 1; in_stock: yes"
+        }
+      ],
+      "tool_calls": [],
+      "contract_valid": true
+    },
+    "reasons": [
+      "a judge canary failed, so this label cannot be trusted"
+    ],
+    "contract_valid": true,
+    "gold_in_topk": true,
+    "gold_rank": 1,
+    "unsupported": [],
+    "contradicted": [],
+    "missing_facts": [],
+    "facts_present": true,
+    "number_flag": false,
+    "shuffle_disagree": false,
+    "number_disagree": false,
+    "answer_words": 4
+  }
+}
