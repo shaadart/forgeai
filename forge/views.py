@@ -424,7 +424,7 @@ def no_sources(text: str = "Nothing to show.") -> str:
 
 def empty_chat(d: dict, live: bool) -> tuple[str, str]:
     if d["agent"] is None:
-        how = "This run has no agent yet. Watch it on the Factory log page."
+        how = "This run has no agent yet. Watch it on the How it was built page."
     elif live:
         how = "Type your question in the box at the top. I'll mark where every sentence came from."
     else:

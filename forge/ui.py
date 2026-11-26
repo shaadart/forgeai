@@ -1,4 +1,4 @@
-"""forge ui: Ask, Factory log, Certificate and New run, all read from the files a run writes.
+"""forge ui: Ask a question, Report card, How it was built and Build a new agent, all read from the files a run writes.
 
 The UI never runs the pipeline in its own process (jobs.py starts `forge build`). Replay needs no model
 and no key; live chat and new runs need --config. HTML comes from views.py, style from ui.css.
