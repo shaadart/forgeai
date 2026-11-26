@@ -367,31 +367,32 @@ def build_app(root: Path, config: Path | None = None):
 def theme():
     import gradio as gr
     pairs = {  # day, night. The same pigments as ui.css
-        "body_background_fill": ("#f6f0e0", "#0e1730"), "background_fill_primary": ("#fffdf7", "#17233f"),
-        "background_fill_secondary": ("#efe7d3", "#1f2d4f"), "body_text_color": ("#1c1a16", "#f5eedb"),
-        "body_text_color_subdued": ("#55503f", "#b8c1da"), "block_title_text_color": ("#1c1a16", "#f5eedb"),
-        "block_label_text_color": ("#1c1a16", "#f5eedb"), "border_color_primary": ("#ddd2b8", "#31416b"),
-        "border_color_accent": ("#17294f", "#f4c542"), "color_accent_soft": ("#dfe7fb", "#24386a"),
-        "input_background_fill": ("#fffdf7", "#17233f"), "input_border_color": ("#837a62", "#7f8db3"),
-        "input_border_color_focus": ("#17294f", "#f4c542"), "link_text_color": ("#23479e", "#a9c0ff"),
-        "button_secondary_background_fill": ("#fffdf7", "#17233f"),
-        "button_secondary_text_color": ("#1c1a16", "#f5eedb"),
-        "button_secondary_background_fill_hover": ("#dfe7fb", "#24386a"),
-        "button_secondary_border_color": ("#837a62", "#7f8db3")}
-    for name, value in (("background_fill", "#f2b51d"), ("background_fill_hover", "#ffc736"), ("text_color", "#17294f"),
-                        ("text_color_hover", "#17294f"), ("border_color", "#f2b51d")):
-        pairs[f"button_primary_{name}"] = (value, value)  # chrome yellow: the one thing to press, day or night
+        "body_background_fill": ("#f5f6f8", "#0b1120"), "background_fill_primary": ("#ffffff", "#111827"),
+        "background_fill_secondary": ("#eef1f5", "#1a2438"), "body_text_color": ("#111827", "#f1f5f9"),
+        "body_text_color_subdued": ("#525d70", "#94a3b8"), "block_title_text_color": ("#111827", "#f1f5f9"),
+        "block_label_text_color": ("#111827", "#f1f5f9"), "border_color_primary": ("#e2e6ee", "#23304a"),
+        "border_color_accent": ("#1d4ed8", "#60a5fa"), "color_accent_soft": ("#eff6ff", "#172554"),
+        "input_background_fill": ("#ffffff", "#111827"), "input_border_color": ("#cbd2df", "#364766"),
+        "input_border_color_focus": ("#1d4ed8", "#60a5fa"), "link_text_color": ("#1d4ed8", "#60a5fa"),
+        "button_secondary_background_fill": ("#ffffff", "#111827"),
+        "button_secondary_text_color": ("#111827", "#f1f5f9"),
+        "button_secondary_background_fill_hover": ("#eff6ff", "#172554"),
+        "button_secondary_border_color": ("#cbd2df", "#364766")}
+    for name, day, night in (("background_fill", "#e5a00d", "#f5b92a"), ("background_fill_hover", "#f2b224", "#f9c84d"),
+                             ("text_color", "#0f172a", "#0f172a"), ("text_color_hover", "#0f172a", "#0f172a"),
+                             ("border_color", "#d4920a", "#f5b92a")):
+        pairs[f"button_primary_{name}"] = (day, night)  # signal amber: the one thing to press, day or night
     tokens = {name: day for name, (day, _) in pairs.items()}
     tokens |= {f"{name}_dark": night for name, (_, night) in pairs.items()}
     font = gr.themes.Font  # local names only: ui.css carries the files, so nothing is fetched from a font host
     return gr.themes.Base(font=[font("Public Sans"), font("system-ui"), font("sans-serif")],
                           font_mono=[font("IBM Plex Mono"), font("monospace")],
                           radius_size=gr.themes.sizes.radius_md).set(
-        color_accent="#7a745f", block_background_fill="transparent", block_background_fill_dark="transparent",
+        color_accent="#1d4ed8", block_background_fill="transparent", block_background_fill_dark="transparent",
         block_border_width="0px", block_shadow="none", input_shadow="none", input_border_width="1px",
         block_label_background_fill="transparent", block_title_background_fill="transparent",
-        block_padding="0px", layout_gap="16px", button_border_width="1px", button_large_radius="8px",
-        button_medium_radius="8px", button_large_padding="12px 22px", button_large_text_weight="700",
+        block_padding="0px", layout_gap="14px", button_border_width="1px", button_large_radius="8px",
+        button_medium_radius="8px", button_large_padding="11px 20px", button_large_text_weight="700",
         button_medium_text_weight="600", block_title_text_weight="700", **tokens)
 
 
