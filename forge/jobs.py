@@ -51,7 +51,7 @@ def _only_one(root: Path) -> None:
     """Two builds at once fight over the same rate limit."""
     busy = [p.name for p in root.iterdir() if p.is_dir() and running(p)] if root.is_dir() else []
     if busy:
-        raise ValueError(f"Run {busy[0]} is still going. Wait for it, or stop it on the Factory log tab.")
+        raise ValueError(f"Run {busy[0]} is still going. Wait for it, or stop it on the How it was built page.")
 
 
 def start(root: Path, brief: str, files: list[str], config: Path) -> str:
